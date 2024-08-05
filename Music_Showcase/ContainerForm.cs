@@ -70,12 +70,14 @@ namespace Music_Showcase
         {
             pictureBox2.Image = Properties.Resources.video_9327764;
             label1.Visible = true;
+            panel3.BorderStyle = BorderStyle.FixedSingle;
         }
 
         private void pictureBox2_MouseLeave(object sender, EventArgs e)
         {
             pictureBox2.Image = Properties.Resources.video_9327754;
             label1.Visible = false;
+            panel3.BorderStyle = BorderStyle.None;
         }
         //food
 
@@ -83,12 +85,14 @@ namespace Music_Showcase
         {
             pictureBox3.Image = Properties.Resources.fasting_7301163;
             label2.Visible = true;
+            panel4.BorderStyle = BorderStyle.FixedSingle;
         }
 
         private void pictureBox3_MouseLeave(object sender, EventArgs e)
         {
             pictureBox3.Image = Properties.Resources.fasting_7255651;
             label2.Visible = false;
+            panel4.BorderStyle = BorderStyle.None;
         }
         //DJ
 
@@ -96,24 +100,42 @@ namespace Music_Showcase
         {
             pictureBox4.Image = Properties.Resources.speaker_5204318;
             label3.Visible = true;
+            panel5.BorderStyle = BorderStyle.FixedSingle;
         }
 
         private void pictureBox4_MouseLeave(object sender, EventArgs e)
         {
             pictureBox4.Image = Properties.Resources.speaker_5204532;
             label3.Visible = false;
+            panel5.BorderStyle = BorderStyle.None;
         }
         //Device manager
         private void pictureBox5_MouseHover(object sender, EventArgs e)
         {
             pictureBox5.Image = Properties.Resources.electronic_device_5772414;
             label4.Visible = true;
+            panel6.BorderStyle = BorderStyle.FixedSingle;
         }
 
         private void pictureBox5_MouseLeave(object sender, EventArgs e)
         {
             pictureBox5.Image = Properties.Resources.electronic_device_5772459;
             label4.Visible = false;
+            panel6.BorderStyle = BorderStyle.None;
+        }
+        //tickets
+        private void pictureBox6_MouseHover(object sender, EventArgs e)
+        {
+            pictureBox6.Image = Properties.Resources.tag_6047531;
+            label5.Visible = true;
+            panel7.BorderStyle = BorderStyle.FixedSingle;
+        }
+
+        private void pictureBox6_MouseLeave(object sender, EventArgs e)
+        {
+            pictureBox6.Image = Properties.Resources.tag_6047453;
+            label5.Visible = false;
+            panel7.BorderStyle = BorderStyle.None;
         }
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\chmas\\source\\repos\\Interface_Assignment_2024\\UI\\Music_Showcase\\Music_Showcase.csproj": {}
+    "C:\\Users\\chmas\\OneDrive\\Υπολογιστής\\Αλληλεπίδραση-Ανθρώπου-Υπολογιστή\\UI-Assignment\\Music_Showcase\\Music_Showcase.csproj": {}
   },
   "projects": {
-    "C:\\Users\\chmas\\source\\repos\\Interface_Assignment_2024\\UI\\Music_Showcase\\Music_Showcase.csproj": {
+    "C:\\Users\\chmas\\OneDrive\\Υπολογιστής\\Αλληλεπίδραση-Ανθρώπου-Υπολογιστή\\UI-Assignment\\Music_Showcase\\Music_Showcase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chmas\\source\\repos\\Interface_Assignment_2024\\UI\\Music_Showcase\\Music_Showcase.csproj",
+        "projectUniqueName": "C:\\Users\\chmas\\OneDrive\\Υπολογιστής\\Αλληλεπίδραση-Ανθρώπου-Υπολογιστή\\UI-Assignment\\Music_Showcase\\Music_Showcase.csproj",
         "projectName": "Music_Showcase",
-        "projectPath": "C:\\Users\\chmas\\source\\repos\\Interface_Assignment_2024\\UI\\Music_Showcase\\Music_Showcase.csproj",
+        "projectPath": "C:\\Users\\chmas\\OneDrive\\Υπολογιστής\\Αλληλεπίδραση-Ανθρώπου-Υπολογιστή\\UI-Assignment\\Music_Showcase\\Music_Showcase.csproj",
         "packagesPath": "C:\\Users\\chmas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chmas\\source\\repos\\Interface_Assignment_2024\\UI\\Music_Showcase\\obj\\",
+        "outputPath": "C:\\Users\\chmas\\OneDrive\\Υπολογιστής\\Αλληλεπίδραση-Ανθρώπου-Υπολογιστή\\UI-Assignment\\Music_Showcase\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\chmas\\AppData\\Roaming\\NuGet\\NuGet.Config",

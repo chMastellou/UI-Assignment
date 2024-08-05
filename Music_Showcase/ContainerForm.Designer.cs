@@ -50,6 +50,9 @@
             panel9 = new Panel();
             pictureBox8 = new PictureBox();
             panel2 = new Panel();
+            panel1 = new Panel();
+            panel10 = new Panel();
+            pictureBox9 = new PictureBox();
             panel8 = new Panel();
             label6 = new Label();
             pictureBox7 = new PictureBox();
@@ -68,6 +71,9 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             panel9.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
+            panel1.SuspendLayout();
+            panel10.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox9).BeginInit();
             panel8.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
             SuspendLayout();
@@ -85,12 +91,12 @@
             // tableLayoutPanel1
             // 
             tableLayoutPanel1.ColumnCount = 2;
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 110F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 114F));
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
             tableLayoutPanel1.Controls.Add(tableLayoutPanel2, 0, 1);
             tableLayoutPanel1.Controls.Add(panel9, 0, 0);
             tableLayoutPanel1.Controls.Add(panel2, 1, 1);
-            tableLayoutPanel1.Controls.Add(panel8, 1, 0);
+            tableLayoutPanel1.Controls.Add(panel1, 1, 0);
             tableLayoutPanel1.Dock = DockStyle.Fill;
             tableLayoutPanel1.Location = new Point(0, 0);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
@@ -102,6 +108,7 @@
             // 
             // tableLayoutPanel2
             // 
+            tableLayoutPanel2.BackColor = Color.Transparent;
             tableLayoutPanel2.ColumnCount = 1;
             tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
             tableLayoutPanel2.Controls.Add(panel7, 0, 5);
@@ -120,18 +127,18 @@
             tableLayoutPanel2.RowStyles.Add(new RowStyle());
             tableLayoutPanel2.RowStyles.Add(new RowStyle());
             tableLayoutPanel2.RowStyles.Add(new RowStyle());
-            tableLayoutPanel2.Size = new Size(104, 820);
+            tableLayoutPanel2.Size = new Size(108, 820);
             tableLayoutPanel2.TabIndex = 19;
             // 
             // panel7
             // 
-            panel7.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             panel7.Controls.Add(label5);
             panel7.Controls.Add(pictureBox6);
             panel7.Cursor = Cursors.Hand;
+            panel7.Dock = DockStyle.Fill;
             panel7.Location = new Point(3, 481);
             panel7.Name = "panel7";
-            panel7.Size = new Size(98, 103);
+            panel7.Size = new Size(102, 103);
             panel7.TabIndex = 18;
             // 
             // label5
@@ -139,7 +146,7 @@
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI", 10.2F);
             label5.ForeColor = SystemColors.ActiveCaption;
-            label5.Location = new Point(3, 68);
+            label5.Location = new Point(3, 77);
             label5.Name = "label5";
             label5.Size = new Size(87, 23);
             label5.TabIndex = 0;
@@ -148,23 +155,25 @@
             // 
             // pictureBox6
             // 
-            pictureBox6.Image = (Image)resources.GetObject("pictureBox6.Image");
-            pictureBox6.Location = new Point(18, 3);
+            pictureBox6.Image = Properties.Resources.tag_6047453;
+            pictureBox6.Location = new Point(18, 17);
             pictureBox6.Name = "pictureBox6";
-            pictureBox6.Size = new Size(65, 62);
+            pictureBox6.Size = new Size(62, 57);
             pictureBox6.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox6.TabIndex = 0;
             pictureBox6.TabStop = false;
+            pictureBox6.MouseLeave += pictureBox6_MouseLeave;
+            pictureBox6.MouseHover += pictureBox6_MouseHover;
             // 
             // panel3
             // 
-            panel3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             panel3.Controls.Add(label1);
             panel3.Controls.Add(pictureBox2);
             panel3.Cursor = Cursors.Hand;
+            panel3.Dock = DockStyle.Fill;
             panel3.Location = new Point(3, 33);
             panel3.Name = "panel3";
-            panel3.Size = new Size(98, 97);
+            panel3.Size = new Size(102, 97);
             panel3.TabIndex = 14;
             // 
             // label1
@@ -193,13 +202,13 @@
             // 
             // panel6
             // 
-            panel6.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             panel6.Controls.Add(label4);
             panel6.Controls.Add(pictureBox5);
             panel6.Cursor = Cursors.Hand;
+            panel6.Dock = DockStyle.Fill;
             panel6.Location = new Point(3, 360);
             panel6.Name = "panel6";
-            panel6.Size = new Size(98, 115);
+            panel6.Size = new Size(102, 115);
             panel6.TabIndex = 17;
             // 
             // label4
@@ -207,7 +216,7 @@
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI", 10.2F);
             label4.ForeColor = SystemColors.ActiveCaption;
-            label4.Location = new Point(12, 68);
+            label4.Location = new Point(12, 79);
             label4.Name = "label4";
             label4.Size = new Size(78, 23);
             label4.TabIndex = 0;
@@ -217,7 +226,7 @@
             // pictureBox5
             // 
             pictureBox5.Image = Properties.Resources.electronic_device_5772459;
-            pictureBox5.Location = new Point(18, 3);
+            pictureBox5.Location = new Point(18, 14);
             pictureBox5.Name = "pictureBox5";
             pictureBox5.Size = new Size(65, 62);
             pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -228,13 +237,13 @@
             // 
             // panel4
             // 
-            panel4.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             panel4.Controls.Add(label2);
             panel4.Controls.Add(pictureBox3);
             panel4.Cursor = Cursors.Hand;
+            panel4.Dock = DockStyle.Fill;
             panel4.Location = new Point(3, 136);
             panel4.Name = "panel4";
-            panel4.Size = new Size(98, 107);
+            panel4.Size = new Size(102, 107);
             panel4.TabIndex = 15;
             // 
             // label2
@@ -242,7 +251,7 @@
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 10.2F);
             label2.ForeColor = SystemColors.ActiveCaption;
-            label2.Location = new Point(13, 68);
+            label2.Location = new Point(13, 77);
             label2.Name = "label2";
             label2.Size = new Size(70, 23);
             label2.TabIndex = 0;
@@ -252,7 +261,7 @@
             // pictureBox3
             // 
             pictureBox3.Image = Properties.Resources.fasting_7255651;
-            pictureBox3.Location = new Point(18, 3);
+            pictureBox3.Location = new Point(18, 12);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(65, 62);
             pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -263,13 +272,13 @@
             // 
             // panel5
             // 
-            panel5.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             panel5.Controls.Add(label3);
             panel5.Controls.Add(pictureBox4);
             panel5.Cursor = Cursors.Hand;
+            panel5.Dock = DockStyle.Fill;
             panel5.Location = new Point(3, 249);
             panel5.Name = "panel5";
-            panel5.Size = new Size(98, 105);
+            panel5.Size = new Size(102, 105);
             panel5.TabIndex = 16;
             // 
             // label3
@@ -277,7 +286,7 @@
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 10.2F);
             label3.ForeColor = SystemColors.ActiveCaption;
-            label3.Location = new Point(13, 68);
+            label3.Location = new Point(13, 77);
             label3.Name = "label3";
             label3.Size = new Size(77, 23);
             label3.TabIndex = 0;
@@ -287,7 +296,7 @@
             // pictureBox4
             // 
             pictureBox4.Image = Properties.Resources.speaker_5204532;
-            pictureBox4.Location = new Point(18, 3);
+            pictureBox4.Location = new Point(18, 12);
             pictureBox4.Name = "pictureBox4";
             pictureBox4.Size = new Size(65, 62);
             pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -301,7 +310,7 @@
             panel9.Controls.Add(pictureBox8);
             panel9.Location = new Point(3, 3);
             panel9.Name = "panel9";
-            panel9.Size = new Size(104, 76);
+            panel9.Size = new Size(98, 76);
             panel9.TabIndex = 3;
             // 
             // pictureBox8
@@ -320,17 +329,47 @@
             panel2.BackgroundImage = Properties.Resources.Download_free_Dark_Purple_Color_background_images;
             panel2.BackgroundImageLayout = ImageLayout.Stretch;
             panel2.Dock = DockStyle.Fill;
-            panel2.Location = new Point(113, 85);
+            panel2.Location = new Point(117, 85);
             panel2.Name = "panel2";
-            panel2.Size = new Size(1100, 820);
+            panel2.Size = new Size(1096, 820);
             panel2.TabIndex = 1;
+            // 
+            // panel1
+            // 
+            panel1.Controls.Add(panel10);
+            panel1.Controls.Add(panel8);
+            panel1.Dock = DockStyle.Fill;
+            panel1.Location = new Point(117, 3);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(1096, 76);
+            panel1.TabIndex = 20;
+            // 
+            // panel10
+            // 
+            panel10.Controls.Add(pictureBox9);
+            panel10.Dock = DockStyle.Fill;
+            panel10.Location = new Point(0, 0);
+            panel10.Name = "panel10";
+            panel10.Size = new Size(889, 76);
+            panel10.TabIndex = 3;
+            // 
+            // pictureBox9
+            // 
+            pictureBox9.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
+            pictureBox9.Image = Properties.Resources.text_1722847228797;
+            pictureBox9.Location = new Point(54, 10);
+            pictureBox9.Name = "pictureBox9";
+            pictureBox9.Size = new Size(792, 50);
+            pictureBox9.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox9.TabIndex = 3;
+            pictureBox9.TabStop = false;
             // 
             // panel8
             // 
             panel8.Controls.Add(label6);
             panel8.Controls.Add(pictureBox7);
             panel8.Dock = DockStyle.Right;
-            panel8.Location = new Point(1006, 3);
+            panel8.Location = new Point(889, 0);
             panel8.Name = "panel8";
             panel8.Size = new Size(207, 76);
             panel8.TabIndex = 2;
@@ -340,7 +379,7 @@
             label6.AutoSize = true;
             label6.Font = new Font("Segoe UI", 10.2F);
             label6.ForeColor = SystemColors.ActiveCaption;
-            label6.Location = new Point(44, 21);
+            label6.Location = new Point(54, 25);
             label6.Name = "label6";
             label6.Size = new Size(76, 23);
             label6.TabIndex = 2;
@@ -349,9 +388,9 @@
             // pictureBox7
             // 
             pictureBox7.Image = Properties.Resources.user_8017294;
-            pictureBox7.Location = new Point(146, 9);
+            pictureBox7.Location = new Point(136, 22);
             pictureBox7.Name = "pictureBox7";
-            pictureBox7.Size = new Size(52, 50);
+            pictureBox7.Size = new Size(41, 38);
             pictureBox7.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox7.TabIndex = 1;
             pictureBox7.TabStop = false;
@@ -392,6 +431,9 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
             panel9.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
+            panel1.ResumeLayout(false);
+            panel10.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox9).EndInit();
             panel8.ResumeLayout(false);
             panel8.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox7).EndInit();
@@ -423,5 +465,8 @@
         private Panel panel9;
         private PictureBox pictureBox8;
         private TableLayoutPanel tableLayoutPanel2;
+        private Panel panel1;
+        private PictureBox pictureBox9;
+        private Panel panel10;
     }
 }
