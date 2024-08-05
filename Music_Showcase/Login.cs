@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -41,6 +42,23 @@ namespace Music_Showcase
             {
                 MessageBox.Show("Δεν έχετε επιλέξει ψευδώνυμο!", "Σφάλμα", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+        //Exit button
+        private void pictureBox2_MouseHover(object sender, EventArgs e)
+        {
+            pictureBox2.Image = Properties.Resources.log_out_full;
+            label1.Visible = true;
+        }
+
+        private void pictureBox2_MouseLeave(object sender, EventArgs e)
+        {
+            pictureBox2.Image = Properties.Resources.log_out;
+            label1.Visible = false;
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

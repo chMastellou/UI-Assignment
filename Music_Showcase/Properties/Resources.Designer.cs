@@ -143,9 +143,49 @@ namespace Music_Showcase.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap log_out {
+            get {
+                object obj = ResourceManager.GetObject("log_out", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap log_out_full {
+            get {
+                object obj = ResourceManager.GetObject("log_out_full", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap museum {
             get {
                 object obj = ResourceManager.GetObject("museum", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap projector_5723428 {
+            get {
+                object obj = ResourceManager.GetObject("projector_5723428", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap projector_5723558 {
+            get {
+                object obj = ResourceManager.GetObject("projector_5723558", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -195,7 +235,7 @@ namespace Music_Showcase.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap text_1722847228797 {
             get {
-                object obj = ResourceManager.GetObject("text-1722847228797", resourceCulture);
+                object obj = ResourceManager.GetObject("text_1722847228797", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

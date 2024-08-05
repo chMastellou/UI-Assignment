@@ -1,69 +1,34 @@
-namespace Music_Showcase
+﻿namespace Music_Showcase
 {
     public partial class Container : Form
     {
+        private Video_File video_file;
+
         public Container()
         {
             InitializeComponent();
+            this.video_file = new Video_File();
 
+            if (GLOBALS.role == "Επισκέπτης")
+            {
+                // Απενεργοποίησε τη Διαχείριση Έκθεσης
+                panel12.Enabled = false;
+                panel12.Visible = false;
+                LoadForm(video_file);
+            }
+            else // Eίναι Υπάλληλος
+            {
+                // Απενεργοποίησε το Αρχείο
+                panel3.Enabled = false;
+                panel3.Visible = false;
+                // Απενεργοποίησε την αγορά εισητηρίων
+                panel7.Enabled = false;
+                panel7.Visible = false;
 
+            }
         }
 
-        private void Container_Load(object sender, EventArgs e)
-        {
 
-        }
-
-        private void Container_Load_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void userTypeLabel_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void usernameLabel_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Container_Load_2(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click_1(object sender, EventArgs e)
-        {
-
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panel2_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
         //video
 
         private void pictureBox2_MouseHover(object sender, EventArgs e)
@@ -137,5 +102,181 @@ namespace Music_Showcase
             label5.Visible = false;
             panel7.BorderStyle = BorderStyle.None;
         }
+        //Exibition_Management
+        private void pictureBox10_MouseHover(object sender, EventArgs e)
+        {
+            pictureBox10.Image = Properties.Resources.projector_5723558;
+            label7.Visible = true;
+            panel12.BorderStyle = BorderStyle.FixedSingle;
+        }
+
+        private void pictureBox10_MouseLeave(object sender, EventArgs e)
+        {
+            pictureBox10.Image = Properties.Resources.projector_5723428;
+            label7.Visible = false;
+            panel12.BorderStyle = BorderStyle.None;
+        }
+
+        private void Container_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void Container_Load(object sender, EventArgs e)
+        {
+            label6.Text = GLOBALS.username;
+            role_label.Text = GLOBALS.role;
+
+        }
+        /*
+ Η συνάρτηση που διαχειρίζεται το container panel (panel1)
+ Δίνει στο panel1 έλεγχο στην φόρμα που δέχεται ως παράμετρο
+ */
+        public void LoadForm(Form form)
+        {
+            //if (this.panel1.Controls.Count > 0) this.panel1.Controls.RemoveAt(0);
+            if (form is Video_File)
+            {
+                Form f = form as Form;
+                f.TopLevel = false;
+                f.Dock = DockStyle.Fill;
+                this.panel11.Controls.Add(f);
+                this.panel11.Tag = f;
+                f.BringToFront();
+                f.Show();
+            }
+            else
+            {
+                if (this.panel11.Controls.Count > 0) this.panel11.Controls.RemoveAt(0); //Αφαίρεσε ότι υπάρχει στο panel11
+                Form f = form as Form;
+                f.TopLevel = false;
+                f.Dock = DockStyle.Fill;
+                this.panel11.Controls.Add(f);
+                this.panel11.Tag = f;
+                f.BringToFront();
+                f.Show();
+            }
+
+        }
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Αποσύνδεση και Επιστροφή στην φόρμα Εισαγωγής?", "Return to login", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (result == DialogResult.Yes)
+            {
+                Login login = new Login();
+                this.Hide();
+                login.Show();
+            }
+        }
+        //User button functionality
+        private void pictureBox7_MouseHover(object sender, EventArgs e)
+        {
+            pictureBox7.Image = Properties.Resources.user_8017294;
+            panel8.BorderStyle = BorderStyle.FixedSingle;
+        }
+
+        private void pictureBox7_MouseLeave(object sender, EventArgs e)
+        {
+            pictureBox7.Image = Properties.Resources.user_8051049;
+            panel8.BorderStyle = BorderStyle.None;
+        }
+
+        private void label6_MouseHover(object sender, EventArgs e)
+        {
+            pictureBox7.Image = Properties.Resources.user_8017294;
+            panel8.BorderStyle = BorderStyle.FixedSingle;
+        }
+
+        private void label6_MouseLeave(object sender, EventArgs e)
+        {
+            pictureBox7.Image = Properties.Resources.user_8051049;
+            panel8.BorderStyle = BorderStyle.None;
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Αποσύνδεση και Επιστροφή στην φόρμα Εισαγωγής?", "Return to login", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (result == DialogResult.Yes)
+            {
+                Login login = new Login();
+                this.Hide();
+                login.Show();
+            }
+        }
+
+        //Άνοιξε Αρχείο
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            //visual feedback
+            panel3.BackColor = Color.FromArgb(0, 0, 64);
+            panel4.BackColor = Color.Transparent;
+            panel5.BackColor = Color.Transparent;
+            panel6.BackColor = Color.Transparent;
+            panel7.BackColor = Color.Transparent;
+
+            LoadForm(this.video_file);
+            
+            
+        }
+        //Άνοιξε Καφέ Εστιατόριο
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            //visual feedback
+            panel3.BackColor = Color.Transparent;
+            panel4.BackColor = Color.FromArgb(0, 0, 64);
+            panel5.BackColor = Color.Transparent;
+            panel6.BackColor = Color.Transparent;
+            panel7.BackColor = Color.Transparent;
+
+            Cafe_Form cafe_form = new Cafe_Form();
+            LoadForm(cafe_form);
+
+        }
+        // Άνοιξε DJ
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            //visual feedback
+            panel3.BackColor = Color.Transparent;
+            panel4.BackColor = Color.Transparent;
+            panel5.BackColor = Color.FromArgb(0, 0, 64);
+            panel6.BackColor = Color.Transparent;
+            panel7.BackColor = Color.Transparent;
+
+            DJ dj = new DJ();
+            LoadForm(dj);
+            
+        }
+        // Άνοιξε Διαχείριση Συσκευών
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            //visual feedback
+            panel3.BackColor = Color.Transparent;
+            panel4.BackColor = Color.Transparent;
+            panel5.BackColor = Color.Transparent;
+            panel6.BackColor = Color.FromArgb(0, 0, 64);
+            panel7.BackColor = Color.Transparent;
+
+            Dev_Manager dev_Manager = new Dev_Manager();
+            LoadForm(dev_Manager);
+
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            //visual feedback
+            panel3.BackColor = Color.Transparent;
+            panel4.BackColor = Color.Transparent;
+            panel5.BackColor = Color.Transparent;
+            panel6.BackColor = Color.Transparent;
+            panel7.BackColor = Color.FromArgb(0, 0, 64);
+
+            Buy_tickets buy_Tickets = new Buy_tickets();
+            LoadForm(buy_Tickets);
+
+
+        }
     }
 }
+

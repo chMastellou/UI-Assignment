@@ -11,8 +11,8 @@ namespace Music_Showcase
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            //Application.Run(new Login());
-            Application.Run(new Container());
+            Application.Run(new Login());
+            //Application.Run(new Container());
         }
     }
 }

@@ -23,7 +23,6 @@ C:\Users\chmas\OneDrive\Υπολογιστής\Αλληλεπίδραση-Ανθ
 C:\Users\chmas\OneDrive\Υπολογιστής\Αλληλεπίδραση-Ανθρώπου-Υπολογιστή\UI-Assignment\Music_Showcase\bin\Debug\net8.0-windows\Music_Showcase.runtimeconfig.json
 C:\Users\chmas\OneDrive\Υπολογιστής\Αλληλεπίδραση-Ανθρώπου-Υπολογιστή\UI-Assignment\Music_Showcase\bin\Debug\net8.0-windows\Music_Showcase.dll
 C:\Users\chmas\OneDrive\Υπολογιστής\Αλληλεπίδραση-Ανθρώπου-Υπολογιστή\UI-Assignment\Music_Showcase\bin\Debug\net8.0-windows\Music_Showcase.pdb
-C:\Users\chmas\OneDrive\Υπολογιστής\Αλληλεπίδραση-Ανθρώπου-Υπολογιστή\UI-Assignment\Music_Showcase\obj\Debug\net8.0-windows\Music_Showcase.Cefe_Form.resources
 C:\Users\chmas\OneDrive\Υπολογιστής\Αλληλεπίδραση-Ανθρώπου-Υπολογιστή\UI-Assignment\Music_Showcase\obj\Debug\net8.0-windows\Music_Showcase.Container.resources
 C:\Users\chmas\OneDrive\Υπολογιστής\Αλληλεπίδραση-Ανθρώπου-Υπολογιστή\UI-Assignment\Music_Showcase\obj\Debug\net8.0-windows\Music_Showcase.Login.resources
 C:\Users\chmas\OneDrive\Υπολογιστής\Αλληλεπίδραση-Ανθρώπου-Υπολογιστή\UI-Assignment\Music_Showcase\obj\Debug\net8.0-windows\Music_Showcase.Properties.Resources.resources
@@ -38,3 +37,8 @@ C:\Users\chmas\OneDrive\Υπολογιστής\Αλληλεπίδραση-Ανθ
 C:\Users\chmas\OneDrive\Υπολογιστής\Αλληλεπίδραση-Ανθρώπου-Υπολογιστή\UI-Assignment\Music_Showcase\obj\Debug\net8.0-windows\Music_Showcase.pdb
 C:\Users\chmas\OneDrive\Υπολογιστής\Αλληλεπίδραση-Ανθρώπου-Υπολογιστή\UI-Assignment\Music_Showcase\obj\Debug\net8.0-windows\Music_Showcase.genruntimeconfig.cache
 C:\Users\chmas\OneDrive\Υπολογιστής\Αλληλεπίδραση-Ανθρώπου-Υπολογιστή\UI-Assignment\Music_Showcase\obj\Debug\net8.0-windows\ref\Music_Showcase.dll
+C:\Users\chmas\OneDrive\Υπολογιστής\Αλληλεπίδραση-Ανθρώπου-Υπολογιστή\UI-Assignment\Music_Showcase\obj\Debug\net8.0-windows\Music_Showcase.Dev_Manager.resources
+C:\Users\chmas\OneDrive\Υπολογιστής\Αλληλεπίδραση-Ανθρώπου-Υπολογιστή\UI-Assignment\Music_Showcase\obj\Debug\net8.0-windows\Music_Showcase.DJ.resources
+C:\Users\chmas\OneDrive\Υπολογιστής\Αλληλεπίδραση-Ανθρώπου-Υπολογιστή\UI-Assignment\Music_Showcase\obj\Debug\net8.0-windows\Music_Showcase.Video_File.resources
+C:\Users\chmas\OneDrive\Υπολογιστής\Αλληλεπίδραση-Ανθρώπου-Υπολογιστή\UI-Assignment\Music_Showcase\obj\Debug\net8.0-windows\Music_Showcase.Buy_tickets.resources
+C:\Users\chmas\OneDrive\Υπολογιστής\Αλληλεπίδραση-Ανθρώπου-Υπολογιστή\UI-Assignment\Music_Showcase\obj\Debug\net8.0-windows\Music_Showcase.Cafe_Form.resources
