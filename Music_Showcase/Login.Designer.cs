@@ -33,11 +33,11 @@
             usernameTextbox = new TextBox();
             loginButton = new Button();
             userTypeBox = new ComboBox();
-            pictureBox1 = new PictureBox();
             pictureBox2 = new PictureBox();
             label1 = new Label();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            pictureBox9 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox9).BeginInit();
             SuspendLayout();
             // 
             // label2
@@ -102,20 +102,6 @@
             userTypeBox.TabIndex = 6;
             userTypeBox.Text = "Επισκέπτης";
             // 
-            // pictureBox1
-            // 
-            pictureBox1.BackColor = Color.Transparent;
-            pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox1.Image = Properties.Resources.text_1722847228797;
-            pictureBox1.InitialImage = Properties.Resources.Untitled;
-            pictureBox1.Location = new Point(35, 158);
-            pictureBox1.Margin = new Padding(3, 4, 3, 4);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(495, 59);
-            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox1.TabIndex = 7;
-            pictureBox1.TabStop = false;
-            // 
             // pictureBox2
             // 
             pictureBox2.BackColor = Color.Transparent;
@@ -144,6 +130,19 @@
             label1.Text = "Έξοδος";
             label1.Visible = false;
             // 
+            // pictureBox9
+            // 
+            pictureBox9.Anchor = AnchorStyles.Top;
+            pictureBox9.BackColor = Color.Transparent;
+            pictureBox9.Cursor = Cursors.Hand;
+            pictureBox9.Image = Properties.Resources.text_1722939596455;
+            pictureBox9.Location = new Point(38, 173);
+            pictureBox9.Name = "pictureBox9";
+            pictureBox9.Size = new Size(490, 57);
+            pictureBox9.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox9.TabIndex = 10;
+            pictureBox9.TabStop = false;
+            // 
             // Login
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -152,9 +151,9 @@
             BackgroundImage = Properties.Resources.Download_free_Dark_Purple_Color_background_images;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(564, 784);
+            Controls.Add(pictureBox9);
             Controls.Add(label1);
             Controls.Add(pictureBox2);
-            Controls.Add(pictureBox1);
             Controls.Add(userTypeBox);
             Controls.Add(loginButton);
             Controls.Add(usernameTextbox);
@@ -166,8 +165,8 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
             Load += Login_Load;
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox9).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -178,8 +177,8 @@
         private TextBox usernameTextbox;
         private Button loginButton;
         private ComboBox userTypeBox;
-        private PictureBox pictureBox1;
         private PictureBox pictureBox2;
         private Label label1;
+        private PictureBox pictureBox9;
     }
 }

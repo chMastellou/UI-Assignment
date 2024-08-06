@@ -63,6 +63,46 @@ namespace Music_Showcase.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _0023942214_0 {
+            get {
+                object obj = ResourceManager.GetObject("0023942214_0", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _20e5ad23_3780_4a44_8a53_7e61b0e59b9f {
+            get {
+                object obj = ResourceManager.GetObject("20e5ad23-3780-4a44-8a53-7e61b0e59b9f", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _360_F_243757367_gBpS6R5c8DB7pL5gw9gi9KXlzFfbdZOA {
+            get {
+                object obj = ResourceManager.GetObject("360_F_243757367_gBpS6R5c8DB7pL5gw9gi9KXlzFfbdZOA", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap d5mg6c0_20c440c3_fd0c_41db_ab6e_4984cba003512 {
+            get {
+                object obj = ResourceManager.GetObject("d5mg6c0-20c440c3-fd0c-41db-ab6e-4984cba003512", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Download_free_Dark_Purple_Color_background_images {
             get {
                 object obj = ResourceManager.GetObject("Download-free-Dark-Purple-Color-background-images", resourceCulture);
@@ -86,6 +126,36 @@ namespace Music_Showcase.Properties {
         internal static System.Drawing.Bitmap electronic_device_5772459 {
             get {
                 object obj = ResourceManager.GetObject("electronic-device_5772459", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ezgif_2_210687ced4 {
+            get {
+                object obj = ResourceManager.GetObject("ezgif-2-210687ced4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ezgif_2_3afcf9ebce {
+            get {
+                object obj = ResourceManager.GetObject("ezgif-2-3afcf9ebce", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ezgif_2_c3d3c219a8 {
+            get {
+                object obj = ResourceManager.GetObject("ezgif-2-c3d3c219a8", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -173,6 +243,48 @@ namespace Music_Showcase.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap music_equalizer_1920x1200_entertainment_music_hd_art_wallpaper_preview2 {
+            get {
+                object obj = ResourceManager.GetObject("music-equalizer-1920x1200-entertainment-music-hd-art-wallpaper-preview2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap music_equalizer_1920x1200_entertainment_music_hd_art_wallpaper_preview21 {
+            get {
+                object obj = ResourceManager.GetObject("music-equalizer-1920x1200-entertainment-music-hd-art-wallpaper-preview21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngtree_d_rendering_of_an_entertainment_and_gaming_concept_with_futuristic_laser_picture_image_5825636 {
+            get {
+                object obj = ResourceManager.GetObject("pngtree-d-rendering-of-an-entertainment-and-gaming-concept-with-futuristic-laser-" +
+                        "picture-image_5825636", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngtree_d_rendering_of_an_entertainment_and_gaming_concept_with_futuristic_laser_picture_image_58256361 {
+            get {
+                object obj = ResourceManager.GetObject("pngtree-d-rendering-of-an-entertainment-and-gaming-concept-with-futuristic-laser-" +
+                        "picture-image_58256361", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap projector_5723428 {
             get {
                 object obj = ResourceManager.GetObject("projector_5723428", resourceCulture);
@@ -236,6 +348,26 @@ namespace Music_Showcase.Properties {
         internal static System.Drawing.Bitmap text_1722847228797 {
             get {
                 object obj = ResourceManager.GetObject("text_1722847228797", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap text_1722937844128 {
+            get {
+                object obj = ResourceManager.GetObject("text-1722937844128", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap text_1722939596455 {
+            get {
+                object obj = ResourceManager.GetObject("text-1722939596455", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

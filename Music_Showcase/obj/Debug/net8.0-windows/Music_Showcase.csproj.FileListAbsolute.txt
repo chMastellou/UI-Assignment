@@ -42,3 +42,4 @@ C:\Users\chmas\OneDrive\Υπολογιστής\Αλληλεπίδραση-Ανθ
 C:\Users\chmas\OneDrive\Υπολογιστής\Αλληλεπίδραση-Ανθρώπου-Υπολογιστή\UI-Assignment\Music_Showcase\obj\Debug\net8.0-windows\Music_Showcase.Video_File.resources
 C:\Users\chmas\OneDrive\Υπολογιστής\Αλληλεπίδραση-Ανθρώπου-Υπολογιστή\UI-Assignment\Music_Showcase\obj\Debug\net8.0-windows\Music_Showcase.Buy_tickets.resources
 C:\Users\chmas\OneDrive\Υπολογιστής\Αλληλεπίδραση-Ανθρώπου-Υπολογιστή\UI-Assignment\Music_Showcase\obj\Debug\net8.0-windows\Music_Showcase.Cafe_Form.resources
+C:\Users\chmas\OneDrive\Υπολογιστής\Αλληλεπίδραση-Ανθρώπου-Υπολογιστή\UI-Assignment\Music_Showcase\obj\Debug\net8.0-windows\Music_Showcase.WelcomePage.resources

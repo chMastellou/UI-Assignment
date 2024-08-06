@@ -1,20 +1,31 @@
-﻿namespace Music_Showcase
+﻿using System.Windows.Forms;
+
+namespace Music_Showcase
 {
     public partial class Container : Form
     {
-        private Video_File video_file;
+        private WelcomePage welcomePage;
+        private PictureBox selectedPictureBox;
+
+        // Dictionaries to store the images for each PictureBox
+        private Dictionary<PictureBox, Image> nonSelectedImages;
+        private Dictionary<PictureBox, Image> selectedImages;
+        private Dictionary<PictureBox, Label> pictureBoxLabels;
+        private Dictionary<PictureBox, Panel> pictureBoxPanels;
 
         public Container()
         {
             InitializeComponent();
-            this.video_file = new Video_File();
+            InitializePictureBoxes();
+
+            this.welcomePage = new WelcomePage();
 
             if (GLOBALS.role == "Επισκέπτης")
             {
                 // Απενεργοποίησε τη Διαχείριση Έκθεσης
                 panel12.Enabled = false;
                 panel12.Visible = false;
-                LoadForm(video_file);
+                LoadForm(welcomePage);
             }
             else // Eίναι Υπάλληλος
             {
@@ -27,95 +38,147 @@
 
             }
         }
+        private void InitializePictureBoxes()
+        {
+            // Initialize the dictionaries
+            nonSelectedImages = new Dictionary<PictureBox, Image>();
+            selectedImages = new Dictionary<PictureBox, Image>();
+            pictureBoxLabels = new Dictionary<PictureBox, Label>();
+            pictureBoxPanels = new Dictionary<PictureBox, Panel>();
 
+            // Assuming you have three PictureBoxes: pictureBox1, pictureBox2, and pictureBox3
+            // Add the non-selected and selected images for each PictureBox
+            //Αρχείο
+            nonSelectedImages[pictureBox2] = Properties.Resources.video_9327754;
+            selectedImages[pictureBox2] = Properties.Resources.video_9327764;
+            pictureBoxLabels[pictureBox2] = label1;
+            pictureBoxPanels[pictureBox2] = panel3;
 
-        //video
+            //Καφέ
+            nonSelectedImages[pictureBox3] = Properties.Resources.fasting_7255651;
+            selectedImages[pictureBox3] = Properties.Resources.fasting_7301163;
+            pictureBoxLabels[pictureBox3] = label2;
+            pictureBoxPanels[pictureBox3] = panel4;
+            //DJ
+            nonSelectedImages[pictureBox4] = Properties.Resources.speaker_5204532;
+            selectedImages[pictureBox4] = Properties.Resources.speaker_5204318;
+            pictureBoxLabels[pictureBox4] = label3;
+            pictureBoxPanels[pictureBox4] = panel5;
+            //Διαχείριση Συσκευών
+            nonSelectedImages[pictureBox5] = Properties.Resources.electronic_device_5772459;
+            selectedImages[pictureBox5] = Properties.Resources.electronic_device_5772414;
+            pictureBoxLabels[pictureBox5] = label4;
+            pictureBoxPanels[pictureBox5] = panel6;
+            //Εισητήρια
+            nonSelectedImages[pictureBox6] = Properties.Resources.tag_6047453;
+            selectedImages[pictureBox6] = Properties.Resources.tag_6047531;
+            pictureBoxLabels[pictureBox6] = label5;
+            pictureBoxPanels[pictureBox6] = panel7;
+            //Διαχείριση Έκθεσης
+            nonSelectedImages[pictureBox10] = Properties.Resources.projector_5723428;
+            selectedImages[pictureBox10] = Properties.Resources.projector_5723558;
+            pictureBoxLabels[pictureBox10] = label7;
+            pictureBoxPanels[pictureBox10] = panel12;
 
-        private void pictureBox2_MouseHover(object sender, EventArgs e)
-        {
-            pictureBox2.Image = Properties.Resources.video_9327764;
-            label1.Visible = true;
-            panel3.BorderStyle = BorderStyle.FixedSingle;
-        }
+            // Set the initial image
+            pictureBox2.Image = nonSelectedImages[pictureBox2];
+            pictureBox3.Image = nonSelectedImages[pictureBox3];
+            pictureBox4.Image = nonSelectedImages[pictureBox4];
+            pictureBox5.Image = nonSelectedImages[pictureBox5];
+            pictureBox6.Image = nonSelectedImages[pictureBox6];
+            pictureBox10.Image = nonSelectedImages[pictureBox10];
 
-        private void pictureBox2_MouseLeave(object sender, EventArgs e)
-        {
-            pictureBox2.Image = Properties.Resources.video_9327754;
-            label1.Visible = false;
-            panel3.BorderStyle = BorderStyle.None;
-        }
-        //food
+            // Add event handlers
+            pictureBox2.MouseEnter += PictureBox_MouseEnter;
+            pictureBox2.MouseLeave += PictureBox_MouseLeave;
+            pictureBox2.Click += PictureBox_Click;
 
-        private void pictureBox3_MouseHover(object sender, EventArgs e)
-        {
-            pictureBox3.Image = Properties.Resources.fasting_7301163;
-            label2.Visible = true;
-            panel4.BorderStyle = BorderStyle.FixedSingle;
-        }
+            pictureBox3.MouseEnter += PictureBox_MouseEnter;
+            pictureBox3.MouseLeave += PictureBox_MouseLeave;
+            pictureBox3.Click += PictureBox_Click;
 
-        private void pictureBox3_MouseLeave(object sender, EventArgs e)
-        {
-            pictureBox3.Image = Properties.Resources.fasting_7255651;
-            label2.Visible = false;
-            panel4.BorderStyle = BorderStyle.None;
-        }
-        //DJ
+            pictureBox4.MouseEnter += PictureBox_MouseEnter;
+            pictureBox4.MouseLeave += PictureBox_MouseLeave;
+            pictureBox4.Click += PictureBox_Click;
 
-        private void pictureBox4_MouseHover(object sender, EventArgs e)
-        {
-            pictureBox4.Image = Properties.Resources.speaker_5204318;
-            label3.Visible = true;
-            panel5.BorderStyle = BorderStyle.FixedSingle;
-        }
+            pictureBox5.MouseEnter += PictureBox_MouseEnter;
+            pictureBox5.MouseLeave += PictureBox_MouseLeave;
+            pictureBox5.Click += PictureBox_Click;
 
-        private void pictureBox4_MouseLeave(object sender, EventArgs e)
-        {
-            pictureBox4.Image = Properties.Resources.speaker_5204532;
-            label3.Visible = false;
-            panel5.BorderStyle = BorderStyle.None;
-        }
-        //Device manager
-        private void pictureBox5_MouseHover(object sender, EventArgs e)
-        {
-            pictureBox5.Image = Properties.Resources.electronic_device_5772414;
-            label4.Visible = true;
-            panel6.BorderStyle = BorderStyle.FixedSingle;
-        }
+            pictureBox6.MouseEnter += PictureBox_MouseEnter;
+            pictureBox6.MouseLeave += PictureBox_MouseLeave;
+            pictureBox6.Click += PictureBox_Click;
 
-        private void pictureBox5_MouseLeave(object sender, EventArgs e)
-        {
-            pictureBox5.Image = Properties.Resources.electronic_device_5772459;
-            label4.Visible = false;
-            panel6.BorderStyle = BorderStyle.None;
-        }
-        //tickets
-        private void pictureBox6_MouseHover(object sender, EventArgs e)
-        {
-            pictureBox6.Image = Properties.Resources.tag_6047531;
-            label5.Visible = true;
-            panel7.BorderStyle = BorderStyle.FixedSingle;
-        }
-
-        private void pictureBox6_MouseLeave(object sender, EventArgs e)
-        {
-            pictureBox6.Image = Properties.Resources.tag_6047453;
-            label5.Visible = false;
-            panel7.BorderStyle = BorderStyle.None;
-        }
-        //Exibition_Management
-        private void pictureBox10_MouseHover(object sender, EventArgs e)
-        {
-            pictureBox10.Image = Properties.Resources.projector_5723558;
-            label7.Visible = true;
-            panel12.BorderStyle = BorderStyle.FixedSingle;
+            pictureBox10.MouseEnter += PictureBox_MouseEnter;
+            pictureBox10.MouseLeave += PictureBox_MouseLeave;
+            pictureBox10.Click += PictureBox_Click;
         }
 
-        private void pictureBox10_MouseLeave(object sender, EventArgs e)
+        private void PictureBox_MouseEnter(object sender, EventArgs e)
         {
-            pictureBox10.Image = Properties.Resources.projector_5723428;
-            label7.Visible = false;
-            panel12.BorderStyle = BorderStyle.None;
+            PictureBox pictureBox = sender as PictureBox;
+            if (pictureBox != selectedPictureBox)
+            {
+                pictureBox.Image = selectedImages[pictureBox];
+                pictureBoxLabels[pictureBox].Visible = true;
+                pictureBoxPanels[pictureBox].BorderStyle = BorderStyle.FixedSingle;
+            }
         }
+
+        private void PictureBox_MouseLeave(object sender, EventArgs e)
+        {
+            PictureBox pictureBox = sender as PictureBox;
+            if (pictureBox != selectedPictureBox)
+            {
+                pictureBox.Image = nonSelectedImages[pictureBox];
+                pictureBoxLabels[pictureBox].Visible = false;
+                pictureBoxPanels[pictureBox].BorderStyle = BorderStyle.None;
+            }
+        }
+
+        private void PictureBox_Click(object sender, EventArgs e)
+        {
+            if (selectedPictureBox != null)
+            {
+                //το προηγούμενο κουμπί επιστρέφει στην αρχική του κατάσταση
+                selectedPictureBox.Image = nonSelectedImages[selectedPictureBox];
+                pictureBoxLabels[selectedPictureBox].Visible = false;
+                pictureBoxPanels[selectedPictureBox].BorderStyle = BorderStyle.None;
+            }
+
+            selectedPictureBox = sender as PictureBox;
+            selectedPictureBox.Image = selectedImages[selectedPictureBox];
+            pictureBoxLabels[selectedPictureBox].Visible = true;
+            pictureBoxPanels[selectedPictureBox].BorderStyle = BorderStyle.FixedSingle;
+
+            if (selectedPictureBox == pictureBox2) //πήγαινε στο αρχείο
+            {
+                Video_File video_File = new Video_File();
+                LoadForm(video_File);
+            }
+            else if (selectedPictureBox == pictureBox3) //πήγαινε στο καφέ - εστιατόριο
+            {
+                Cafe_Form cafe_form = new Cafe_Form();
+                LoadForm(cafe_form);
+            }
+            else if (selectedPictureBox == pictureBox4) //πήγαινε στο DJ
+            {
+                DJ dj = new DJ();
+                LoadForm(dj);
+            }
+            else if (selectedPictureBox == pictureBox5) //πήγαινε στη διαχείριση συσκευών
+            {
+                Dev_Manager dev_Manager = new Dev_Manager();
+                LoadForm(dev_Manager);
+            }
+            else if (selectedPictureBox == pictureBox6) //πήγαινε στην αγορά εισητηρίων
+            {
+                Buy_tickets buy_Tickets = new Buy_tickets();
+                LoadForm(buy_Tickets);
+            }
+
+        }
+
 
         private void Container_FormClosed(object sender, FormClosedEventArgs e)
         {
@@ -206,76 +269,40 @@
             }
         }
 
-        //Άνοιξε Αρχείο
-        private void pictureBox2_Click(object sender, EventArgs e)
+        private void pictureBox8_Click(object sender, EventArgs e)
         {
-            //visual feedback
-            panel3.BackColor = Color.FromArgb(0, 0, 64);
-            panel4.BackColor = Color.Transparent;
-            panel5.BackColor = Color.Transparent;
-            panel6.BackColor = Color.Transparent;
-            panel7.BackColor = Color.Transparent;
+            LoadForm(this.welcomePage);
 
-            LoadForm(this.video_file);
-            
-            
-        }
-        //Άνοιξε Καφέ Εστιατόριο
-        private void pictureBox3_Click(object sender, EventArgs e)
-        {
-            //visual feedback
-            panel3.BackColor = Color.Transparent;
-            panel4.BackColor = Color.FromArgb(0, 0, 64);
-            panel5.BackColor = Color.Transparent;
-            panel6.BackColor = Color.Transparent;
-            panel7.BackColor = Color.Transparent;
+            pictureBox2.Image = nonSelectedImages[pictureBox2];
+            pictureBoxLabels[pictureBox2].Visible = false;
+            pictureBoxPanels[pictureBox2].BorderStyle = BorderStyle.None;
 
-            Cafe_Form cafe_form = new Cafe_Form();
-            LoadForm(cafe_form);
+            pictureBox3.Image = nonSelectedImages[pictureBox3];
+            pictureBoxLabels[pictureBox3].Visible = false;
+            pictureBoxPanels[pictureBox3].BorderStyle = BorderStyle.None;
 
-        }
-        // Άνοιξε DJ
-        private void pictureBox4_Click(object sender, EventArgs e)
-        {
-            //visual feedback
-            panel3.BackColor = Color.Transparent;
-            panel4.BackColor = Color.Transparent;
-            panel5.BackColor = Color.FromArgb(0, 0, 64);
-            panel6.BackColor = Color.Transparent;
-            panel7.BackColor = Color.Transparent;
+            pictureBox4.Image = nonSelectedImages[pictureBox4];
+            pictureBoxLabels[pictureBox4].Visible = false;
+            pictureBoxPanels[pictureBox4].BorderStyle = BorderStyle.None;
 
-            DJ dj = new DJ();
-            LoadForm(dj);
-            
-        }
-        // Άνοιξε Διαχείριση Συσκευών
-        private void pictureBox5_Click(object sender, EventArgs e)
-        {
-            //visual feedback
-            panel3.BackColor = Color.Transparent;
-            panel4.BackColor = Color.Transparent;
-            panel5.BackColor = Color.Transparent;
-            panel6.BackColor = Color.FromArgb(0, 0, 64);
-            panel7.BackColor = Color.Transparent;
+            pictureBox5.Image = nonSelectedImages[pictureBox5];
+            pictureBoxLabels[pictureBox5].Visible = false;
+            pictureBoxPanels[pictureBox5].BorderStyle = BorderStyle.None;
 
-            Dev_Manager dev_Manager = new Dev_Manager();
-            LoadForm(dev_Manager);
+            pictureBox6.Image = nonSelectedImages[pictureBox6];
+            pictureBoxLabels[pictureBox6].Visible = false;
+            pictureBoxPanels[pictureBox6].BorderStyle = BorderStyle.None;
 
         }
 
-        private void pictureBox6_Click(object sender, EventArgs e)
+        private void pictureBox8_MouseEnter(object sender, EventArgs e)
         {
-            //visual feedback
-            panel3.BackColor = Color.Transparent;
-            panel4.BackColor = Color.Transparent;
-            panel5.BackColor = Color.Transparent;
-            panel6.BackColor = Color.Transparent;
-            panel7.BackColor = Color.FromArgb(0, 0, 64);
+            label8.Visible = true;
+        }
 
-            Buy_tickets buy_Tickets = new Buy_tickets();
-            LoadForm(buy_Tickets);
-
-
+        private void pictureBox8_MouseLeave(object sender, EventArgs e)
+        {
+            label8.Visible = false;
         }
     }
 }
