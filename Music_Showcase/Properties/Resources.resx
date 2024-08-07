@@ -127,6 +127,9 @@
   <data name="Download-free-Dark-Purple-Color-background-images" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Download-free-Dark-Purple-Color-background-images.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="0023942214_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0023942214_0.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="video_9327764" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\video_9327764.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -145,17 +148,20 @@
   <data name="d5mg6c0-20c440c3-fd0c-41db-ab6e-4984cba003512" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\d5mg6c0-20c440c3-fd0c-41db-ab6e-4984cba003512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="text_1722847228797" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\text-1722847228797.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="tag_6047453" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tag_6047453.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ezgif-2-c3d3c219a8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ezgif-2-c3d3c219a8.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="tag_6047531" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tag_6047531.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="fasting_7255651" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fasting_7255651.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="speaker_5204318" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\speaker_5204318.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="electronic-device_5772414" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\electronic-device_5772414.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pngtree-d-rendering-of-an-entertainment-and-gaming-concept-with-futuristic-laser-picture-image_5825636" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pngtree-d-rendering-of-an-entertainment-and-gaming-concept-with-futuristic-laser-picture-image_5825636.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -190,9 +196,6 @@
   <data name="text-1722939596455" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\text-1722939596455.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="projector_5723428" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\projector_5723428.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="20e5ad23-3780-4a44-8a53-7e61b0e59b9f" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\20e5ad23-3780-4a44-8a53-7e61b0e59b9f.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -208,22 +211,22 @@
   <data name="gradient2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\gradient2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="tag_6047453" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\tag_6047453.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="text_1722847228797" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\text-1722847228797.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="user_8051049" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\user_8051049.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="fasting_7255651" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\fasting_7255651.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="electronic-device_5772414" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\electronic-device_5772414.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="gradient1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\gradient1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="0023942214_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\0023942214_0.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="projector_5723428" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\projector_5723428.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ezgif-2-c3d3c219a8" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ezgif-2-c3d3c219a8.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="6b2f1c5dba92f48a53020755a9887e06" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6b2f1c5dba92f48a53020755a9887e06.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

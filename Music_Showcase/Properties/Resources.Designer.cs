@@ -93,6 +93,16 @@ namespace Music_Showcase.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _6b2f1c5dba92f48a53020755a9887e06 {
+            get {
+                object obj = ResourceManager.GetObject("6b2f1c5dba92f48a53020755a9887e06", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap d5mg6c0_20c440c3_fd0c_41db_ab6e_4984cba003512 {
             get {
                 object obj = ResourceManager.GetObject("d5mg6c0-20c440c3-fd0c-41db-ab6e-4984cba003512", resourceCulture);
