@@ -168,7 +168,7 @@ namespace Music_Showcase
             }
             else if (selectedPictureBox == pictureBox5) //πήγαινε στη διαχείριση συσκευών
             {
-                Dev_Manager dev_Manager = new Dev_Manager();
+                Device_Management dev_Manager = new Device_Management();
                 LoadForm(dev_Manager);
             }
             else if (selectedPictureBox == pictureBox6) //πήγαινε στην αγορά εισητηρίων

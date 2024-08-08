@@ -11,7 +11,7 @@
     <Compile Update="ContainerForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Dev_Manager.cs">
+    <Compile Update="Device_Management.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="DJ.cs">
