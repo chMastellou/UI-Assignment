@@ -48,7 +48,6 @@ C:\Users\mtimo\Source\Repos\UI-Assignment\Music_Showcase\bin\Debug\net8.0-window
 C:\Users\mtimo\Source\Repos\UI-Assignment\Music_Showcase\bin\Debug\net8.0-windows\Music_Showcase.runtimeconfig.json
 C:\Users\mtimo\Source\Repos\UI-Assignment\Music_Showcase\bin\Debug\net8.0-windows\Music_Showcase.dll
 C:\Users\mtimo\Source\Repos\UI-Assignment\Music_Showcase\bin\Debug\net8.0-windows\Music_Showcase.pdb
-C:\Users\mtimo\Source\Repos\UI-Assignment\Music_Showcase\obj\Debug\net8.0-windows\Music_Showcase.Buy_tickets.resources
 C:\Users\mtimo\Source\Repos\UI-Assignment\Music_Showcase\obj\Debug\net8.0-windows\Music_Showcase.Cafe_Form.resources
 C:\Users\mtimo\Source\Repos\UI-Assignment\Music_Showcase\obj\Debug\net8.0-windows\Music_Showcase.Container.resources
 C:\Users\mtimo\Source\Repos\UI-Assignment\Music_Showcase\obj\Debug\net8.0-windows\Music_Showcase.DJ.resources
@@ -68,3 +67,4 @@ C:\Users\mtimo\Source\Repos\UI-Assignment\Music_Showcase\obj\Debug\net8.0-window
 C:\Users\mtimo\Source\Repos\UI-Assignment\Music_Showcase\obj\Debug\net8.0-windows\Music_Showcase.genruntimeconfig.cache
 C:\Users\mtimo\Source\Repos\UI-Assignment\Music_Showcase\obj\Debug\net8.0-windows\ref\Music_Showcase.dll
 C:\Users\mtimo\Source\Repos\UI-Assignment\Music_Showcase\obj\Debug\net8.0-windows\Music_Showcase.Device_Management.resources
+C:\Users\mtimo\Source\Repos\UI-Assignment\Music_Showcase\obj\Debug\net8.0-windows\Music_Showcase.Book_Tickets.resources

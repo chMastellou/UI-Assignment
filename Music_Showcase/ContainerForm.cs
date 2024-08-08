@@ -173,7 +173,7 @@ namespace Music_Showcase
             }
             else if (selectedPictureBox == pictureBox6) //πήγαινε στην αγορά εισητηρίων
             {
-                Buy_tickets buy_Tickets = new Buy_tickets();
+                Book_Tickets buy_Tickets = new Book_Tickets();
                 LoadForm(buy_Tickets);
             }
 
