@@ -1,4 +1,5 @@
-﻿using Music_Showcase.Properties;
+﻿using AxWMPLib;
+using Music_Showcase.Properties;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -32,8 +33,9 @@ namespace Music_Showcase
             bg3.Image = Resources.bg3_desat;
             skyrim.Image = Resources.skyrim_desat;
             gow.Image = Resources.gow_desat;
+            WindowsMediaPlayer.URL = @"https://youtu.be/xJtOTvtcpso?si=hRTSg0eNyLKXEw2J";
         }
-
+        
         private void bg3_Click(object sender, EventArgs e)
         {
             ac.Image = Resources.ac_desat;

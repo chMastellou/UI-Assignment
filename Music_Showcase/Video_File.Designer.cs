@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Video_File));
             tableLayoutPanel1 = new TableLayoutPanel();
             panel4 = new Panel();
             gow = new PictureBox();
@@ -48,7 +49,7 @@
             playButton = new PictureBox();
             next = new PictureBox();
             pictureBox5 = new PictureBox();
-            webView21 = new Microsoft.Web.WebView2.WinForms.WebView2();
+            WindowsMediaPlayer = new AxWMPLib.AxWindowsMediaPlayer();
             tableLayoutPanel1.SuspendLayout();
             panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)gow).BeginInit();
@@ -61,7 +62,7 @@
             ((System.ComponentModel.ISupportInitialize)playButton).BeginInit();
             ((System.ComponentModel.ISupportInitialize)next).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)webView21).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)WindowsMediaPlayer).BeginInit();
             SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -298,16 +299,14 @@
             pictureBox5.TabStop = false;
             pictureBox5.Click += pictureBox5_Click;
             // 
-            // webView21
+            // WindowsMediaPlayer
             // 
-            webView21.AllowExternalDrop = true;
-            webView21.CreationProperties = null;
-            webView21.DefaultBackgroundColor = Color.White;
-            webView21.Location = new Point(1, 1);
-            webView21.Name = "webView21";
-            webView21.Size = new Size(1078, 500);
-            webView21.TabIndex = 4;
-            webView21.ZoomFactor = 1D;
+            WindowsMediaPlayer.Enabled = true;
+            WindowsMediaPlayer.Location = new Point(1, 0);
+            WindowsMediaPlayer.Name = "WindowsMediaPlayer";
+            WindowsMediaPlayer.OcxState = (AxHost.State)resources.GetObject("WindowsMediaPlayer.OcxState");
+            WindowsMediaPlayer.Size = new Size(1078, 498);
+            WindowsMediaPlayer.TabIndex = 4;
             // 
             // Video_File
             // 
@@ -317,7 +316,7 @@
             BackgroundImage = Properties.Resources.half_res_bg;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1078, 734);
-            Controls.Add(webView21);
+            Controls.Add(WindowsMediaPlayer);
             Controls.Add(pictureBox5);
             Controls.Add(next);
             Controls.Add(playButton);
@@ -341,7 +340,7 @@
             ((System.ComponentModel.ISupportInitialize)playButton).EndInit();
             ((System.ComponentModel.ISupportInitialize)next).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
-            ((System.ComponentModel.ISupportInitialize)webView21).EndInit();
+            ((System.ComponentModel.ISupportInitialize)WindowsMediaPlayer).EndInit();
             ResumeLayout(false);
         }
 
@@ -367,6 +366,6 @@
         private PictureBox playButton;
         private PictureBox next;
         private PictureBox pictureBox5;
-        private Microsoft.Web.WebView2.WinForms.WebView2 webView21;
+        private AxWMPLib.AxWindowsMediaPlayer WindowsMediaPlayer;
     }
 }

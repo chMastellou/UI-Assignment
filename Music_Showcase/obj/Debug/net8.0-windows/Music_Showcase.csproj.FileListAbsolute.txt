@@ -69,3 +69,16 @@ C:\Users\mtimo\Source\Repos\UI-Assignment\Music_Showcase\obj\Debug\net8.0-window
 C:\Users\mtimo\Source\Repos\UI-Assignment\Music_Showcase\obj\Debug\net8.0-windows\Music_Showcase.Device_Management.resources
 C:\Users\mtimo\Source\Repos\UI-Assignment\Music_Showcase\obj\Debug\net8.0-windows\Music_Showcase.Book_Tickets.resources
 C:\Users\mtimo\source\repos\UI-Assignment\Music_Showcase\obj\Debug\net8.0-windows\Music_Showcase.Payment.resources
+C:\Users\mtimo\source\repos\UI-Assignment\Music_Showcase\obj\Debug\net8.0-windows\Music_Showcase.csproj.AssemblyReference.cache
+C:\Users\mtimo\source\repos\UI-Assignment\Music_Showcase\obj\Debug\net8.0-windows\Interop.WMPLib.dll
+C:\Users\mtimo\source\repos\UI-Assignment\Music_Showcase\obj\Debug\net8.0-windows\AxInterop.WMPLib.dll
+C:\Users\mtimo\source\repos\UI-Assignment\Music_Showcase\obj\Debug\net8.0-windows\Music_Showcase.csproj.ResolveComReference.cache
+C:\Users\mtimo\source\repos\UI-Assignment\Music_Showcase\bin\Debug\net8.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\mtimo\source\repos\UI-Assignment\Music_Showcase\bin\Debug\net8.0-windows\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\mtimo\source\repos\UI-Assignment\Music_Showcase\bin\Debug\net8.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\mtimo\source\repos\UI-Assignment\Music_Showcase\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.dll
+C:\Users\mtimo\source\repos\UI-Assignment\Music_Showcase\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\mtimo\source\repos\UI-Assignment\Music_Showcase\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\mtimo\source\repos\UI-Assignment\Music_Showcase\bin\Debug\net8.0-windows\Interop.WMPLib.dll
+C:\Users\mtimo\source\repos\UI-Assignment\Music_Showcase\bin\Debug\net8.0-windows\AxInterop.WMPLib.dll
+C:\Users\mtimo\source\repos\UI-Assignment\Music_Showcase\obj\Debug\net8.0-windows\Music_Sh.B6C782D1.Up2Date
