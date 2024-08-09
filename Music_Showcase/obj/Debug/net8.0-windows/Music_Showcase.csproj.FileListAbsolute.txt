@@ -68,3 +68,4 @@ C:\Users\mtimo\Source\Repos\UI-Assignment\Music_Showcase\obj\Debug\net8.0-window
 C:\Users\mtimo\Source\Repos\UI-Assignment\Music_Showcase\obj\Debug\net8.0-windows\ref\Music_Showcase.dll
 C:\Users\mtimo\Source\Repos\UI-Assignment\Music_Showcase\obj\Debug\net8.0-windows\Music_Showcase.Device_Management.resources
 C:\Users\mtimo\Source\Repos\UI-Assignment\Music_Showcase\obj\Debug\net8.0-windows\Music_Showcase.Book_Tickets.resources
+C:\Users\mtimo\source\repos\UI-Assignment\Music_Showcase\obj\Debug\net8.0-windows\Music_Showcase.Payment.resources
