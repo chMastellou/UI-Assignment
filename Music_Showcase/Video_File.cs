@@ -31,45 +31,38 @@ namespace Music_Showcase
         {
             ac.Image = Resources.EF;
             bg3.Image = Resources.bg3_desat;
-            skyrim.Image = Resources.skyrim_desat;
+            skyrim.Image = Resources.bear_desat;
             gow.Image = Resources.gow_desat;
-            WindowsMediaPlayer.URL = @"https://youtu.be/xJtOTvtcpso?si=hRTSg0eNyLKXEw2J";
+            WindowsMediaPlayer.URL = @"https://youtu.be/_UGcwmafuR0?si=Bq0QxhZjLgMQNTIM";
         }
         
         private void bg3_Click(object sender, EventArgs e)
         {
             ac.Image = Resources.ac_desat;
             bg3.Image = Resources.BG;
-            skyrim.Image = Resources.skyrim_desat;
+            skyrim.Image = Resources.bear_desat;
             gow.Image = Resources.gow_desat;
+            WindowsMediaPlayer.URL = @"https://youtu.be/xJtOTvtcpso?si=v3rbg7_z7LGaSOeY";
         }
 
         private void skyrim_Click(object sender, EventArgs e)
         {
             ac.Image = Resources.ac_desat;
             bg3.Image = Resources.bg3_desat;
-            skyrim.Image = Resources.DB;
+            skyrim.Image = Resources.bear;
             gow.Image = Resources.gow_desat;
+            WindowsMediaPlayer.URL = @"https://youtu.be/_EyLjDEn65U?si=id04r37f2FDZ6pBe";
         }
 
         private void gow_Click(object sender, EventArgs e)
         {
             ac.Image = Resources.ac_desat;
             bg3.Image = Resources.bg3_desat;
-            skyrim.Image = Resources.skyrim_desat;
+            skyrim.Image = Resources.bear_desat;
             gow.Image = Resources.MOM;
+            WindowsMediaPlayer.URL = @"https://youtu.be/U4bhR_tMUkc?si=ljEIYF5rPemiwpta";
         }
 
-        private void playButton_Click(object sender, EventArgs e)
-        {
-            if (playButton.Image != playButton_images[1])
-            {
-                playButton.Image = playButton_images[1];
-            }
-            else
-            {
-                playButton.Image = playButton_images[0];
-            }
-        }
+       
     }
 }

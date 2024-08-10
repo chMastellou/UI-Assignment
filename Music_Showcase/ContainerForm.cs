@@ -304,6 +304,11 @@ namespace Music_Showcase
         {
             label8.Visible = false;
         }
+
+        private void pictureBox10_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

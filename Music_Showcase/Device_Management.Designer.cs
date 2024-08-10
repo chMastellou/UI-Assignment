@@ -128,11 +128,10 @@
             tableLayoutPanel1.Controls.Add(panel2, 1, 0);
             tableLayoutPanel1.Dock = DockStyle.Fill;
             tableLayoutPanel1.Location = new Point(0, 0);
-            tableLayoutPanel1.Margin = new Padding(3, 4, 3, 4);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             tableLayoutPanel1.RowCount = 1;
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tableLayoutPanel1.Size = new Size(1234, 989);
+            tableLayoutPanel1.Size = new Size(1080, 781);
             tableLayoutPanel1.TabIndex = 0;
             // 
             // panel1
@@ -155,19 +154,19 @@
             panel1.Controls.Add(projectionPanel);
             panel1.Controls.Add(laptop);
             panel1.Dock = DockStyle.Fill;
-            panel1.Location = new Point(3, 4);
-            panel1.Margin = new Padding(3, 4, 3, 4);
+            panel1.Location = new Point(3, 3);
             panel1.Name = "panel1";
-            panel1.Size = new Size(962, 981);
+            panel1.Size = new Size(842, 775);
             panel1.TabIndex = 0;
+            panel1.Paint += panel1_Paint;
             // 
             // label12
             // 
             label12.AutoSize = true;
             label12.ForeColor = Color.White;
-            label12.Location = new Point(571, 620);
+            label12.Location = new Point(500, 489);
             label12.Name = "label12";
-            label12.Size = new Size(154, 20);
+            label12.Size = new Size(122, 15);
             label12.TabIndex = 21;
             label12.Text = "Συνδέστε μικρόφωνο";
             // 
@@ -175,9 +174,9 @@
             // 
             label11.AutoSize = true;
             label11.ForeColor = Color.White;
-            label11.Location = new Point(238, 620);
+            label11.Location = new Point(208, 489);
             label11.Name = "label11";
-            label11.Size = new Size(147, 20);
+            label11.Size = new Size(115, 15);
             label11.TabIndex = 20;
             label11.Text = "Συνδέστε ακουστικά";
             // 
@@ -186,9 +185,10 @@
             headphones.Cursor = Cursors.Hand;
             headphones.Enabled = false;
             headphones.Image = Properties.Resources.headphones_off;
-            headphones.Location = new Point(251, 643);
+            headphones.Location = new Point(220, 508);
+            headphones.Margin = new Padding(3, 2, 3, 2);
             headphones.Name = "headphones";
-            headphones.Size = new Size(120, 120);
+            headphones.Size = new Size(105, 95);
             headphones.SizeMode = PictureBoxSizeMode.StretchImage;
             headphones.TabIndex = 19;
             headphones.TabStop = false;
@@ -199,9 +199,10 @@
             mic.Cursor = Cursors.Hand;
             mic.Enabled = false;
             mic.Image = Properties.Resources.mic_off;
-            mic.Location = new Point(590, 643);
+            mic.Location = new Point(516, 508);
+            mic.Margin = new Padding(3, 2, 3, 2);
             mic.Name = "mic";
-            mic.Size = new Size(120, 120);
+            mic.Size = new Size(105, 95);
             mic.SizeMode = PictureBoxSizeMode.StretchImage;
             mic.TabIndex = 18;
             mic.TabStop = false;
@@ -211,9 +212,10 @@
             // 
             power.Cursor = Cursors.Hand;
             power.Image = Properties.Resources.power;
-            power.Location = new Point(455, 755);
+            power.Location = new Point(398, 596);
+            power.Margin = new Padding(3, 2, 3, 2);
             power.Name = "power";
-            power.Size = new Size(50, 50);
+            power.Size = new Size(44, 39);
             power.SizeMode = PictureBoxSizeMode.StretchImage;
             power.TabIndex = 17;
             power.TabStop = false;
@@ -223,9 +225,9 @@
             // 
             label8.AutoSize = true;
             label8.ForeColor = Color.White;
-            label8.Location = new Point(404, 843);
+            label8.Location = new Point(354, 666);
             label8.Name = "label8";
-            label8.Size = new Size(160, 20);
+            label8.Size = new Size(129, 15);
             label8.TabIndex = 16;
             label8.Text = "Φορητός Υπολογιστής";
             // 
@@ -234,9 +236,9 @@
             label6.AutoSize = true;
             label6.Font = new Font("Segoe UI", 8.765218F, FontStyle.Regular, GraphicsUnit.Point, 161);
             label6.ForeColor = Color.White;
-            label6.Location = new Point(424, 84);
+            label6.Location = new Point(371, 66);
             label6.Name = "label6";
-            label6.Size = new Size(108, 20);
+            label6.Size = new Size(85, 15);
             label6.TabIndex = 13;
             label6.Text = "Προτζέκτορας";
             // 
@@ -245,18 +247,18 @@
             projectorState.AutoSize = true;
             projectorState.Font = new Font("Segoe UI", 8.765218F, FontStyle.Regular, GraphicsUnit.Point, 161);
             projectorState.ForeColor = Color.White;
-            projectorState.Location = new Point(540, 182);
+            projectorState.Location = new Point(472, 144);
             projectorState.Name = "projectorState";
-            projectorState.Size = new Size(147, 20);
+            projectorState.Size = new Size(115, 15);
             projectorState.TabIndex = 14;
             projectorState.Text = "Απενεργοποιημένος";
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(344, 69);
+            label4.Location = new Point(301, 54);
             label4.Name = "label4";
-            label4.Size = new Size(50, 20);
+            label4.Size = new Size(38, 15);
             label4.TabIndex = 12;
             label4.Text = "label4";
             // 
@@ -264,9 +266,10 @@
             // 
             projector.Cursor = Cursors.Hand;
             projector.Image = Properties.Resources.projector_off;
-            projector.Location = new Point(424, 107);
+            projector.Location = new Point(371, 84);
+            projector.Margin = new Padding(3, 2, 3, 2);
             projector.Name = "projector";
-            projector.Size = new Size(110, 110);
+            projector.Size = new Size(96, 87);
             projector.SizeMode = PictureBoxSizeMode.StretchImage;
             projector.TabIndex = 8;
             projector.TabStop = false;
@@ -278,18 +281,20 @@
             panel6.Controls.Add(BRstate);
             panel6.Controls.Add(backRightSpeaker);
             panel6.Controls.Add(label9);
-            panel6.Location = new Point(764, 736);
+            panel6.Location = new Point(668, 581);
+            panel6.Margin = new Padding(3, 2, 3, 2);
             panel6.Name = "panel6";
-            panel6.Size = new Size(194, 219);
+            panel6.Size = new Size(170, 173);
             panel6.TabIndex = 7;
             // 
             // backRightSound
             // 
             backRightSound.Cursor = Cursors.Hand;
             backRightSound.Image = Properties.Resources.sound_off;
-            backRightSound.Location = new Point(76, 152);
+            backRightSound.Location = new Point(66, 120);
+            backRightSound.Margin = new Padding(3, 2, 3, 2);
             backRightSound.Name = "backRightSound";
-            backRightSound.Size = new Size(38, 39);
+            backRightSound.Size = new Size(33, 31);
             backRightSound.SizeMode = PictureBoxSizeMode.StretchImage;
             backRightSound.TabIndex = 2;
             backRightSound.TabStop = false;
@@ -299,18 +304,19 @@
             // 
             BRstate.AutoSize = true;
             BRstate.ForeColor = Color.White;
-            BRstate.Location = new Point(66, 194);
+            BRstate.Location = new Point(58, 153);
             BRstate.Name = "BRstate";
-            BRstate.Size = new Size(61, 20);
+            BRstate.Size = new Size(48, 15);
             BRstate.TabIndex = 4;
             BRstate.Text = "Κλειστό";
             // 
             // backRightSpeaker
             // 
             backRightSpeaker.Image = Properties.Resources.speaker_off;
-            backRightSpeaker.Location = new Point(34, 23);
+            backRightSpeaker.Location = new Point(30, 18);
+            backRightSpeaker.Margin = new Padding(3, 2, 3, 2);
             backRightSpeaker.Name = "backRightSpeaker";
-            backRightSpeaker.Size = new Size(120, 123);
+            backRightSpeaker.Size = new Size(105, 97);
             backRightSpeaker.SizeMode = PictureBoxSizeMode.StretchImage;
             backRightSpeaker.TabIndex = 1;
             backRightSpeaker.TabStop = false;
@@ -319,9 +325,9 @@
             // 
             label9.AutoSize = true;
             label9.ForeColor = Color.White;
-            label9.Location = new Point(37, 0);
+            label9.Location = new Point(32, 0);
             label9.Name = "label9";
-            label9.Size = new Size(117, 20);
+            label9.Size = new Size(91, 15);
             label9.TabIndex = 3;
             label9.Text = "Πίσω δεξί ηχείο";
             label9.TextAlign = ContentAlignment.MiddleCenter;
@@ -332,18 +338,20 @@
             panel5.Controls.Add(BLstate);
             panel5.Controls.Add(backLeftSpeaker);
             panel5.Controls.Add(label7);
-            panel5.Location = new Point(10, 736);
+            panel5.Location = new Point(9, 581);
+            panel5.Margin = new Padding(3, 2, 3, 2);
             panel5.Name = "panel5";
-            panel5.Size = new Size(194, 219);
+            panel5.Size = new Size(170, 173);
             panel5.TabIndex = 7;
             // 
             // backLeftSound
             // 
             backLeftSound.Cursor = Cursors.Hand;
             backLeftSound.Image = Properties.Resources.sound_off;
-            backLeftSound.Location = new Point(76, 152);
+            backLeftSound.Location = new Point(66, 120);
+            backLeftSound.Margin = new Padding(3, 2, 3, 2);
             backLeftSound.Name = "backLeftSound";
-            backLeftSound.Size = new Size(38, 39);
+            backLeftSound.Size = new Size(33, 31);
             backLeftSound.SizeMode = PictureBoxSizeMode.StretchImage;
             backLeftSound.TabIndex = 2;
             backLeftSound.TabStop = false;
@@ -353,18 +361,19 @@
             // 
             BLstate.AutoSize = true;
             BLstate.ForeColor = Color.White;
-            BLstate.Location = new Point(66, 194);
+            BLstate.Location = new Point(58, 153);
             BLstate.Name = "BLstate";
-            BLstate.Size = new Size(61, 20);
+            BLstate.Size = new Size(48, 15);
             BLstate.TabIndex = 4;
             BLstate.Text = "Κλειστό";
             // 
             // backLeftSpeaker
             // 
             backLeftSpeaker.Image = Properties.Resources.speaker_off;
-            backLeftSpeaker.Location = new Point(34, 23);
+            backLeftSpeaker.Location = new Point(30, 18);
+            backLeftSpeaker.Margin = new Padding(3, 2, 3, 2);
             backLeftSpeaker.Name = "backLeftSpeaker";
-            backLeftSpeaker.Size = new Size(120, 123);
+            backLeftSpeaker.Size = new Size(105, 97);
             backLeftSpeaker.SizeMode = PictureBoxSizeMode.StretchImage;
             backLeftSpeaker.TabIndex = 1;
             backLeftSpeaker.TabStop = false;
@@ -373,9 +382,9 @@
             // 
             label7.AutoSize = true;
             label7.ForeColor = Color.White;
-            label7.Location = new Point(21, 0);
+            label7.Location = new Point(18, 0);
             label7.Name = "label7";
-            label7.Size = new Size(153, 40);
+            label7.Size = new Size(120, 30);
             label7.TabIndex = 3;
             label7.Text = "Πίσω αριστερό ηχείο\r\n\r\n";
             label7.TextAlign = ContentAlignment.MiddleCenter;
@@ -386,18 +395,20 @@
             panel4.Controls.Add(FRstate);
             panel4.Controls.Add(frontRightSpeaker);
             panel4.Controls.Add(label5);
-            panel4.Location = new Point(747, 84);
+            panel4.Location = new Point(654, 66);
+            panel4.Margin = new Padding(3, 2, 3, 2);
             panel4.Name = "panel4";
-            panel4.Size = new Size(194, 219);
+            panel4.Size = new Size(170, 173);
             panel4.TabIndex = 6;
             // 
             // frontRightSound
             // 
             frontRightSound.Cursor = Cursors.Hand;
             frontRightSound.Image = Properties.Resources.sound_off;
-            frontRightSound.Location = new Point(76, 152);
+            frontRightSound.Location = new Point(66, 120);
+            frontRightSound.Margin = new Padding(3, 2, 3, 2);
             frontRightSound.Name = "frontRightSound";
-            frontRightSound.Size = new Size(38, 39);
+            frontRightSound.Size = new Size(33, 31);
             frontRightSound.SizeMode = PictureBoxSizeMode.StretchImage;
             frontRightSound.TabIndex = 2;
             frontRightSound.TabStop = false;
@@ -407,18 +418,19 @@
             // 
             FRstate.AutoSize = true;
             FRstate.ForeColor = Color.White;
-            FRstate.Location = new Point(66, 194);
+            FRstate.Location = new Point(58, 153);
             FRstate.Name = "FRstate";
-            FRstate.Size = new Size(61, 20);
+            FRstate.Size = new Size(48, 15);
             FRstate.TabIndex = 4;
             FRstate.Text = "Κλειστό";
             // 
             // frontRightSpeaker
             // 
             frontRightSpeaker.Image = Properties.Resources.speaker_off;
-            frontRightSpeaker.Location = new Point(34, 23);
+            frontRightSpeaker.Location = new Point(30, 18);
+            frontRightSpeaker.Margin = new Padding(3, 2, 3, 2);
             frontRightSpeaker.Name = "frontRightSpeaker";
-            frontRightSpeaker.Size = new Size(120, 123);
+            frontRightSpeaker.Size = new Size(105, 97);
             frontRightSpeaker.SizeMode = PictureBoxSizeMode.StretchImage;
             frontRightSpeaker.TabIndex = 1;
             frontRightSpeaker.TabStop = false;
@@ -427,9 +439,9 @@
             // 
             label5.AutoSize = true;
             label5.ForeColor = Color.White;
-            label5.Location = new Point(17, 0);
+            label5.Location = new Point(15, 0);
             label5.Name = "label5";
-            label5.Size = new Size(158, 40);
+            label5.Size = new Size(123, 30);
             label5.TabIndex = 3;
             label5.Text = "Μπροστινό δεξί ηχείο\r\n\r\n";
             label5.TextAlign = ContentAlignment.MiddleCenter;
@@ -440,18 +452,20 @@
             panel3.Controls.Add(FLstate);
             panel3.Controls.Add(frontLeftSpeaker);
             panel3.Controls.Add(label3);
-            panel3.Location = new Point(10, 84);
+            panel3.Location = new Point(9, 66);
+            panel3.Margin = new Padding(3, 2, 3, 2);
             panel3.Name = "panel3";
-            panel3.Size = new Size(194, 219);
+            panel3.Size = new Size(170, 173);
             panel3.TabIndex = 5;
             // 
             // frontLeftSound
             // 
             frontLeftSound.Cursor = Cursors.Hand;
             frontLeftSound.Image = Properties.Resources.sound_off;
-            frontLeftSound.Location = new Point(76, 152);
+            frontLeftSound.Location = new Point(66, 120);
+            frontLeftSound.Margin = new Padding(3, 2, 3, 2);
             frontLeftSound.Name = "frontLeftSound";
-            frontLeftSound.Size = new Size(38, 39);
+            frontLeftSound.Size = new Size(33, 31);
             frontLeftSound.SizeMode = PictureBoxSizeMode.StretchImage;
             frontLeftSound.TabIndex = 2;
             frontLeftSound.TabStop = false;
@@ -461,18 +475,19 @@
             // 
             FLstate.AutoSize = true;
             FLstate.ForeColor = Color.White;
-            FLstate.Location = new Point(66, 194);
+            FLstate.Location = new Point(58, 153);
             FLstate.Name = "FLstate";
-            FLstate.Size = new Size(61, 20);
+            FLstate.Size = new Size(48, 15);
             FLstate.TabIndex = 4;
             FLstate.Text = "Κλειστό";
             // 
             // frontLeftSpeaker
             // 
             frontLeftSpeaker.Image = Properties.Resources.speaker_off;
-            frontLeftSpeaker.Location = new Point(34, 23);
+            frontLeftSpeaker.Location = new Point(30, 18);
+            frontLeftSpeaker.Margin = new Padding(3, 2, 3, 2);
             frontLeftSpeaker.Name = "frontLeftSpeaker";
-            frontLeftSpeaker.Size = new Size(120, 123);
+            frontLeftSpeaker.Size = new Size(105, 97);
             frontLeftSpeaker.SizeMode = PictureBoxSizeMode.StretchImage;
             frontLeftSpeaker.TabIndex = 1;
             frontLeftSpeaker.TabStop = false;
@@ -483,7 +498,7 @@
             label3.ForeColor = Color.White;
             label3.Location = new Point(0, 0);
             label3.Name = "label3";
-            label3.Size = new Size(194, 40);
+            label3.Size = new Size(152, 30);
             label3.TabIndex = 3;
             label3.Text = "Μπροστινό αριστερό ηχείο\r\n\r\n";
             label3.TextAlign = ContentAlignment.MiddleCenter;
@@ -493,9 +508,9 @@
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI Semibold", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.White;
-            label1.Location = new Point(10, 8);
+            label1.Location = new Point(9, 6);
             label1.Name = "label1";
-            label1.Size = new Size(590, 52);
+            label1.Size = new Size(483, 45);
             label1.TabIndex = 0;
             label1.Text = "ΣΥΣΚΕΥΕΣ ΙΔΙΩΤΙΚΗΣ ΑΙΘΟΥΣΑΣ";
             // 
@@ -507,9 +522,10 @@
             projectionPanel.Controls.Add(label10);
             projectionPanel.Controls.Add(playButton);
             projectionPanel.Controls.Add(projection);
-            projectionPanel.Location = new Point(307, 236);
+            projectionPanel.Location = new Point(269, 186);
+            projectionPanel.Margin = new Padding(3, 2, 3, 2);
             projectionPanel.Name = "projectionPanel";
-            projectionPanel.Size = new Size(567, 296);
+            projectionPanel.Size = new Size(496, 234);
             projectionPanel.TabIndex = 11;
             projectionPanel.Visible = false;
             // 
@@ -518,17 +534,19 @@
             marquee.BackColor = Color.Black;
             marquee.Font = new Font("Segoe UI", 8.765218F, FontStyle.Regular, GraphicsUnit.Point, 161);
             marquee.ForeColor = Color.White;
-            marquee.Location = new Point(33, 264);
+            marquee.Location = new Point(29, 208);
+            marquee.Margin = new Padding(3, 2, 3, 2);
             marquee.Name = "marquee";
             marquee.ReadOnly = true;
-            marquee.Size = new Size(275, 26);
+            marquee.Size = new Size(241, 23);
             marquee.TabIndex = 17;
             // 
             // moviePoster
             // 
-            moviePoster.Location = new Point(314, 133);
+            moviePoster.Location = new Point(275, 105);
+            moviePoster.Margin = new Padding(3, 2, 3, 2);
             moviePoster.Name = "moviePoster";
-            moviePoster.Size = new Size(89, 125);
+            moviePoster.Size = new Size(78, 99);
             moviePoster.SizeMode = PictureBoxSizeMode.StretchImage;
             moviePoster.TabIndex = 16;
             moviePoster.TabStop = false;
@@ -538,9 +556,10 @@
             movieSelection.Cursor = Cursors.Hand;
             movieSelection.FormattingEnabled = true;
             movieSelection.Items.AddRange(new object[] { "Black Dynamite (2009)", "Airplane! (1980)", "Shakespeare In Love (1998)", "The Blues Brothers (1980)" });
-            movieSelection.Location = new Point(314, 100);
+            movieSelection.Location = new Point(275, 79);
+            movieSelection.Margin = new Padding(3, 2, 3, 2);
             movieSelection.Name = "movieSelection";
-            movieSelection.Size = new Size(198, 27);
+            movieSelection.Size = new Size(174, 23);
             movieSelection.TabIndex = 15;
             movieSelection.Text = "Black Dynamite (2009)";
             movieSelection.SelectedIndexChanged += movie_SelectedIndexChanged;
@@ -549,9 +568,9 @@
             // 
             label10.AutoSize = true;
             label10.ForeColor = Color.White;
-            label10.Location = new Point(314, 77);
+            label10.Location = new Point(275, 61);
             label10.Name = "label10";
-            label10.Size = new Size(113, 20);
+            label10.Size = new Size(89, 15);
             label10.TabIndex = 14;
             label10.Text = "Επιλέξτε ταινία:";
             // 
@@ -559,9 +578,10 @@
             // 
             playButton.Cursor = Cursors.Hand;
             playButton.Image = Properties.Resources.play;
-            playButton.Location = new Point(115, 68);
+            playButton.Location = new Point(101, 54);
+            playButton.Margin = new Padding(3, 2, 3, 2);
             playButton.Name = "playButton";
-            playButton.Size = new Size(110, 110);
+            playButton.Size = new Size(96, 87);
             playButton.SizeMode = PictureBoxSizeMode.StretchImage;
             playButton.TabIndex = 10;
             playButton.TabStop = false;
@@ -570,9 +590,10 @@
             // projection
             // 
             projection.Image = Properties.Resources.projection_off;
-            projection.Location = new Point(33, -17);
+            projection.Location = new Point(29, -13);
+            projection.Margin = new Padding(3, 2, 3, 2);
             projection.Name = "projection";
-            projection.Size = new Size(275, 275);
+            projection.Size = new Size(241, 217);
             projection.SizeMode = PictureBoxSizeMode.StretchImage;
             projection.TabIndex = 9;
             projection.TabStop = false;
@@ -580,9 +601,10 @@
             // laptop
             // 
             laptop.Image = Properties.Resources.laptop_off;
-            laptop.Location = new Point(393, 709);
+            laptop.Location = new Point(344, 560);
+            laptop.Margin = new Padding(3, 2, 3, 2);
             laptop.Name = "laptop";
-            laptop.Size = new Size(176, 154);
+            laptop.Size = new Size(154, 122);
             laptop.SizeMode = PictureBoxSizeMode.StretchImage;
             laptop.TabIndex = 15;
             laptop.TabStop = false;
@@ -606,19 +628,18 @@
             panel2.Controls.Add(pictureBox1);
             panel2.Controls.Add(label2);
             panel2.Dock = DockStyle.Fill;
-            panel2.Location = new Point(971, 4);
-            panel2.Margin = new Padding(3, 4, 3, 4);
+            panel2.Location = new Point(851, 3);
             panel2.Name = "panel2";
-            panel2.Size = new Size(260, 981);
+            panel2.Size = new Size(226, 775);
             panel2.TabIndex = 1;
             // 
             // label18
             // 
             label18.AutoSize = true;
             label18.ForeColor = Color.White;
-            label18.Location = new Point(168, 726);
+            label18.Location = new Point(147, 573);
             label18.Name = "label18";
-            label18.Size = new Size(70, 20);
+            label18.Size = new Size(56, 15);
             label18.TabIndex = 15;
             label18.Text = "Δαπέδου";
             // 
@@ -626,9 +647,9 @@
             // 
             label17.AutoSize = true;
             label17.ForeColor = Color.White;
-            label17.Location = new Point(22, 726);
+            label17.Location = new Point(19, 573);
             label17.Name = "label17";
-            label17.Size = new Size(64, 20);
+            label17.Size = new Size(52, 15);
             label17.TabIndex = 14;
             label17.Text = "Οροφής";
             // 
@@ -636,9 +657,10 @@
             // 
             floor_lights.Cursor = Cursors.Hand;
             floor_lights.Image = Properties.Resources.floor_lights_on;
-            floor_lights.Location = new Point(174, 668);
+            floor_lights.Location = new Point(152, 527);
+            floor_lights.Margin = new Padding(3, 2, 3, 2);
             floor_lights.Name = "floor_lights";
-            floor_lights.Size = new Size(55, 55);
+            floor_lights.Size = new Size(48, 43);
             floor_lights.SizeMode = PictureBoxSizeMode.StretchImage;
             floor_lights.TabIndex = 13;
             floor_lights.TabStop = false;
@@ -648,9 +670,10 @@
             // 
             ceiling_lights.Cursor = Cursors.Hand;
             ceiling_lights.Image = Properties.Resources.ceiling_lights_on;
-            ceiling_lights.Location = new Point(27, 668);
+            ceiling_lights.Location = new Point(24, 527);
+            ceiling_lights.Margin = new Padding(3, 2, 3, 2);
             ceiling_lights.Name = "ceiling_lights";
-            ceiling_lights.Size = new Size(55, 55);
+            ceiling_lights.Size = new Size(48, 43);
             ceiling_lights.SizeMode = PictureBoxSizeMode.StretchImage;
             ceiling_lights.TabIndex = 12;
             ceiling_lights.TabStop = false;
@@ -661,9 +684,9 @@
             label16.AutoSize = true;
             label16.Font = new Font("Segoe UI Semibold", 11.8956518F, FontStyle.Bold, GraphicsUnit.Point, 161);
             label16.ForeColor = Color.White;
-            label16.Location = new Point(50, 577);
+            label16.Location = new Point(44, 456);
             label16.Name = "label16";
-            label16.Size = new Size(109, 25);
+            label16.Size = new Size(94, 21);
             label16.TabIndex = 11;
             label16.Text = "ΦΩΤΙΣΜΟΣ";
             // 
@@ -672,18 +695,19 @@
             temp.AutoSize = true;
             temp.Font = new Font("Segoe UI Semibold", 20.0347824F, FontStyle.Bold, GraphicsUnit.Point, 161);
             temp.ForeColor = Color.White;
-            temp.Location = new Point(158, 291);
+            temp.Location = new Point(138, 230);
             temp.Name = "temp";
-            temp.Size = new Size(50, 45);
+            temp.Size = new Size(42, 37);
             temp.TabIndex = 10;
             temp.Text = "0°";
             // 
             // pictureBox4
             // 
             pictureBox4.Image = Properties.Resources.cold;
-            pictureBox4.Location = new Point(22, 377);
+            pictureBox4.Location = new Point(19, 298);
+            pictureBox4.Margin = new Padding(3, 2, 3, 2);
             pictureBox4.Name = "pictureBox4";
-            pictureBox4.Size = new Size(60, 60);
+            pictureBox4.Size = new Size(52, 47);
             pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox4.TabIndex = 9;
             pictureBox4.TabStop = false;
@@ -691,9 +715,10 @@
             // pictureBox3
             // 
             pictureBox3.Image = Properties.Resources.hot;
-            pictureBox3.Location = new Point(22, 181);
+            pictureBox3.Location = new Point(19, 143);
+            pictureBox3.Margin = new Padding(3, 2, 3, 2);
             pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(60, 60);
+            pictureBox3.Size = new Size(52, 47);
             pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox3.TabIndex = 8;
             pictureBox3.TabStop = false;
@@ -702,9 +727,9 @@
             // 
             label15.AutoSize = true;
             label15.ForeColor = Color.White;
-            label15.Location = new Point(148, 417);
+            label15.Location = new Point(130, 329);
             label15.Name = "label15";
-            label15.Size = new Size(37, 20);
+            label15.Size = new Size(29, 15);
             label15.TabIndex = 7;
             label15.Text = "-10°";
             // 
@@ -712,21 +737,22 @@
             // 
             label14.AutoSize = true;
             label14.ForeColor = Color.White;
-            label14.Location = new Point(150, 181);
+            label14.Location = new Point(131, 143);
             label14.Name = "label14";
-            label14.Size = new Size(31, 20);
+            label14.Size = new Size(24, 15);
             label14.TabIndex = 6;
             label14.Text = "45°";
             // 
             // thermometer
             // 
             thermometer.BackColor = Color.Black;
-            thermometer.Location = new Point(89, 181);
+            thermometer.Location = new Point(78, 143);
+            thermometer.Margin = new Padding(3, 2, 3, 2);
             thermometer.Maximum = 45;
             thermometer.Minimum = -10;
             thermometer.Name = "thermometer";
             thermometer.Orientation = Orientation.Vertical;
-            thermometer.Size = new Size(53, 256);
+            thermometer.Size = new Size(45, 202);
             thermometer.TabIndex = 5;
             thermometer.ValueChanged += thermometer_ValueChanged;
             // 
@@ -735,18 +761,19 @@
             label13.AutoSize = true;
             label13.Font = new Font("Segoe UI Semibold", 11.8956518F, FontStyle.Bold, GraphicsUnit.Point, 161);
             label13.ForeColor = Color.White;
-            label13.Location = new Point(50, 98);
+            label13.Location = new Point(44, 77);
             label13.Name = "label13";
-            label13.Size = new Size(144, 25);
+            label13.Size = new Size(120, 21);
             label13.TabIndex = 4;
             label13.Text = "ΘΕΡΜΟΚΡΑΣΙΑ";
             // 
             // pictureBox2
             // 
             pictureBox2.Image = Properties.Resources.light;
-            pictureBox2.Location = new Point(3, 565);
+            pictureBox2.Location = new Point(3, 446);
+            pictureBox2.Margin = new Padding(3, 2, 3, 2);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(50, 50);
+            pictureBox2.Size = new Size(44, 39);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.TabIndex = 3;
             pictureBox2.TabStop = false;
@@ -754,9 +781,10 @@
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources.thermometer_5132913;
-            pictureBox1.Location = new Point(3, 83);
+            pictureBox1.Location = new Point(3, 66);
+            pictureBox1.Margin = new Padding(3, 2, 3, 2);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(50, 50);
+            pictureBox1.Size = new Size(44, 39);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 2;
             pictureBox1.TabStop = false;
@@ -766,22 +794,21 @@
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI Semibold", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label2.ForeColor = Color.White;
-            label2.Location = new Point(22, 8);
+            label2.Location = new Point(19, 6);
             label2.Name = "label2";
-            label2.Size = new Size(216, 52);
+            label2.Size = new Size(179, 45);
             label2.TabIndex = 1;
             label2.Text = "ΡΥΘΜΙΣΕΙΣ";
             // 
             // Device_Management
             // 
-            AutoScaleDimensions = new SizeF(8F, 19F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.half_res_bg;
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(1234, 989);
+            ClientSize = new Size(1080, 781);
             Controls.Add(tableLayoutPanel1);
             FormBorderStyle = FormBorderStyle.None;
-            Margin = new Padding(3, 4, 3, 4);
             Name = "Device_Management";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Device_Management";

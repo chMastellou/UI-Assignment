@@ -204,7 +204,7 @@ namespace Music_Showcase
                 mic.Enabled = false;
             }
         }
-        
+
 
         private void mic_Click(object sender, EventArgs e)
         {
@@ -259,6 +259,11 @@ namespace Music_Showcase
                 floor_lights.Image = floor_lights_img[1];
             }
         }
-        
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
     }
 }
