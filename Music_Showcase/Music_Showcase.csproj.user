@@ -17,6 +17,9 @@
     <Compile Update="DJ.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Exhibition.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Login.cs">
       <SubType>Form</SubType>
     </Compile>
