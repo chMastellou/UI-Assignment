@@ -112,7 +112,7 @@
             tableLayoutPanel1.RowCount = 2;
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 9.471366F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 90.52863F));
-            tableLayoutPanel1.Size = new Size(1216, 908);
+            tableLayoutPanel1.Size = new Size(1311, 979);
             tableLayoutPanel1.TabIndex = 9;
             // 
             // tableLayoutPanel2
@@ -128,7 +128,7 @@
             tableLayoutPanel2.Controls.Add(panel4, 0, 3);
             tableLayoutPanel2.Controls.Add(label8, 0, 0);
             tableLayoutPanel2.Dock = DockStyle.Fill;
-            tableLayoutPanel2.Location = new Point(3, 89);
+            tableLayoutPanel2.Location = new Point(3, 95);
             tableLayoutPanel2.Name = "tableLayoutPanel2";
             tableLayoutPanel2.RowCount = 8;
             tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Absolute, 84F));
@@ -139,7 +139,7 @@
             tableLayoutPanel2.RowStyles.Add(new RowStyle());
             tableLayoutPanel2.RowStyles.Add(new RowStyle());
             tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Absolute, 13F));
-            tableLayoutPanel2.Size = new Size(108, 816);
+            tableLayoutPanel2.Size = new Size(108, 881);
             tableLayoutPanel2.TabIndex = 19;
             // 
             // panel7
@@ -368,7 +368,7 @@
             pictureBox8.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             pictureBox8.Cursor = Cursors.Hand;
             pictureBox8.Image = Properties.Resources.museum;
-            pictureBox8.Location = new Point(24, 9);
+            pictureBox8.Location = new Point(24, 17);
             pictureBox8.Name = "pictureBox8";
             pictureBox8.Size = new Size(62, 59);
             pictureBox8.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -384,9 +384,9 @@
             panel2.BackgroundImageLayout = ImageLayout.Stretch;
             panel2.Controls.Add(panel11);
             panel2.Dock = DockStyle.Fill;
-            panel2.Location = new Point(117, 89);
+            panel2.Location = new Point(117, 95);
             panel2.Name = "panel2";
-            panel2.Size = new Size(1096, 816);
+            panel2.Size = new Size(1191, 881);
             panel2.TabIndex = 1;
             // 
             // panel11
@@ -395,7 +395,7 @@
             panel11.Dock = DockStyle.Fill;
             panel11.Location = new Point(0, 0);
             panel11.Name = "panel11";
-            panel11.Size = new Size(1096, 816);
+            panel11.Size = new Size(1191, 881);
             panel11.TabIndex = 15;
             // 
             // panel1
@@ -405,7 +405,7 @@
             panel1.Dock = DockStyle.Fill;
             panel1.Location = new Point(117, 3);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1096, 80);
+            panel1.Size = new Size(1191, 86);
             panel1.TabIndex = 20;
             // 
             // panel10
@@ -415,7 +415,7 @@
             panel10.Dock = DockStyle.Fill;
             panel10.Location = new Point(0, 0);
             panel10.Name = "panel10";
-            panel10.Size = new Size(889, 80);
+            panel10.Size = new Size(984, 86);
             panel10.TabIndex = 3;
             // 
             // pictureBox11
@@ -424,7 +424,7 @@
             pictureBox11.Image = Properties.Resources.ezgif_2_c3d3c219a8;
             pictureBox11.Location = new Point(0, 0);
             pictureBox11.Name = "pictureBox11";
-            pictureBox11.Size = new Size(889, 80);
+            pictureBox11.Size = new Size(984, 86);
             pictureBox11.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox11.TabIndex = 0;
             pictureBox11.TabStop = false;
@@ -436,9 +436,9 @@
             panel8.Controls.Add(pictureBox7);
             panel8.Cursor = Cursors.Hand;
             panel8.Dock = DockStyle.Right;
-            panel8.Location = new Point(889, 0);
+            panel8.Location = new Point(984, 0);
             panel8.Name = "panel8";
-            panel8.Size = new Size(207, 80);
+            panel8.Size = new Size(207, 86);
             panel8.TabIndex = 2;
             // 
             // role_label
@@ -486,7 +486,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Black;
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(1216, 908);
+            ClientSize = new Size(1311, 979);
             Controls.Add(tableLayoutPanel1);
             Controls.Add(pictureBox1);
             FormBorderStyle = FormBorderStyle.FixedSingle;

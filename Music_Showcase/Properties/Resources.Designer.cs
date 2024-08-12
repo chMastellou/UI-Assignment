@@ -163,6 +163,16 @@ namespace Music_Showcase.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ezgif_2_5ed99d9406 {
+            get {
+                object obj = ResourceManager.GetObject("ezgif-2-5ed99d9406", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ezgif_2_c3d3c219a8 {
             get {
                 object obj = ResourceManager.GetObject("ezgif-2-c3d3c219a8", resourceCulture);
@@ -223,6 +233,16 @@ namespace Music_Showcase.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Karaoke_night {
+            get {
+                object obj = ResourceManager.GetObject("Karaoke-night", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap log_out {
             get {
                 object obj = ResourceManager.GetObject("log_out", resourceCulture);
@@ -236,6 +256,56 @@ namespace Music_Showcase.Properties {
         internal static System.Drawing.Bitmap log_out_full {
             get {
                 object obj = ResourceManager.GetObject("log_out_full", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap login_984142 {
+            get {
+                object obj = ResourceManager.GetObject("login_984142", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap magnifying_glass_12875450 {
+            get {
+                object obj = ResourceManager.GetObject("magnifying-glass_12875450", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap magnifying_glass_12875481 {
+            get {
+                object obj = ResourceManager.GetObject("magnifying-glass_12875481", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap microphone_9126928 {
+            get {
+                object obj = ResourceManager.GetObject("microphone_9126928", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap microphone_9126943 {
+            get {
+                object obj = ResourceManager.GetObject("microphone_9126943", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -266,6 +336,26 @@ namespace Music_Showcase.Properties {
         internal static System.Drawing.Bitmap music_equalizer_1920x1200_entertainment_music_hd_art_wallpaper_preview21 {
             get {
                 object obj = ResourceManager.GetObject("music-equalizer-1920x1200-entertainment-music-hd-art-wallpaper-preview21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap play_button_9545687 {
+            get {
+                object obj = ResourceManager.GetObject("play-button_9545687", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap play_button_9546366 {
+            get {
+                object obj = ResourceManager.GetObject("play-button_9546366", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -308,6 +398,16 @@ namespace Music_Showcase.Properties {
         internal static System.Drawing.Bitmap projector_5723558 {
             get {
                 object obj = ResourceManager.GetObject("projector_5723558", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap QJ58 {
+            get {
+                object obj = ResourceManager.GetObject("QJ58", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

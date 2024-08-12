@@ -127,9 +127,6 @@
   <data name="Download-free-Dark-Purple-Color-background-images" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Download-free-Dark-Purple-Color-background-images.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="0023942214_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\0023942214_0.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="video_9327764" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\video_9327764.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -139,29 +136,41 @@
   <data name="ezgif-2-210687ced4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ezgif-2-210687ced4.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="microphone_9126928" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\microphone_9126928.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="speaker_5204532" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\speaker_5204532.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="gradient11" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\gradient11.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="d5mg6c0-20c440c3-fd0c-41db-ab6e-4984cba003512" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\d5mg6c0-20c440c3-fd0c-41db-ab6e-4984cba003512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="tag_6047453" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\tag_6047453.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ezgif-2-c3d3c219a8" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ezgif-2-c3d3c219a8.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="gradient11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gradient11.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="text_1722847228797" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\text-1722847228797.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="tag_6047531" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tag_6047531.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="fasting_7255651" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\fasting_7255651.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="play-button_9546366" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\play-button_9546366.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="speaker_5204318" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\speaker_5204318.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="play-button_9545687" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\play-button_9545687.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6b2f1c5dba92f48a53020755a9887e06" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6b2f1c5dba92f48a53020755a9887e06.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="QJ58" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QJ58.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="electronic-device_5772414" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\electronic-device_5772414.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pngtree-d-rendering-of-an-entertainment-and-gaming-concept-with-futuristic-laser-picture-image_5825636" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pngtree-d-rendering-of-an-entertainment-and-gaming-concept-with-futuristic-laser-picture-image_5825636.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -169,8 +178,14 @@
   <data name="log_out" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\log_out.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="music-equalizer-1920x1200-entertainment-music-hd-art-wallpaper-preview2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\music-equalizer-1920x1200-entertainment-music-hd-art-wallpaper-preview2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="20e5ad23-3780-4a44-8a53-7e61b0e59b9f" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\20e5ad23-3780-4a44-8a53-7e61b0e59b9f.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="magnifying-glass_12875481" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\magnifying-glass_12875481.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="login_984142" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\login_984142.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="text-1722937844128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\text-1722937844128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -181,8 +196,8 @@
   <data name="music-equalizer-1920x1200-entertainment-music-hd-art-wallpaper-preview21" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\music-equalizer-1920x1200-entertainment-music-hd-art-wallpaper-preview2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Untitled" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Untitled.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="music-equalizer-1920x1200-entertainment-music-hd-art-wallpaper-preview2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\music-equalizer-1920x1200-entertainment-music-hd-art-wallpaper-preview2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="projector_5723558" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\projector_5723558.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -196,8 +211,14 @@
   <data name="text-1722939596455" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\text-1722939596455.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="20e5ad23-3780-4a44-8a53-7e61b0e59b9f" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\20e5ad23-3780-4a44-8a53-7e61b0e59b9f.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="microphone_9126943" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\microphone_9126943.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="projector_5723428" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\projector_5723428.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="d5mg6c0-20c440c3-fd0c-41db-ab6e-4984cba003512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\d5mg6c0-20c440c3-fd0c-41db-ab6e-4984cba003512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="fasting_7301163" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fasting_7301163.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -211,22 +232,31 @@
   <data name="gradient2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\gradient2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="text_1722847228797" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\text-1722847228797.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="tag_6047453" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tag_6047453.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Untitled" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Untitled.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Karaoke-night" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Karaoke-night.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="user_8051049" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\user_8051049.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="electronic-device_5772414" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\electronic-device_5772414.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="fasting_7255651" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fasting_7255651.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="gradient1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\gradient1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="projector_5723428" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\projector_5723428.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="magnifying-glass_12875450" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\magnifying-glass_12875450.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="6b2f1c5dba92f48a53020755a9887e06" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\6b2f1c5dba92f48a53020755a9887e06.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="0023942214_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0023942214_0.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ezgif-2-5ed99d9406" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ezgif-2-5ed99d9406.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
