@@ -47,7 +47,7 @@ namespace Music_Showcase
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if ((titleCheck.Visible == false) || (artistCheck.Visible == false) || (albumCheck.Visible == false) || (genreCheck.Visible == false) || (videogameCheck.Visible == false))
+            if ((titleCheck.Visible == false) || (artistCheck.Visible == false) || (albumCheck.Visible == false) || (genreCheck.Visible == false) || (videogameCheck.Visible == false) || (descCheck.Visible == false))
             {
                 MessageBox.Show("Βεβαιωθείτε ότι έχετε συμπληρώσει όλες τις απαραίτητες πληροφορίες", "Σφάλμα", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
@@ -76,6 +76,11 @@ namespace Music_Showcase
         private void textBox3_TextChanged(object sender, EventArgs e)
         {
             videogameCheck.Visible = true;
+        }
+
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        {
+            descCheck.Visible = true;
         }
     }
 }

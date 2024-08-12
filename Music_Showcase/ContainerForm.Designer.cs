@@ -271,7 +271,6 @@
             pictureBox10.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox10.TabIndex = 0;
             pictureBox10.TabStop = false;
-            pictureBox10.Click += pictureBox10_Click;
             // 
             // label7
             // 

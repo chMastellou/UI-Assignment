@@ -175,6 +175,10 @@ namespace Music_Showcase
             {
                 Book_Tickets buy_Tickets = new Book_Tickets();
                 LoadForm(buy_Tickets);
+            } else if (selectedPictureBox == pictureBox10)
+            {
+                Exhibition exhibition = new Exhibition();
+                LoadForm(exhibition);
             }
 
         }
@@ -305,10 +309,6 @@ namespace Music_Showcase
             label8.Visible = false;
         }
 
-        private void pictureBox10_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
 

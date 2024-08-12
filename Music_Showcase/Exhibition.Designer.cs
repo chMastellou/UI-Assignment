@@ -48,12 +48,16 @@
             genreCheck = new PictureBox();
             albumCheck = new PictureBox();
             artistCheck = new PictureBox();
+            label8 = new Label();
+            richTextBox1 = new RichTextBox();
+            descCheck = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)albumCover).BeginInit();
             ((System.ComponentModel.ISupportInitialize)titleCheck).BeginInit();
             ((System.ComponentModel.ISupportInitialize)videogameCheck).BeginInit();
             ((System.ComponentModel.ISupportInitialize)genreCheck).BeginInit();
             ((System.ComponentModel.ISupportInitialize)albumCheck).BeginInit();
             ((System.ComponentModel.ISupportInitialize)artistCheck).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)descCheck).BeginInit();
             SuspendLayout();
             // 
             // label1
@@ -287,6 +291,41 @@
             artistCheck.TabStop = false;
             artistCheck.Visible = false;
             // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.BackColor = Color.Transparent;
+            label8.Font = new Font("Segoe UI", 11.8956518F);
+            label8.ForeColor = Color.White;
+            label8.Location = new Point(366, 87);
+            label8.Name = "label8";
+            label8.Size = new Size(107, 25);
+            label8.TabIndex = 21;
+            label8.Text = "Περιγραφή";
+            // 
+            // richTextBox1
+            // 
+            richTextBox1.Font = new Font("Segoe UI", 10.0173912F, FontStyle.Regular, GraphicsUnit.Point, 161);
+            richTextBox1.Location = new Point(366, 117);
+            richTextBox1.Name = "richTextBox1";
+            richTextBox1.Size = new Size(274, 104);
+            richTextBox1.TabIndex = 22;
+            richTextBox1.Text = "";
+            richTextBox1.TextChanged += richTextBox1_TextChanged;
+            // 
+            // descCheck
+            // 
+            descCheck.BackColor = Color.Transparent;
+            descCheck.Image = Properties.Resources.check_1053156;
+            descCheck.Location = new Point(479, 77);
+            descCheck.Margin = new Padding(3, 4, 3, 4);
+            descCheck.Name = "descCheck";
+            descCheck.Size = new Size(35, 35);
+            descCheck.SizeMode = PictureBoxSizeMode.StretchImage;
+            descCheck.TabIndex = 23;
+            descCheck.TabStop = false;
+            descCheck.Visible = false;
+            // 
             // Exhibition
             // 
             AutoScaleDimensions = new SizeF(8F, 19F);
@@ -295,6 +334,9 @@
             BackgroundImage = Properties.Resources.half_res_bg;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1060, 689);
+            Controls.Add(descCheck);
+            Controls.Add(richTextBox1);
+            Controls.Add(label8);
             Controls.Add(artistCheck);
             Controls.Add(albumCheck);
             Controls.Add(genreCheck);
@@ -324,6 +366,7 @@
             ((System.ComponentModel.ISupportInitialize)genreCheck).EndInit();
             ((System.ComponentModel.ISupportInitialize)albumCheck).EndInit();
             ((System.ComponentModel.ISupportInitialize)artistCheck).EndInit();
+            ((System.ComponentModel.ISupportInitialize)descCheck).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -350,5 +393,8 @@
         private PictureBox genreCheck;
         private PictureBox albumCheck;
         private PictureBox artistCheck;
+        private Label label8;
+        private RichTextBox richTextBox1;
+        private PictureBox descCheck;
     }
 }
