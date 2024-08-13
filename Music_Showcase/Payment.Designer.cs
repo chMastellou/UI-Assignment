@@ -59,6 +59,7 @@
             label13 = new Label();
             label11 = new Label();
             panel2 = new Panel();
+            panel3 = new Panel();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             tableLayoutPanel1.SuspendLayout();
             tableLayoutPanel2.SuspendLayout();
@@ -69,15 +70,17 @@
             ((System.ComponentModel.ISupportInitialize)nameCheck).BeginInit();
             tableLayoutPanel3.SuspendLayout();
             panel2.SuspendLayout();
+            panel3.SuspendLayout();
             SuspendLayout();
             // 
             // pictureBox1
             // 
+            pictureBox1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             pictureBox1.Image = Properties.Resources.FvDtL_eXwB8wEMb;
-            pictureBox1.Location = new Point(23, 35);
+            pictureBox1.Location = new Point(20, 17);
             pictureBox1.Margin = new Padding(3, 4, 3, 4);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(366, 588);
+            pictureBox1.Size = new Size(423, 605);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
@@ -88,20 +91,22 @@
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Segoe UI Semibold", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.White;
-            label1.Location = new Point(10, 35);
+            label1.Location = new Point(27, 0);
             label1.Name = "label1";
             label1.Size = new Size(881, 54);
-            label1.TabIndex = 1;
+            label1.TabIndex = 15;
             label1.Text = "ELDEN RING 10-YEAR ANNIVERSARY CONCERT";
             // 
             // button1
             // 
-            button1.BackColor = Color.Black;
+            button1.Anchor = AnchorStyles.Top;
+            button1.BackColor = Color.FromArgb(72, 46, 109);
+            button1.Cursor = Cursors.Hand;
             button1.FlatAppearance.BorderSize = 0;
             button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("Segoe UI", 18.1565228F, FontStyle.Bold, GraphicsUnit.Point, 161);
-            button1.ForeColor = Color.FromArgb(72, 46, 109);
-            button1.Location = new Point(23, 957);
+            button1.ForeColor = SystemColors.ButtonFace;
+            button1.Location = new Point(38, 675);
             button1.Margin = new Padding(3, 4, 3, 4);
             button1.Name = "button1";
             button1.Size = new Size(366, 76);
@@ -112,11 +117,12 @@
             // 
             // label2
             // 
+            label2.Anchor = AnchorStyles.Top;
             label2.AutoSize = true;
             label2.BackColor = Color.Transparent;
             label2.Font = new Font("Segoe UI", 16.2782612F, FontStyle.Bold, GraphicsUnit.Point, 161);
             label2.ForeColor = Color.White;
-            label2.Location = new Point(21, 152);
+            label2.Location = new Point(29, 27);
             label2.Name = "label2";
             label2.Size = new Size(270, 38);
             label2.TabIndex = 3;
@@ -124,6 +130,7 @@
             // 
             // tableLayoutPanel1
             // 
+            tableLayoutPanel1.Anchor = AnchorStyles.Top;
             tableLayoutPanel1.BackColor = Color.Transparent;
             tableLayoutPanel1.CellBorderStyle = TableLayoutPanelCellBorderStyle.Single;
             tableLayoutPanel1.ColumnCount = 2;
@@ -137,7 +144,7 @@
             tableLayoutPanel1.Controls.Add(label5, 0, 2);
             tableLayoutPanel1.Controls.Add(label6, 0, 3);
             tableLayoutPanel1.Controls.Add(label7, 1, 0);
-            tableLayoutPanel1.Location = new Point(21, 204);
+            tableLayoutPanel1.Location = new Point(29, 79);
             tableLayoutPanel1.Margin = new Padding(3, 4, 3, 4);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             tableLayoutPanel1.RowCount = 4;
@@ -245,17 +252,17 @@
             // 
             tableLayoutPanel2.BackColor = Color.Transparent;
             tableLayoutPanel2.ColumnCount = 2;
-            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 65.9671555F));
-            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 34.03285F));
+            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 60.814045F));
+            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 39.185955F));
             tableLayoutPanel2.Controls.Add(panel1, 0, 0);
             tableLayoutPanel2.Controls.Add(panel2, 1, 0);
-            tableLayoutPanel2.Dock = DockStyle.Fill;
-            tableLayoutPanel2.Location = new Point(0, 0);
+            tableLayoutPanel2.Dock = DockStyle.Bottom;
+            tableLayoutPanel2.Location = new Point(0, 58);
             tableLayoutPanel2.Margin = new Padding(3, 4, 3, 4);
             tableLayoutPanel2.Name = "tableLayoutPanel2";
             tableLayoutPanel2.RowCount = 1;
             tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tableLayoutPanel2.Size = new Size(1253, 1094);
+            tableLayoutPanel2.Size = new Size(1191, 823);
             tableLayoutPanel2.TabIndex = 5;
             // 
             // panel1
@@ -267,20 +274,20 @@
             panel1.Controls.Add(checkBox1);
             panel1.Controls.Add(tableLayoutPanel3);
             panel1.Controls.Add(label11);
-            panel1.Controls.Add(label1);
             panel1.Controls.Add(tableLayoutPanel1);
             panel1.Controls.Add(label2);
             panel1.Dock = DockStyle.Fill;
             panel1.Location = new Point(3, 4);
             panel1.Margin = new Padding(3, 4, 3, 4);
             panel1.Name = "panel1";
-            panel1.Size = new Size(820, 1086);
+            panel1.Size = new Size(718, 815);
             panel1.TabIndex = 0;
             // 
             // cardNumCheck
             // 
+            cardNumCheck.Anchor = AnchorStyles.Top;
             cardNumCheck.Image = Properties.Resources.check_1053156;
-            cardNumCheck.Location = new Point(530, 641);
+            cardNumCheck.Location = new Point(533, 475);
             cardNumCheck.Margin = new Padding(3, 4, 3, 4);
             cardNumCheck.Name = "cardNumCheck";
             cardNumCheck.Size = new Size(34, 40);
@@ -291,8 +298,9 @@
             // 
             // cvvCheck
             // 
+            cvvCheck.Anchor = AnchorStyles.Top;
             cvvCheck.Image = Properties.Resources.check_1053156;
-            cvvCheck.Location = new Point(530, 701);
+            cvvCheck.Location = new Point(533, 535);
             cvvCheck.Margin = new Padding(3, 4, 3, 4);
             cvvCheck.Name = "cvvCheck";
             cvvCheck.Size = new Size(34, 40);
@@ -303,8 +311,9 @@
             // 
             // expDateCheck
             // 
+            expDateCheck.Anchor = AnchorStyles.Top;
             expDateCheck.Image = Properties.Resources.check_1053156;
-            expDateCheck.Location = new Point(530, 766);
+            expDateCheck.Location = new Point(533, 600);
             expDateCheck.Margin = new Padding(3, 4, 3, 4);
             expDateCheck.Name = "expDateCheck";
             expDateCheck.Size = new Size(34, 40);
@@ -315,8 +324,9 @@
             // 
             // nameCheck
             // 
+            nameCheck.Anchor = AnchorStyles.Top;
             nameCheck.Image = Properties.Resources.check_1053156;
-            nameCheck.Location = new Point(530, 591);
+            nameCheck.Location = new Point(533, 425);
             nameCheck.Margin = new Padding(3, 4, 3, 4);
             nameCheck.Name = "nameCheck";
             nameCheck.Size = new Size(34, 40);
@@ -327,19 +337,21 @@
             // 
             // checkBox1
             // 
-            checkBox1.AutoSize = true;
+            checkBox1.Anchor = AnchorStyles.Top;
+            checkBox1.Cursor = Cursors.Hand;
             checkBox1.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             checkBox1.ForeColor = Color.White;
-            checkBox1.Location = new Point(25, 957);
+            checkBox1.Location = new Point(24, 690);
             checkBox1.Margin = new Padding(3, 4, 3, 4);
             checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(757, 27);
+            checkBox1.Size = new Size(675, 61);
             checkBox1.TabIndex = 15;
             checkBox1.Text = "Θέλω να λαμβάνω νέα και ενημερώσεις σχετικά με μελλοντικές εκδηλώσεις της FromSoftware. ";
             checkBox1.UseVisualStyleBackColor = true;
             // 
             // tableLayoutPanel3
             // 
+            tableLayoutPanel3.Anchor = AnchorStyles.Top;
             tableLayoutPanel3.ColumnCount = 2;
             tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
             tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 251F));
@@ -351,7 +363,7 @@
             tableLayoutPanel3.Controls.Add(label12, 0, 3);
             tableLayoutPanel3.Controls.Add(textBox1, 1, 0);
             tableLayoutPanel3.Controls.Add(label13, 0, 2);
-            tableLayoutPanel3.Location = new Point(21, 591);
+            tableLayoutPanel3.Location = new Point(24, 425);
             tableLayoutPanel3.Margin = new Padding(3, 4, 3, 4);
             tableLayoutPanel3.Name = "tableLayoutPanel3";
             tableLayoutPanel3.RowCount = 4;
@@ -453,11 +465,12 @@
             // 
             // label11
             // 
+            label11.Anchor = AnchorStyles.Top;
             label11.AutoSize = true;
             label11.BackColor = Color.Transparent;
             label11.Font = new Font("Segoe UI", 16.2782612F, FontStyle.Bold, GraphicsUnit.Point, 161);
             label11.ForeColor = Color.White;
-            label11.Location = new Point(21, 536);
+            label11.Location = new Point(24, 370);
             label11.Name = "label11";
             label11.Size = new Size(285, 38);
             label11.TabIndex = 5;
@@ -467,11 +480,21 @@
             // 
             panel2.Controls.Add(pictureBox1);
             panel2.Controls.Add(button1);
-            panel2.Location = new Point(829, 4);
+            panel2.Dock = DockStyle.Fill;
+            panel2.Location = new Point(727, 4);
             panel2.Margin = new Padding(3, 4, 3, 4);
             panel2.Name = "panel2";
-            panel2.Size = new Size(419, 1085);
+            panel2.Size = new Size(461, 815);
             panel2.TabIndex = 1;
+            // 
+            // panel3
+            // 
+            panel3.Controls.Add(label1);
+            panel3.Dock = DockStyle.Top;
+            panel3.Location = new Point(0, 0);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(1191, 61);
+            panel3.TabIndex = 6;
             // 
             // Payment
             // 
@@ -479,7 +502,8 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaptionText;
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(1253, 1094);
+            ClientSize = new Size(1191, 881);
+            Controls.Add(panel3);
             Controls.Add(tableLayoutPanel2);
             FormBorderStyle = FormBorderStyle.None;
             Margin = new Padding(3, 4, 3, 4);
@@ -498,6 +522,8 @@
             tableLayoutPanel3.ResumeLayout(false);
             tableLayoutPanel3.PerformLayout();
             panel2.ResumeLayout(false);
+            panel3.ResumeLayout(false);
+            panel3.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -534,5 +560,6 @@
         private PictureBox cvvCheck;
         private PictureBox expDateCheck;
         private PictureBox nameCheck;
+        private Panel panel3;
     }
 }

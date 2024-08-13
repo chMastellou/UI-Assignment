@@ -132,7 +132,7 @@
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             tableLayoutPanel1.RowCount = 1;
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tableLayoutPanel1.Size = new Size(1234, 1041);
+            tableLayoutPanel1.Size = new Size(1191, 881);
             tableLayoutPanel1.TabIndex = 0;
             // 
             // panel1
@@ -158,15 +158,16 @@
             panel1.Location = new Point(3, 4);
             panel1.Margin = new Padding(3, 4, 3, 4);
             panel1.Name = "panel1";
-            panel1.Size = new Size(962, 1033);
+            panel1.Size = new Size(929, 873);
             panel1.TabIndex = 0;
             panel1.Paint += panel1_Paint;
             // 
             // label12
             // 
+            label12.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             label12.AutoSize = true;
             label12.ForeColor = Color.White;
-            label12.Location = new Point(571, 652);
+            label12.Location = new Point(543, 580);
             label12.Name = "label12";
             label12.Size = new Size(154, 20);
             label12.TabIndex = 21;
@@ -174,9 +175,10 @@
             // 
             // label11
             // 
+            label11.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             label11.AutoSize = true;
             label11.ForeColor = Color.White;
-            label11.Location = new Point(238, 652);
+            label11.Location = new Point(243, 580);
             label11.Name = "label11";
             label11.Size = new Size(147, 20);
             label11.TabIndex = 20;
@@ -184,10 +186,11 @@
             // 
             // headphones
             // 
+            headphones.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             headphones.Cursor = Cursors.Hand;
             headphones.Enabled = false;
             headphones.Image = Properties.Resources.headphones_off;
-            headphones.Location = new Point(251, 677);
+            headphones.Location = new Point(256, 605);
             headphones.Name = "headphones";
             headphones.Size = new Size(120, 127);
             headphones.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -197,10 +200,11 @@
             // 
             // mic
             // 
+            mic.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             mic.Cursor = Cursors.Hand;
             mic.Enabled = false;
             mic.Image = Properties.Resources.mic_off;
-            mic.Location = new Point(590, 677);
+            mic.Location = new Point(562, 605);
             mic.Name = "mic";
             mic.Size = new Size(120, 127);
             mic.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -210,9 +214,10 @@
             // 
             // power
             // 
+            power.Anchor = AnchorStyles.Bottom;
             power.Cursor = Cursors.Hand;
             power.Image = Properties.Resources.power;
-            power.Location = new Point(455, 795);
+            power.Location = new Point(443, 723);
             power.Name = "power";
             power.Size = new Size(50, 52);
             power.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -222,9 +227,10 @@
             // 
             // label8
             // 
+            label8.Anchor = AnchorStyles.Bottom;
             label8.AutoSize = true;
             label8.ForeColor = Color.White;
-            label8.Location = new Point(405, 888);
+            label8.Location = new Point(382, 652);
             label8.Name = "label8";
             label8.Size = new Size(160, 20);
             label8.TabIndex = 16;
@@ -232,10 +238,11 @@
             // 
             // label6
             // 
+            label6.Anchor = AnchorStyles.Top;
             label6.AutoSize = true;
             label6.Font = new Font("Segoe UI", 8.765218F, FontStyle.Regular, GraphicsUnit.Point, 161);
             label6.ForeColor = Color.White;
-            label6.Location = new Point(424, 88);
+            label6.Location = new Point(407, 88);
             label6.Name = "label6";
             label6.Size = new Size(108, 20);
             label6.TabIndex = 13;
@@ -243,10 +250,11 @@
             // 
             // projectorState
             // 
+            projectorState.Anchor = AnchorStyles.Top;
             projectorState.AutoSize = true;
             projectorState.Font = new Font("Segoe UI", 8.765218F, FontStyle.Regular, GraphicsUnit.Point, 161);
             projectorState.ForeColor = Color.White;
-            projectorState.Location = new Point(539, 192);
+            projectorState.Location = new Point(522, 192);
             projectorState.Name = "projectorState";
             projectorState.Size = new Size(147, 20);
             projectorState.TabIndex = 14;
@@ -254,8 +262,9 @@
             // 
             // label4
             // 
+            label4.Anchor = AnchorStyles.Top;
             label4.AutoSize = true;
-            label4.Location = new Point(344, 72);
+            label4.Location = new Point(327, 72);
             label4.Name = "label4";
             label4.Size = new Size(50, 20);
             label4.TabIndex = 12;
@@ -263,9 +272,10 @@
             // 
             // projector
             // 
+            projector.Anchor = AnchorStyles.Top;
             projector.Cursor = Cursors.Hand;
             projector.Image = Properties.Resources.projector_off;
-            projector.Location = new Point(424, 112);
+            projector.Location = new Point(407, 112);
             projector.Name = "projector";
             projector.Size = new Size(110, 116);
             projector.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -275,11 +285,12 @@
             // 
             // panel6
             // 
+            panel6.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             panel6.Controls.Add(backRightSound);
             panel6.Controls.Add(BRstate);
             panel6.Controls.Add(backRightSpeaker);
             panel6.Controls.Add(label9);
-            panel6.Location = new Point(763, 775);
+            panel6.Location = new Point(730, 615);
             panel6.Name = "panel6";
             panel6.Size = new Size(194, 231);
             panel6.TabIndex = 7;
@@ -329,11 +340,12 @@
             // 
             // panel5
             // 
+            panel5.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             panel5.Controls.Add(backLeftSound);
             panel5.Controls.Add(BLstate);
             panel5.Controls.Add(backLeftSpeaker);
             panel5.Controls.Add(label7);
-            panel5.Location = new Point(10, 775);
+            panel5.Location = new Point(10, 615);
             panel5.Name = "panel5";
             panel5.Size = new Size(194, 231);
             panel5.TabIndex = 7;
@@ -383,11 +395,12 @@
             // 
             // panel4
             // 
+            panel4.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             panel4.Controls.Add(frontRightSound);
             panel4.Controls.Add(FRstate);
             panel4.Controls.Add(frontRightSpeaker);
             panel4.Controls.Add(label5);
-            panel4.Location = new Point(747, 88);
+            panel4.Location = new Point(714, 88);
             panel4.Name = "panel4";
             panel4.Size = new Size(194, 231);
             panel4.TabIndex = 6;
@@ -502,13 +515,14 @@
             // 
             // projectionPanel
             // 
+            projectionPanel.Anchor = AnchorStyles.Top;
             projectionPanel.Controls.Add(marquee);
             projectionPanel.Controls.Add(moviePoster);
             projectionPanel.Controls.Add(movieSelection);
             projectionPanel.Controls.Add(label10);
             projectionPanel.Controls.Add(playButton);
             projectionPanel.Controls.Add(projection);
-            projectionPanel.Location = new Point(307, 248);
+            projectionPanel.Location = new Point(290, 248);
             projectionPanel.Name = "projectionPanel";
             projectionPanel.Size = new Size(567, 312);
             projectionPanel.TabIndex = 11;
@@ -580,8 +594,9 @@
             // 
             // laptop
             // 
+            laptop.Anchor = AnchorStyles.Bottom;
             laptop.Image = Properties.Resources.laptop_off;
-            laptop.Location = new Point(393, 747);
+            laptop.Location = new Point(381, 675);
             laptop.Name = "laptop";
             laptop.Size = new Size(176, 163);
             laptop.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -607,17 +622,19 @@
             panel2.Controls.Add(pictureBox1);
             panel2.Controls.Add(label2);
             panel2.Dock = DockStyle.Fill;
-            panel2.Location = new Point(971, 4);
+            panel2.Location = new Point(938, 4);
             panel2.Margin = new Padding(3, 4, 3, 4);
             panel2.Name = "panel2";
-            panel2.Size = new Size(260, 1033);
+            panel2.Size = new Size(250, 873);
             panel2.TabIndex = 1;
+            panel2.Paint += panel2_Paint;
             // 
             // label18
             // 
+            label18.Anchor = AnchorStyles.Top;
             label18.AutoSize = true;
             label18.ForeColor = Color.White;
-            label18.Location = new Point(168, 764);
+            label18.Location = new Point(149, 746);
             label18.Name = "label18";
             label18.Size = new Size(70, 20);
             label18.TabIndex = 15;
@@ -625,9 +642,10 @@
             // 
             // label17
             // 
+            label17.Anchor = AnchorStyles.Top;
             label17.AutoSize = true;
             label17.ForeColor = Color.White;
-            label17.Location = new Point(22, 764);
+            label17.Location = new Point(3, 746);
             label17.Name = "label17";
             label17.Size = new Size(64, 20);
             label17.TabIndex = 14;
@@ -635,9 +653,10 @@
             // 
             // floor_lights
             // 
+            floor_lights.Anchor = AnchorStyles.Top;
             floor_lights.Cursor = Cursors.Hand;
             floor_lights.Image = Properties.Resources.floor_lights_on;
-            floor_lights.Location = new Point(174, 703);
+            floor_lights.Location = new Point(155, 685);
             floor_lights.Name = "floor_lights";
             floor_lights.Size = new Size(55, 57);
             floor_lights.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -647,9 +666,10 @@
             // 
             // ceiling_lights
             // 
+            ceiling_lights.Anchor = AnchorStyles.Top;
             ceiling_lights.Cursor = Cursors.Hand;
             ceiling_lights.Image = Properties.Resources.ceiling_lights_on;
-            ceiling_lights.Location = new Point(27, 703);
+            ceiling_lights.Location = new Point(8, 685);
             ceiling_lights.Name = "ceiling_lights";
             ceiling_lights.Size = new Size(55, 57);
             ceiling_lights.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -659,10 +679,11 @@
             // 
             // label16
             // 
+            label16.Anchor = AnchorStyles.Top;
             label16.AutoSize = true;
             label16.Font = new Font("Segoe UI Semibold", 11.8956518F, FontStyle.Bold, GraphicsUnit.Point, 161);
             label16.ForeColor = Color.White;
-            label16.Location = new Point(50, 608);
+            label16.Location = new Point(66, 608);
             label16.Name = "label16";
             label16.Size = new Size(115, 28);
             label16.TabIndex = 11;
@@ -670,10 +691,11 @@
             // 
             // temp
             // 
+            temp.Anchor = AnchorStyles.Top;
             temp.AutoSize = true;
             temp.Font = new Font("Segoe UI Semibold", 20.0347824F, FontStyle.Bold, GraphicsUnit.Point, 161);
             temp.ForeColor = Color.White;
-            temp.Location = new Point(158, 307);
+            temp.Location = new Point(153, 307);
             temp.Name = "temp";
             temp.Size = new Size(52, 46);
             temp.TabIndex = 10;
@@ -681,8 +703,9 @@
             // 
             // pictureBox4
             // 
+            pictureBox4.Anchor = AnchorStyles.Top;
             pictureBox4.Image = Properties.Resources.cold;
-            pictureBox4.Location = new Point(22, 397);
+            pictureBox4.Location = new Point(17, 397);
             pictureBox4.Name = "pictureBox4";
             pictureBox4.Size = new Size(59, 63);
             pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -691,8 +714,9 @@
             // 
             // pictureBox3
             // 
+            pictureBox3.Anchor = AnchorStyles.Top;
             pictureBox3.Image = Properties.Resources.hot;
-            pictureBox3.Location = new Point(22, 191);
+            pictureBox3.Location = new Point(17, 191);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(59, 63);
             pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -701,9 +725,10 @@
             // 
             // label15
             // 
+            label15.Anchor = AnchorStyles.Top;
             label15.AutoSize = true;
             label15.ForeColor = Color.White;
-            label15.Location = new Point(149, 439);
+            label15.Location = new Point(144, 439);
             label15.Name = "label15";
             label15.Size = new Size(37, 20);
             label15.TabIndex = 7;
@@ -711,9 +736,10 @@
             // 
             // label14
             // 
+            label14.Anchor = AnchorStyles.Top;
             label14.AutoSize = true;
             label14.ForeColor = Color.White;
-            label14.Location = new Point(150, 191);
+            label14.Location = new Point(145, 191);
             label14.Name = "label14";
             label14.Size = new Size(31, 20);
             label14.TabIndex = 6;
@@ -721,8 +747,9 @@
             // 
             // thermometer
             // 
+            thermometer.Anchor = AnchorStyles.Top;
             thermometer.BackColor = Color.Black;
-            thermometer.Location = new Point(89, 191);
+            thermometer.Location = new Point(84, 191);
             thermometer.Maximum = 45;
             thermometer.Minimum = -10;
             thermometer.Name = "thermometer";
@@ -733,10 +760,11 @@
             // 
             // label13
             // 
+            label13.Anchor = AnchorStyles.Top;
             label13.AutoSize = true;
             label13.Font = new Font("Segoe UI Semibold", 11.8956518F, FontStyle.Bold, GraphicsUnit.Point, 161);
             label13.ForeColor = Color.White;
-            label13.Location = new Point(50, 103);
+            label13.Location = new Point(45, 103);
             label13.Name = "label13";
             label13.Size = new Size(149, 28);
             label13.TabIndex = 4;
@@ -744,6 +772,7 @@
             // 
             // pictureBox2
             // 
+            pictureBox2.Anchor = AnchorStyles.Top;
             pictureBox2.Image = Properties.Resources.light;
             pictureBox2.Location = new Point(3, 595);
             pictureBox2.Name = "pictureBox2";
@@ -754,8 +783,9 @@
             // 
             // pictureBox1
             // 
+            pictureBox1.Anchor = AnchorStyles.Top;
             pictureBox1.Image = Properties.Resources.thermometer_5132913;
-            pictureBox1.Location = new Point(3, 88);
+            pictureBox1.Location = new Point(-2, 88);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(50, 52);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -764,10 +794,11 @@
             // 
             // label2
             // 
+            label2.Anchor = AnchorStyles.Top;
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI Semibold", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label2.ForeColor = Color.White;
-            label2.Location = new Point(22, 8);
+            label2.Location = new Point(3, 7);
             label2.Name = "label2";
             label2.Size = new Size(224, 54);
             label2.TabIndex = 1;
@@ -779,7 +810,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaptionText;
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(1234, 1041);
+            ClientSize = new Size(1191, 881);
             Controls.Add(tableLayoutPanel1);
             FormBorderStyle = FormBorderStyle.None;
             Margin = new Padding(3, 4, 3, 4);

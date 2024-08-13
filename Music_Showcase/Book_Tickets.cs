@@ -16,12 +16,13 @@ namespace Music_Showcase
         private string date;
         private string seat;
         private double discount;
-
-        public Book_Tickets()
+        Container container;
+        public Book_Tickets(Container container)
         {
             InitializeComponent();
             date = dateTimePicker1.Text;
             seat = seatBox.Text;
+            this.container = container;
         }
 
         private void zoneSelection_SelectedIndexChanged(object sender, EventArgs e)
@@ -77,7 +78,8 @@ namespace Music_Showcase
             }
             else
             {
-                //Payment payment = new Payment(date, seat, discount);
+                Payment payment = new Payment(date, seat, discount);
+                container.LoadForm(payment);
                 //payment.Show();
                 //this.Hide();
                 

@@ -13,13 +13,13 @@ namespace Music_Showcase
 {
     public partial class Payment : Form
     {
-
+        
         public Payment(string date, string seat, double discount)
         {
             InitializeComponent();
             label7.Text = date;
             label8.Text = seat;
-
+            
             switch (discount)
             {
                 case 0.0:
