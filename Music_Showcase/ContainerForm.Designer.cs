@@ -90,16 +90,17 @@
             // pictureBox1
             // 
             pictureBox1.BackColor = Color.Transparent;
-            pictureBox1.Location = new Point(990, 10);
+            pictureBox1.Location = new Point(1131, 13);
+            pictureBox1.Margin = new Padding(3, 4, 3, 4);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(63, 52);
+            pictureBox1.Size = new Size(72, 69);
             pictureBox1.TabIndex = 6;
             pictureBox1.TabStop = false;
             // 
             // tableLayoutPanel1
             // 
             tableLayoutPanel1.ColumnCount = 2;
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 100F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 114F));
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
             tableLayoutPanel1.Controls.Add(tableLayoutPanel2, 0, 1);
             tableLayoutPanel1.Controls.Add(panel9, 0, 0);
@@ -107,12 +108,11 @@
             tableLayoutPanel1.Controls.Add(panel1, 1, 0);
             tableLayoutPanel1.Dock = DockStyle.Fill;
             tableLayoutPanel1.Location = new Point(0, 0);
-            tableLayoutPanel1.Margin = new Padding(3, 2, 3, 2);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             tableLayoutPanel1.RowCount = 2;
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 9.471366F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 90.52863F));
-            tableLayoutPanel1.Size = new Size(1064, 681);
+            tableLayoutPanel1.Size = new Size(1293, 932);
             tableLayoutPanel1.TabIndex = 9;
             // 
             // tableLayoutPanel2
@@ -128,19 +128,18 @@
             tableLayoutPanel2.Controls.Add(panel4, 0, 3);
             tableLayoutPanel2.Controls.Add(label8, 0, 0);
             tableLayoutPanel2.Dock = DockStyle.Fill;
-            tableLayoutPanel2.Location = new Point(3, 66);
-            tableLayoutPanel2.Margin = new Padding(3, 2, 3, 2);
+            tableLayoutPanel2.Location = new Point(3, 91);
             tableLayoutPanel2.Name = "tableLayoutPanel2";
             tableLayoutPanel2.RowCount = 8;
-            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Absolute, 63F));
+            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Absolute, 84F));
             tableLayoutPanel2.RowStyles.Add(new RowStyle());
             tableLayoutPanel2.RowStyles.Add(new RowStyle());
             tableLayoutPanel2.RowStyles.Add(new RowStyle());
             tableLayoutPanel2.RowStyles.Add(new RowStyle());
             tableLayoutPanel2.RowStyles.Add(new RowStyle());
             tableLayoutPanel2.RowStyles.Add(new RowStyle());
-            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Absolute, 10F));
-            tableLayoutPanel2.Size = new Size(94, 613);
+            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Absolute, 13F));
+            tableLayoutPanel2.Size = new Size(108, 838);
             tableLayoutPanel2.TabIndex = 19;
             // 
             // panel7
@@ -149,10 +148,9 @@
             panel7.Controls.Add(pictureBox6);
             panel7.Cursor = Cursors.Hand;
             panel7.Dock = DockStyle.Fill;
-            panel7.Location = new Point(3, 495);
-            panel7.Margin = new Padding(3, 2, 3, 2);
+            panel7.Location = new Point(3, 664);
             panel7.Name = "panel7";
-            panel7.Size = new Size(89, 80);
+            panel7.Size = new Size(102, 107);
             panel7.TabIndex = 18;
             // 
             // label5
@@ -160,9 +158,9 @@
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI", 10.2F);
             label5.ForeColor = SystemColors.ActiveCaption;
-            label5.Location = new Point(3, 58);
+            label5.Location = new Point(3, 77);
             label5.Name = "label5";
-            label5.Size = new Size(72, 19);
+            label5.Size = new Size(87, 23);
             label5.TabIndex = 0;
             label5.Text = "Εισητήρια";
             label5.Visible = false;
@@ -170,10 +168,9 @@
             // pictureBox6
             // 
             pictureBox6.Image = Properties.Resources.tag_6047453;
-            pictureBox6.Location = new Point(16, 13);
-            pictureBox6.Margin = new Padding(3, 2, 3, 2);
+            pictureBox6.Location = new Point(18, 17);
             pictureBox6.Name = "pictureBox6";
-            pictureBox6.Size = new Size(54, 43);
+            pictureBox6.Size = new Size(62, 57);
             pictureBox6.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox6.TabIndex = 0;
             pictureBox6.TabStop = false;
@@ -185,10 +182,9 @@
             panel3.Controls.Add(pictureBox2);
             panel3.Cursor = Cursors.Hand;
             panel3.Dock = DockStyle.Fill;
-            panel3.Location = new Point(3, 156);
-            panel3.Margin = new Padding(3, 2, 3, 2);
+            panel3.Location = new Point(3, 209);
             panel3.Name = "panel3";
-            panel3.Size = new Size(89, 78);
+            panel3.Size = new Size(102, 104);
             panel3.TabIndex = 14;
             // 
             // label1
@@ -196,9 +192,9 @@
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 10.2F);
             label1.ForeColor = SystemColors.ActiveCaption;
-            label1.Location = new Point(16, 58);
+            label1.Location = new Point(18, 77);
             label1.Name = "label1";
-            label1.Size = new Size(52, 19);
+            label1.Size = new Size(62, 23);
             label1.TabIndex = 0;
             label1.Text = "Αρχείο";
             label1.Visible = false;
@@ -206,10 +202,9 @@
             // pictureBox2
             // 
             pictureBox2.Image = Properties.Resources.video_9327754;
-            pictureBox2.Location = new Point(16, 9);
-            pictureBox2.Margin = new Padding(3, 2, 3, 2);
+            pictureBox2.Location = new Point(18, 12);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(57, 46);
+            pictureBox2.Size = new Size(65, 61);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.TabIndex = 0;
             pictureBox2.TabStop = false;
@@ -220,10 +215,9 @@
             panel6.Controls.Add(pictureBox5);
             panel6.Cursor = Cursors.Hand;
             panel6.Dock = DockStyle.Fill;
-            panel6.Location = new Point(3, 405);
-            panel6.Margin = new Padding(3, 2, 3, 2);
+            panel6.Location = new Point(3, 543);
             panel6.Name = "panel6";
-            panel6.Size = new Size(89, 86);
+            panel6.Size = new Size(102, 115);
             panel6.TabIndex = 17;
             // 
             // label4
@@ -231,9 +225,9 @@
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI", 10.2F);
             label4.ForeColor = SystemColors.ActiveCaption;
-            label4.Location = new Point(10, 59);
+            label4.Location = new Point(11, 79);
             label4.Name = "label4";
-            label4.Size = new Size(65, 19);
+            label4.Size = new Size(78, 23);
             label4.TabIndex = 0;
             label4.Text = "Συσκευές";
             label4.Visible = false;
@@ -241,10 +235,9 @@
             // pictureBox5
             // 
             pictureBox5.Image = Properties.Resources.electronic_device_5772459;
-            pictureBox5.Location = new Point(16, 10);
-            pictureBox5.Margin = new Padding(3, 2, 3, 2);
+            pictureBox5.Location = new Point(18, 13);
             pictureBox5.Name = "pictureBox5";
-            pictureBox5.Size = new Size(57, 46);
+            pictureBox5.Size = new Size(65, 61);
             pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox5.TabIndex = 0;
             pictureBox5.TabStop = false;
@@ -254,20 +247,18 @@
             panel12.Controls.Add(pictureBox10);
             panel12.Controls.Add(label7);
             panel12.Dock = DockStyle.Fill;
-            panel12.Location = new Point(3, 65);
-            panel12.Margin = new Padding(3, 2, 3, 2);
+            panel12.Location = new Point(3, 87);
             panel12.Name = "panel12";
-            panel12.Size = new Size(89, 87);
+            panel12.Size = new Size(102, 116);
             panel12.TabIndex = 15;
             // 
             // pictureBox10
             // 
             pictureBox10.Cursor = Cursors.Hand;
             pictureBox10.Image = Properties.Resources.projector_5723428;
-            pictureBox10.Location = new Point(16, 2);
-            pictureBox10.Margin = new Padding(3, 2, 3, 2);
+            pictureBox10.Location = new Point(18, 3);
             pictureBox10.Name = "pictureBox10";
-            pictureBox10.Size = new Size(57, 46);
+            pictureBox10.Size = new Size(65, 61);
             pictureBox10.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox10.TabIndex = 0;
             pictureBox10.TabStop = false;
@@ -276,9 +267,9 @@
             // 
             label7.Font = new Font("Segoe UI", 10.2F);
             label7.ForeColor = SystemColors.ActiveCaption;
-            label7.Location = new Point(6, 51);
+            label7.Location = new Point(7, 68);
             label7.Name = "label7";
-            label7.Size = new Size(80, 35);
+            label7.Size = new Size(91, 47);
             label7.TabIndex = 0;
             label7.Text = "Διαχείριση Έκθεσης";
             label7.TextAlign = ContentAlignment.MiddleCenter;
@@ -290,10 +281,9 @@
             panel5.Controls.Add(pictureBox4);
             panel5.Cursor = Cursors.Hand;
             panel5.Dock = DockStyle.Fill;
-            panel5.Location = new Point(3, 322);
-            panel5.Margin = new Padding(3, 2, 3, 2);
+            panel5.Location = new Point(3, 432);
             panel5.Name = "panel5";
-            panel5.Size = new Size(89, 79);
+            panel5.Size = new Size(102, 105);
             panel5.TabIndex = 16;
             // 
             // label3
@@ -301,9 +291,9 @@
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 10.2F);
             label3.ForeColor = SystemColors.ActiveCaption;
-            label3.Location = new Point(11, 58);
+            label3.Location = new Point(13, 77);
             label3.Name = "label3";
-            label3.Size = new Size(65, 19);
+            label3.Size = new Size(77, 23);
             label3.TabIndex = 0;
             label3.Text = "Γίνετε DJ";
             label3.Visible = false;
@@ -311,10 +301,9 @@
             // pictureBox4
             // 
             pictureBox4.Image = Properties.Resources.speaker_5204532;
-            pictureBox4.Location = new Point(16, 9);
-            pictureBox4.Margin = new Padding(3, 2, 3, 2);
+            pictureBox4.Location = new Point(18, 12);
             pictureBox4.Name = "pictureBox4";
-            pictureBox4.Size = new Size(57, 46);
+            pictureBox4.Size = new Size(65, 61);
             pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox4.TabIndex = 0;
             pictureBox4.TabStop = false;
@@ -325,10 +314,9 @@
             panel4.Controls.Add(pictureBox3);
             panel4.Cursor = Cursors.Hand;
             panel4.Dock = DockStyle.Fill;
-            panel4.Location = new Point(3, 238);
-            panel4.Margin = new Padding(3, 2, 3, 2);
+            panel4.Location = new Point(3, 319);
             panel4.Name = "panel4";
-            panel4.Size = new Size(89, 80);
+            panel4.Size = new Size(102, 107);
             panel4.TabIndex = 15;
             // 
             // label2
@@ -336,9 +324,9 @@
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 10.2F);
             label2.ForeColor = SystemColors.ActiveCaption;
-            label2.Location = new Point(11, 58);
+            label2.Location = new Point(13, 77);
             label2.Name = "label2";
-            label2.Size = new Size(59, 19);
+            label2.Size = new Size(70, 23);
             label2.TabIndex = 0;
             label2.Text = "Φαγητό";
             label2.Visible = false;
@@ -346,10 +334,9 @@
             // pictureBox3
             // 
             pictureBox3.Image = Properties.Resources.fasting_7255651;
-            pictureBox3.Location = new Point(16, 9);
-            pictureBox3.Margin = new Padding(3, 2, 3, 2);
+            pictureBox3.Location = new Point(18, 12);
             pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(57, 46);
+            pictureBox3.Size = new Size(65, 61);
             pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox3.TabIndex = 0;
             pictureBox3.TabStop = false;
@@ -361,7 +348,7 @@
             label8.ForeColor = SystemColors.ActiveCaption;
             label8.Location = new Point(3, 0);
             label8.Name = "label8";
-            label8.Size = new Size(89, 63);
+            label8.Size = new Size(102, 84);
             label8.TabIndex = 20;
             label8.Text = "Αρχική Σελίδα";
             label8.TextAlign = ContentAlignment.MiddleCenter;
@@ -371,10 +358,9 @@
             // panel9
             // 
             panel9.Controls.Add(pictureBox8);
-            panel9.Location = new Point(3, 2);
-            panel9.Margin = new Padding(3, 2, 3, 2);
+            panel9.Location = new Point(3, 3);
             panel9.Name = "panel9";
-            panel9.Size = new Size(86, 57);
+            panel9.Size = new Size(98, 76);
             panel9.TabIndex = 3;
             // 
             // pictureBox8
@@ -382,10 +368,9 @@
             pictureBox8.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             pictureBox8.Cursor = Cursors.Hand;
             pictureBox8.Image = Properties.Resources.museum;
-            pictureBox8.Location = new Point(21, 7);
-            pictureBox8.Margin = new Padding(3, 2, 3, 2);
+            pictureBox8.Location = new Point(24, 9);
             pictureBox8.Name = "pictureBox8";
-            pictureBox8.Size = new Size(54, 44);
+            pictureBox8.Size = new Size(62, 59);
             pictureBox8.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox8.TabIndex = 2;
             pictureBox8.TabStop = false;
@@ -399,10 +384,9 @@
             panel2.BackgroundImageLayout = ImageLayout.Stretch;
             panel2.Controls.Add(panel11);
             panel2.Dock = DockStyle.Fill;
-            panel2.Location = new Point(103, 66);
-            panel2.Margin = new Padding(3, 2, 3, 2);
+            panel2.Location = new Point(117, 91);
             panel2.Name = "panel2";
-            panel2.Size = new Size(958, 613);
+            panel2.Size = new Size(1173, 838);
             panel2.TabIndex = 1;
             // 
             // panel11
@@ -410,9 +394,8 @@
             panel11.BackgroundImageLayout = ImageLayout.Stretch;
             panel11.Dock = DockStyle.Fill;
             panel11.Location = new Point(0, 0);
-            panel11.Margin = new Padding(3, 2, 3, 2);
             panel11.Name = "panel11";
-            panel11.Size = new Size(958, 613);
+            panel11.Size = new Size(1173, 838);
             panel11.TabIndex = 15;
             // 
             // panel1
@@ -420,10 +403,9 @@
             panel1.Controls.Add(panel10);
             panel1.Controls.Add(panel8);
             panel1.Dock = DockStyle.Fill;
-            panel1.Location = new Point(103, 2);
-            panel1.Margin = new Padding(3, 2, 3, 2);
+            panel1.Location = new Point(117, 3);
             panel1.Name = "panel1";
-            panel1.Size = new Size(958, 60);
+            panel1.Size = new Size(1173, 82);
             panel1.TabIndex = 20;
             // 
             // panel10
@@ -432,9 +414,8 @@
             panel10.Controls.Add(pictureBox11);
             panel10.Dock = DockStyle.Fill;
             panel10.Location = new Point(0, 0);
-            panel10.Margin = new Padding(3, 2, 3, 2);
             panel10.Name = "panel10";
-            panel10.Size = new Size(777, 60);
+            panel10.Size = new Size(966, 82);
             panel10.TabIndex = 3;
             // 
             // pictureBox11
@@ -442,9 +423,8 @@
             pictureBox11.Dock = DockStyle.Fill;
             pictureBox11.Image = Properties.Resources.ezgif_2_c3d3c219a8;
             pictureBox11.Location = new Point(0, 0);
-            pictureBox11.Margin = new Padding(3, 2, 3, 2);
             pictureBox11.Name = "pictureBox11";
-            pictureBox11.Size = new Size(777, 60);
+            pictureBox11.Size = new Size(966, 82);
             pictureBox11.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox11.TabIndex = 0;
             pictureBox11.TabStop = false;
@@ -456,10 +436,9 @@
             panel8.Controls.Add(pictureBox7);
             panel8.Cursor = Cursors.Hand;
             panel8.Dock = DockStyle.Right;
-            panel8.Location = new Point(777, 0);
-            panel8.Margin = new Padding(3, 2, 3, 2);
+            panel8.Location = new Point(966, 0);
             panel8.Name = "panel8";
-            panel8.Size = new Size(181, 60);
+            panel8.Size = new Size(207, 82);
             panel8.TabIndex = 2;
             // 
             // role_label
@@ -467,9 +446,9 @@
             role_label.AutoSize = true;
             role_label.Font = new Font("Segoe UI", 10.2F);
             role_label.ForeColor = SystemColors.WindowFrame;
-            role_label.Location = new Point(24, 34);
+            role_label.Location = new Point(27, 45);
             role_label.Name = "role_label";
-            role_label.Size = new Size(46, 19);
+            role_label.Size = new Size(56, 23);
             role_label.TabIndex = 3;
             role_label.Text = "Ρόλος";
             // 
@@ -478,9 +457,9 @@
             label6.AutoSize = true;
             label6.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label6.ForeColor = SystemColors.ActiveCaption;
-            label6.Location = new Point(24, 15);
+            label6.Location = new Point(27, 20);
             label6.Name = "label6";
-            label6.Size = new Size(68, 20);
+            label6.Size = new Size(81, 25);
             label6.TabIndex = 2;
             label6.Text = "Χρήστης";
             label6.Click += label6_Click;
@@ -491,10 +470,9 @@
             // 
             pictureBox7.Cursor = Cursors.Hand;
             pictureBox7.Image = Properties.Resources.user_8051049;
-            pictureBox7.Location = new Point(119, 16);
-            pictureBox7.Margin = new Padding(3, 2, 3, 2);
+            pictureBox7.Location = new Point(136, 21);
             pictureBox7.Name = "pictureBox7";
-            pictureBox7.Size = new Size(36, 28);
+            pictureBox7.Size = new Size(41, 37);
             pictureBox7.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox7.TabIndex = 1;
             pictureBox7.TabStop = false;
@@ -504,15 +482,16 @@
             // 
             // Container
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Black;
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(1064, 681);
+            ClientSize = new Size(1311, 979);
             Controls.Add(tableLayoutPanel1);
             Controls.Add(pictureBox1);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             Icon = (Icon)resources.GetObject("$this.Icon");
+            Margin = new Padding(3, 4, 3, 4);
             Name = "Container";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Game Sound Museum";

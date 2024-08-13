@@ -68,15 +68,15 @@
             label1.ForeColor = Color.White;
             label1.Location = new Point(12, 9);
             label1.Name = "label1";
-            label1.Size = new Size(392, 51);
+            label1.Size = new Size(411, 54);
             label1.TabIndex = 0;
             label1.Text = "ΔΙΑΧΕΙΡΙΣΗ ΕΚΘΕΣΗΣ";
             // 
             // albumCover
             // 
-            albumCover.Location = new Point(668, 74);
+            albumCover.Location = new Point(668, 78);
             albumCover.Name = "albumCover";
-            albumCover.Size = new Size(350, 350);
+            albumCover.Size = new Size(350, 368);
             albumCover.SizeMode = PictureBoxSizeMode.StretchImage;
             albumCover.TabIndex = 1;
             albumCover.TabStop = false;
@@ -87,9 +87,9 @@
             label2.BackColor = Color.Transparent;
             label2.Font = new Font("Segoe UI", 11.8956518F);
             label2.ForeColor = Color.White;
-            label2.Location = new Point(38, 87);
+            label2.Location = new Point(38, 92);
             label2.Name = "label2";
-            label2.Size = new Size(172, 25);
+            label2.Size = new Size(180, 28);
             label2.TabIndex = 2;
             label2.Text = "Τίτλος τραγουδιού";
             label2.Click += label2_Click;
@@ -97,18 +97,18 @@
             // textBox1
             // 
             textBox1.Font = new Font("Segoe UI", 10.0173912F);
-            textBox1.Location = new Point(38, 115);
+            textBox1.Location = new Point(38, 121);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(225, 29);
+            textBox1.Size = new Size(225, 30);
             textBox1.TabIndex = 3;
             textBox1.TextChanged += textBox1_TextChanged;
             // 
             // textBox2
             // 
             textBox2.Font = new Font("Segoe UI", 10.0173912F);
-            textBox2.Location = new Point(38, 192);
+            textBox2.Location = new Point(38, 202);
             textBox2.Name = "textBox2";
-            textBox2.Size = new Size(225, 29);
+            textBox2.Size = new Size(225, 30);
             textBox2.TabIndex = 5;
             textBox2.TextChanged += textBox2_TextChanged;
             // 
@@ -118,9 +118,9 @@
             label3.BackColor = Color.Transparent;
             label3.Font = new Font("Segoe UI", 11.8956518F);
             label3.ForeColor = Color.White;
-            label3.Location = new Point(38, 164);
+            label3.Location = new Point(38, 173);
             label3.Name = "label3";
-            label3.Size = new Size(115, 25);
+            label3.Size = new Size(123, 28);
             label3.TabIndex = 4;
             label3.Text = "Καλλιτέχνης";
             // 
@@ -130,18 +130,18 @@
             label4.BackColor = Color.Transparent;
             label4.Font = new Font("Segoe UI", 11.8956518F);
             label4.ForeColor = Color.White;
-            label4.Location = new Point(38, 331);
+            label4.Location = new Point(38, 348);
             label4.Name = "label4";
-            label4.Size = new Size(58, 25);
+            label4.Size = new Size(60, 28);
             label4.TabIndex = 6;
             label4.Text = "Είδος";
             // 
             // textBox4
             // 
             textBox4.Font = new Font("Segoe UI", 10.0173912F);
-            textBox4.Location = new Point(38, 273);
+            textBox4.Location = new Point(38, 287);
             textBox4.Name = "textBox4";
-            textBox4.Size = new Size(225, 29);
+            textBox4.Size = new Size(225, 30);
             textBox4.TabIndex = 9;
             textBox4.TextChanged += textBox4_TextChanged;
             // 
@@ -151,18 +151,18 @@
             label5.BackColor = Color.Transparent;
             label5.Font = new Font("Segoe UI", 11.8956518F);
             label5.ForeColor = Color.White;
-            label5.Location = new Point(38, 245);
+            label5.Location = new Point(38, 258);
             label5.Name = "label5";
-            label5.Size = new Size(89, 25);
+            label5.Size = new Size(95, 28);
             label5.TabIndex = 8;
             label5.Text = "Άλμπουμ";
             // 
             // textBox5
             // 
             textBox5.Font = new Font("Segoe UI", 10.0173912F, FontStyle.Regular, GraphicsUnit.Point, 161);
-            textBox5.Location = new Point(668, 464);
+            textBox5.Location = new Point(668, 488);
             textBox5.Name = "textBox5";
-            textBox5.Size = new Size(350, 29);
+            textBox5.Size = new Size(350, 30);
             textBox5.TabIndex = 10;
             textBox5.TextChanged += textBox5_TextChanged;
             // 
@@ -172,9 +172,9 @@
             label6.BackColor = Color.Transparent;
             label6.Font = new Font("Segoe UI", 11.8956518F, FontStyle.Regular, GraphicsUnit.Point, 161);
             label6.ForeColor = Color.White;
-            label6.Location = new Point(668, 436);
+            label6.Location = new Point(668, 459);
             label6.Name = "label6";
-            label6.Size = new Size(98, 25);
+            label6.Size = new Size(104, 28);
             label6.TabIndex = 11;
             label6.Text = "Εξώφυλλο";
             label6.Click += label6_Click;
@@ -186,9 +186,9 @@
             button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("Segoe UI", 13.7739134F, FontStyle.Bold, GraphicsUnit.Point, 161);
             button1.ForeColor = Color.FromArgb(72, 46, 109);
-            button1.Location = new Point(38, 556);
+            button1.Location = new Point(38, 585);
             button1.Name = "button1";
-            button1.Size = new Size(225, 59);
+            button1.Size = new Size(225, 62);
             button1.TabIndex = 12;
             button1.Text = "ΠΡΟΣΘΗΚΗ";
             button1.UseVisualStyleBackColor = true;
@@ -199,18 +199,18 @@
             comboBox1.Font = new Font("Segoe UI", 10.0173912F);
             comboBox1.FormattingEnabled = true;
             comboBox1.Items.AddRange(new object[] { "Ποπ", "Ροκ", "Τζαζ", "Κλασική", "Μέταλ" });
-            comboBox1.Location = new Point(38, 359);
+            comboBox1.Location = new Point(38, 378);
             comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(225, 29);
+            comboBox1.Size = new Size(225, 31);
             comboBox1.TabIndex = 13;
             comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
             // 
             // textBox3
             // 
             textBox3.Font = new Font("Segoe UI", 10.0173912F);
-            textBox3.Location = new Point(38, 446);
+            textBox3.Location = new Point(38, 469);
             textBox3.Name = "textBox3";
-            textBox3.Size = new Size(225, 29);
+            textBox3.Size = new Size(225, 30);
             textBox3.TabIndex = 15;
             textBox3.TextChanged += textBox3_TextChanged;
             // 
@@ -220,9 +220,9 @@
             label7.BackColor = Color.Transparent;
             label7.Font = new Font("Segoe UI", 11.8956518F);
             label7.ForeColor = Color.White;
-            label7.Location = new Point(38, 418);
+            label7.Location = new Point(38, 440);
             label7.Name = "label7";
-            label7.Size = new Size(136, 25);
+            label7.Size = new Size(144, 28);
             label7.TabIndex = 14;
             label7.Text = "Βιντεοπαιχνίδι";
             // 
@@ -230,10 +230,10 @@
             // 
             titleCheck.BackColor = Color.Transparent;
             titleCheck.Image = Properties.Resources.check_1053156;
-            titleCheck.Location = new Point(286, 106);
+            titleCheck.Location = new Point(286, 112);
             titleCheck.Margin = new Padding(3, 4, 3, 4);
             titleCheck.Name = "titleCheck";
-            titleCheck.Size = new Size(35, 35);
+            titleCheck.Size = new Size(35, 37);
             titleCheck.SizeMode = PictureBoxSizeMode.StretchImage;
             titleCheck.TabIndex = 16;
             titleCheck.TabStop = false;
@@ -243,10 +243,10 @@
             // 
             videogameCheck.BackColor = Color.Transparent;
             videogameCheck.Image = Properties.Resources.check_1053156;
-            videogameCheck.Location = new Point(286, 440);
+            videogameCheck.Location = new Point(286, 463);
             videogameCheck.Margin = new Padding(3, 4, 3, 4);
             videogameCheck.Name = "videogameCheck";
-            videogameCheck.Size = new Size(35, 35);
+            videogameCheck.Size = new Size(35, 37);
             videogameCheck.SizeMode = PictureBoxSizeMode.StretchImage;
             videogameCheck.TabIndex = 17;
             videogameCheck.TabStop = false;
@@ -256,10 +256,10 @@
             // 
             genreCheck.BackColor = Color.Transparent;
             genreCheck.Image = Properties.Resources.check_1053156;
-            genreCheck.Location = new Point(286, 353);
+            genreCheck.Location = new Point(286, 372);
             genreCheck.Margin = new Padding(3, 4, 3, 4);
             genreCheck.Name = "genreCheck";
-            genreCheck.Size = new Size(35, 35);
+            genreCheck.Size = new Size(35, 37);
             genreCheck.SizeMode = PictureBoxSizeMode.StretchImage;
             genreCheck.TabIndex = 18;
             genreCheck.TabStop = false;
@@ -269,10 +269,10 @@
             // 
             albumCheck.BackColor = Color.Transparent;
             albumCheck.Image = Properties.Resources.check_1053156;
-            albumCheck.Location = new Point(286, 267);
+            albumCheck.Location = new Point(286, 281);
             albumCheck.Margin = new Padding(3, 4, 3, 4);
             albumCheck.Name = "albumCheck";
-            albumCheck.Size = new Size(35, 35);
+            albumCheck.Size = new Size(35, 37);
             albumCheck.SizeMode = PictureBoxSizeMode.StretchImage;
             albumCheck.TabIndex = 19;
             albumCheck.TabStop = false;
@@ -282,10 +282,10 @@
             // 
             artistCheck.BackColor = Color.Transparent;
             artistCheck.Image = Properties.Resources.check_1053156;
-            artistCheck.Location = new Point(286, 186);
+            artistCheck.Location = new Point(286, 196);
             artistCheck.Margin = new Padding(3, 4, 3, 4);
             artistCheck.Name = "artistCheck";
-            artistCheck.Size = new Size(35, 35);
+            artistCheck.Size = new Size(35, 37);
             artistCheck.SizeMode = PictureBoxSizeMode.StretchImage;
             artistCheck.TabIndex = 20;
             artistCheck.TabStop = false;
@@ -297,18 +297,18 @@
             label8.BackColor = Color.Transparent;
             label8.Font = new Font("Segoe UI", 11.8956518F);
             label8.ForeColor = Color.White;
-            label8.Location = new Point(366, 87);
+            label8.Location = new Point(366, 92);
             label8.Name = "label8";
-            label8.Size = new Size(107, 25);
+            label8.Size = new Size(112, 28);
             label8.TabIndex = 21;
             label8.Text = "Περιγραφή";
             // 
             // richTextBox1
             // 
             richTextBox1.Font = new Font("Segoe UI", 10.0173912F, FontStyle.Regular, GraphicsUnit.Point, 161);
-            richTextBox1.Location = new Point(366, 117);
+            richTextBox1.Location = new Point(366, 123);
             richTextBox1.Name = "richTextBox1";
-            richTextBox1.Size = new Size(274, 104);
+            richTextBox1.Size = new Size(274, 109);
             richTextBox1.TabIndex = 22;
             richTextBox1.Text = "";
             richTextBox1.TextChanged += richTextBox1_TextChanged;
@@ -317,10 +317,10 @@
             // 
             descCheck.BackColor = Color.Transparent;
             descCheck.Image = Properties.Resources.check_1053156;
-            descCheck.Location = new Point(479, 77);
+            descCheck.Location = new Point(479, 81);
             descCheck.Margin = new Padding(3, 4, 3, 4);
             descCheck.Name = "descCheck";
-            descCheck.Size = new Size(35, 35);
+            descCheck.Size = new Size(35, 37);
             descCheck.SizeMode = PictureBoxSizeMode.StretchImage;
             descCheck.TabIndex = 23;
             descCheck.TabStop = false;
@@ -328,12 +328,11 @@
             // 
             // Exhibition
             // 
-            AutoScaleDimensions = new SizeF(8F, 19F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Black;
-            BackgroundImage = Properties.Resources.half_res_bg;
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(1060, 689);
+            ClientSize = new Size(1060, 725);
             Controls.Add(descCheck);
             Controls.Add(richTextBox1);
             Controls.Add(label8);

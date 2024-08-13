@@ -93,6 +93,26 @@ namespace Music_Showcase.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _6b2f1c5dba92f48a53020755a9887e06 {
+            get {
+                object obj = ResourceManager.GetObject("_6b2f1c5dba92f48a53020755a9887e06", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _73hw {
+            get {
+                object obj = ResourceManager.GetObject("_73hw", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ac_desat {
             get {
                 object obj = ResourceManager.GetObject("ac_desat", resourceCulture);
@@ -293,6 +313,16 @@ namespace Music_Showcase.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ezgif_2_5ed99d9406 {
+            get {
+                object obj = ResourceManager.GetObject("ezgif_2_5ed99d9406", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ezgif_2_c3d3c219a8 {
             get {
                 object obj = ResourceManager.GetObject("ezgif-2-c3d3c219a8", resourceCulture);
@@ -483,6 +513,36 @@ namespace Music_Showcase.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap login_984142 {
+            get {
+                object obj = ResourceManager.GetObject("login_984142", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap magnifying_glass_12875450 {
+            get {
+                object obj = ResourceManager.GetObject("magnifying_glass_12875450", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap magnifying_glass_12875481 {
+            get {
+                object obj = ResourceManager.GetObject("magnifying_glass_12875481", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap mic_off {
             get {
                 object obj = ResourceManager.GetObject("mic_off", resourceCulture);
@@ -496,6 +556,26 @@ namespace Music_Showcase.Properties {
         internal static System.Drawing.Bitmap mic_on {
             get {
                 object obj = ResourceManager.GetObject("mic_on", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap microphone_9126928 {
+            get {
+                object obj = ResourceManager.GetObject("microphone_9126928", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap microphone_9126943 {
+            get {
+                object obj = ResourceManager.GetObject("microphone_9126943", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -566,6 +646,26 @@ namespace Music_Showcase.Properties {
         internal static System.Drawing.Bitmap play {
             get {
                 object obj = ResourceManager.GetObject("play", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap play_button_9545687 {
+            get {
+                object obj = ResourceManager.GetObject("play_button_9545687", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap play_button_9546366 {
+            get {
+                object obj = ResourceManager.GetObject("play_button_9546366", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -668,6 +768,16 @@ namespace Music_Showcase.Properties {
         internal static System.Drawing.Bitmap projector_on {
             get {
                 object obj = ResourceManager.GetObject("projector_on", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap QJ58 {
+            get {
+                object obj = ResourceManager.GetObject("QJ58", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

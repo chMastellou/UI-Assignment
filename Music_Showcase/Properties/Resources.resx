@@ -361,4 +361,37 @@
   <data name="bear_desat" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bear_desat.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="ezgif_2_5ed99d9406" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ezgif-2-5ed99d9406.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="login_984142" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\login_984142.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="magnifying_glass_12875450" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\magnifying-glass_12875450.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="magnifying_glass_12875481" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\magnifying-glass_12875481.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="microphone_9126928" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\microphone_9126928.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="microphone_9126943" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\microphone_9126943.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="play_button_9545687" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\play-button_9545687.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="play_button_9546366" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\play-button_9546366.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="QJ58" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QJ58.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_6b2f1c5dba92f48a53020755a9887e06" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6b2f1c5dba92f48a53020755a9887e06.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_73hw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\73hw.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

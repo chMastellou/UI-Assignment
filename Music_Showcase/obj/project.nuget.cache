@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "J54xRw61lI0=",
+  "dgSpecHash": "tFAbf4O6NWo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\mtimo\\Source\\Repos\\UI-Assignment\\Music_Showcase\\Music_Showcase.csproj",
+  "projectFilePath": "C:\\Users\\chmas\\OneDrive\\Υπολογιστής\\Αλληλεπίδραση-Ανθρώπου-Υπολογιστή\\UI-Assignment-v2\\Music_Showcase\\Music_Showcase.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\mtimo\\.nuget\\packages\\microsoft.web.webview2\\1.0.2592.51\\microsoft.web.webview2.1.0.2592.51.nupkg.sha512"
+    "C:\\Users\\chmas\\.nuget\\packages\\microsoft.web.webview2\\1.0.2592.51\\microsoft.web.webview2.1.0.2592.51.nupkg.sha512"
   ],
   "logs": []
 }
