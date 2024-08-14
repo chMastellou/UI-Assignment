@@ -118,6 +118,8 @@
             pictureBox5 = new PictureBox();
             pictureBox4 = new PictureBox();
             panel12 = new Panel();
+            comboBox2 = new ComboBox();
+            label63 = new Label();
             label58 = new Label();
             label55 = new Label();
             label56 = new Label();
@@ -184,8 +186,8 @@
             // tableLayoutPanel1
             // 
             tableLayoutPanel1.ColumnCount = 2;
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 26.2804375F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 73.71957F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 28.7153645F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 71.28464F));
             tableLayoutPanel1.Controls.Add(panel16, 1, 1);
             tableLayoutPanel1.Controls.Add(tableLayoutPanel2, 1, 0);
             tableLayoutPanel1.Controls.Add(panel12, 0, 0);
@@ -204,9 +206,9 @@
             panel16.Controls.Add(tableLayoutPanel4);
             panel16.Controls.Add(flowLayoutPanel1);
             panel16.Dock = DockStyle.Fill;
-            panel16.Location = new Point(316, 404);
+            panel16.Location = new Point(345, 404);
             panel16.Name = "panel16";
-            panel16.Size = new Size(872, 474);
+            panel16.Size = new Size(843, 474);
             panel16.TabIndex = 45;
             // 
             // tableLayoutPanel4
@@ -221,7 +223,7 @@
             tableLayoutPanel4.Name = "tableLayoutPanel4";
             tableLayoutPanel4.RowCount = 1;
             tableLayoutPanel4.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel4.Size = new Size(872, 59);
+            tableLayoutPanel4.Size = new Size(843, 59);
             tableLayoutPanel4.TabIndex = 16;
             // 
             // panel17
@@ -230,9 +232,9 @@
             panel17.Controls.Add(comboBox1);
             panel17.Controls.Add(label46);
             panel17.Dock = DockStyle.Fill;
-            panel17.Location = new Point(511, 3);
+            panel17.Location = new Point(494, 3);
             panel17.Name = "panel17";
-            panel17.Size = new Size(358, 53);
+            panel17.Size = new Size(346, 53);
             panel17.TabIndex = 15;
             // 
             // comboBox1
@@ -241,7 +243,7 @@
             comboBox1.Font = new Font("Segoe UI Semibold", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             comboBox1.FormattingEnabled = true;
             comboBox1.Items.AddRange(new object[] { "Classic", "Industrial Metal", "Death Metal", "Trash Metal", "Electronic" });
-            comboBox1.Location = new Point(171, 9);
+            comboBox1.Location = new Point(165, 9);
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(184, 33);
             comboBox1.TabIndex = 13;
@@ -254,7 +256,7 @@
             label46.BackColor = Color.Transparent;
             label46.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label46.ForeColor = SystemColors.ButtonFace;
-            label46.Location = new Point(13, 9);
+            label46.Location = new Point(7, 9);
             label46.Name = "label46";
             label46.Size = new Size(164, 28);
             label46.TabIndex = 12;
@@ -269,7 +271,7 @@
             panel15.Dock = DockStyle.Fill;
             panel15.Location = new Point(3, 3);
             panel15.Name = "panel15";
-            panel15.Size = new Size(502, 53);
+            panel15.Size = new Size(485, 53);
             panel15.TabIndex = 14;
             // 
             // pictureBox2
@@ -278,7 +280,7 @@
             pictureBox2.BackgroundImageLayout = ImageLayout.Stretch;
             pictureBox2.Cursor = Cursors.Hand;
             pictureBox2.Image = Properties.Resources.magnifying_glass_12875481;
-            pictureBox2.Location = new Point(458, 8);
+            pictureBox2.Location = new Point(449, 8);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(37, 37);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -292,7 +294,7 @@
             // 
             textBox4.Anchor = AnchorStyles.Top;
             textBox4.Font = new Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox4.Location = new Point(248, 10);
+            textBox4.Location = new Point(239, 10);
             textBox4.Name = "textBox4";
             textBox4.Size = new Size(204, 30);
             textBox4.TabIndex = 42;
@@ -305,7 +307,7 @@
             label54.BackColor = Color.Transparent;
             label54.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label54.ForeColor = SystemColors.ButtonFace;
-            label54.Location = new Point(6, 10);
+            label54.Location = new Point(-3, 10);
             label54.Name = "label54";
             label54.Size = new Size(236, 28);
             label54.TabIndex = 13;
@@ -330,7 +332,7 @@
             flowLayoutPanel1.FlowDirection = FlowDirection.TopDown;
             flowLayoutPanel1.Location = new Point(0, 61);
             flowLayoutPanel1.Name = "flowLayoutPanel1";
-            flowLayoutPanel1.Size = new Size(872, 413);
+            flowLayoutPanel1.Size = new Size(843, 413);
             flowLayoutPanel1.TabIndex = 5;
             flowLayoutPanel1.WrapContents = false;
             flowLayoutPanel1.SizeChanged += flowLayoutPanel1_SizeChanged_1;
@@ -943,11 +945,11 @@
             tableLayoutPanel2.Controls.Add(panel1, 0, 0);
             tableLayoutPanel2.Controls.Add(panel11, 1, 0);
             tableLayoutPanel2.Dock = DockStyle.Fill;
-            tableLayoutPanel2.Location = new Point(316, 3);
+            tableLayoutPanel2.Location = new Point(345, 3);
             tableLayoutPanel2.Name = "tableLayoutPanel2";
             tableLayoutPanel2.RowCount = 1;
             tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tableLayoutPanel2.Size = new Size(872, 395);
+            tableLayoutPanel2.Size = new Size(843, 395);
             tableLayoutPanel2.TabIndex = 1;
             // 
             // panel1
@@ -960,7 +962,7 @@
             panel1.Dock = DockStyle.Fill;
             panel1.Location = new Point(3, 3);
             panel1.Name = "panel1";
-            panel1.Size = new Size(548, 389);
+            panel1.Size = new Size(529, 389);
             panel1.TabIndex = 0;
             // 
             // label52
@@ -969,7 +971,7 @@
             label52.AutoSize = true;
             label52.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label52.ForeColor = SystemColors.ButtonFace;
-            label52.Location = new Point(364, 11);
+            label52.Location = new Point(354, 11);
             label52.Name = "label52";
             label52.Size = new Size(86, 31);
             label52.TabIndex = 4;
@@ -1000,7 +1002,7 @@
             tableLayoutPanel3.Controls.Add(button7, 2, 1);
             tableLayoutPanel3.Controls.Add(button12, 3, 2);
             tableLayoutPanel3.Controls.Add(button1, 0, 0);
-            tableLayoutPanel3.Location = new Point(288, 62);
+            tableLayoutPanel3.Location = new Point(278, 62);
             tableLayoutPanel3.Name = "tableLayoutPanel3";
             tableLayoutPanel3.RowCount = 4;
             tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 25F));
@@ -1212,9 +1214,9 @@
             panel11.Controls.Add(pictureBox5);
             panel11.Controls.Add(pictureBox4);
             panel11.Dock = DockStyle.Fill;
-            panel11.Location = new Point(557, 3);
+            panel11.Location = new Point(538, 3);
             panel11.Name = "panel11";
-            panel11.Size = new Size(312, 389);
+            panel11.Size = new Size(302, 389);
             panel11.TabIndex = 1;
             // 
             // label61
@@ -1224,7 +1226,7 @@
             label61.BackColor = Color.Transparent;
             label61.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label61.ForeColor = SystemColors.ControlLight;
-            label61.Location = new Point(208, 345);
+            label61.Location = new Point(198, 345);
             label61.Name = "label61";
             label61.Size = new Size(61, 28);
             label61.TabIndex = 48;
@@ -1249,12 +1251,13 @@
             pictureBox6.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             pictureBox6.Cursor = Cursors.Hand;
             pictureBox6.Image = Properties.Resources.login_984142;
-            pictureBox6.Location = new Point(197, 267);
+            pictureBox6.Location = new Point(187, 267);
             pictureBox6.Name = "pictureBox6";
             pictureBox6.Size = new Size(83, 75);
             pictureBox6.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox6.TabIndex = 46;
             pictureBox6.TabStop = false;
+            pictureBox6.Click += pictureBox6_Click;
             pictureBox6.MouseEnter += pictureBox6_MouseEnter;
             pictureBox6.MouseLeave += pictureBox6_MouseLeave;
             // 
@@ -1268,6 +1271,7 @@
             pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox5.TabIndex = 45;
             pictureBox5.TabStop = false;
+            pictureBox5.Click += pictureBox5_Click;
             pictureBox5.MouseEnter += pictureBox5_MouseEnter;
             pictureBox5.MouseLeave += pictureBox5_MouseLeave;
             // 
@@ -1277,13 +1281,15 @@
             pictureBox4.Image = Properties.Resources.QJ58;
             pictureBox4.Location = new Point(0, 13);
             pictureBox4.Name = "pictureBox4";
-            pictureBox4.Size = new Size(309, 221);
+            pictureBox4.Size = new Size(299, 221);
             pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox4.TabIndex = 0;
             pictureBox4.TabStop = false;
             // 
             // panel12
             // 
+            panel12.Controls.Add(comboBox2);
+            panel12.Controls.Add(label63);
             panel12.Controls.Add(label58);
             panel12.Controls.Add(label55);
             panel12.Controls.Add(label56);
@@ -1299,8 +1305,32 @@
             panel12.Dock = DockStyle.Fill;
             panel12.Location = new Point(3, 3);
             panel12.Name = "panel12";
-            panel12.Size = new Size(307, 395);
+            panel12.Size = new Size(336, 395);
             panel12.TabIndex = 3;
+            // 
+            // comboBox2
+            // 
+            comboBox2.Anchor = AnchorStyles.Top;
+            comboBox2.Font = new Font("Segoe UI Semibold", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            comboBox2.FormattingEnabled = true;
+            comboBox2.Items.AddRange(new object[] { "Εφέ φωνής 1", "Εφέ φωνής 2", "Εφέ φωνής 3", "Εφέ φωνής 4", "Εφέ φωνής 5", "Εφέ φωνής 6" });
+            comboBox2.Location = new Point(95, 348);
+            comboBox2.Name = "comboBox2";
+            comboBox2.Size = new Size(164, 33);
+            comboBox2.TabIndex = 24;
+            // 
+            // label63
+            // 
+            label63.Anchor = AnchorStyles.Top;
+            label63.AutoSize = true;
+            label63.BackColor = Color.Transparent;
+            label63.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label63.ForeColor = SystemColors.ButtonFace;
+            label63.Location = new Point(24, 347);
+            label63.Name = "label63";
+            label63.Size = new Size(50, 28);
+            label63.TabIndex = 23;
+            label63.Text = "Εφέ:";
             // 
             // label58
             // 
@@ -1308,7 +1338,7 @@
             label58.BackColor = Color.Transparent;
             label58.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label58.ForeColor = SystemColors.ControlLight;
-            label58.Location = new Point(81, 188);
+            label58.Location = new Point(87, 185);
             label58.Name = "label58";
             label58.Size = new Size(39, 28);
             label58.TabIndex = 22;
@@ -1320,7 +1350,7 @@
             label55.BackColor = Color.Transparent;
             label55.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label55.ForeColor = SystemColors.ButtonFace;
-            label55.Location = new Point(51, 329);
+            label55.Location = new Point(33, 303);
             label55.Name = "label55";
             label55.Size = new Size(40, 28);
             label55.TabIndex = 21;
@@ -1345,7 +1375,7 @@
             trackBar2.Maximum = 100;
             trackBar2.Name = "trackBar2";
             trackBar2.Orientation = Orientation.Vertical;
-            trackBar2.Size = new Size(56, 242);
+            trackBar2.Size = new Size(56, 216);
             trackBar2.TabIndex = 18;
             trackBar2.TickStyle = TickStyle.Both;
             trackBar2.ValueChanged += trackBar2_ValueChanged;
@@ -1368,7 +1398,7 @@
             label45.BackColor = Color.Transparent;
             label45.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label45.ForeColor = SystemColors.ButtonFace;
-            label45.Location = new Point(173, 329);
+            label45.Location = new Point(178, 303);
             label45.Name = "label45";
             label45.Size = new Size(45, 28);
             label45.TabIndex = 17;
@@ -1381,7 +1411,7 @@
             label44.BackColor = Color.Transparent;
             label44.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label44.ForeColor = SystemColors.ButtonFace;
-            label44.Location = new Point(173, 53);
+            label44.Location = new Point(188, 53);
             label44.Name = "label44";
             label44.Size = new Size(46, 28);
             label44.TabIndex = 16;
@@ -1391,7 +1421,7 @@
             // 
             textBox1.Anchor = AnchorStyles.Top;
             textBox1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox1.Location = new Point(224, 185);
+            textBox1.Location = new Point(245, 179);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(48, 34);
             textBox1.TabIndex = 15;
@@ -1405,7 +1435,7 @@
             label51.BackColor = Color.Transparent;
             label51.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label51.ForeColor = SystemColors.ButtonFace;
-            label51.Location = new Point(241, 286);
+            label51.Location = new Point(256, 257);
             label51.Name = "label51";
             label51.Size = new Size(20, 28);
             label51.TabIndex = 13;
@@ -1414,12 +1444,12 @@
             // trackBar1
             // 
             trackBar1.Anchor = AnchorStyles.Top;
-            trackBar1.Location = new Point(173, 84);
+            trackBar1.Location = new Point(188, 84);
             trackBar1.Maximum = 400;
             trackBar1.Minimum = 220;
             trackBar1.Name = "trackBar1";
             trackBar1.Orientation = Orientation.Vertical;
-            trackBar1.Size = new Size(56, 242);
+            trackBar1.Size = new Size(56, 216);
             trackBar1.TabIndex = 0;
             trackBar1.Value = 220;
             trackBar1.ValueChanged += trackBar1_ValueChanged;
@@ -1431,7 +1461,7 @@
             label50.BackColor = Color.Transparent;
             label50.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label50.ForeColor = SystemColors.ButtonFace;
-            label50.Location = new Point(235, 97);
+            label50.Location = new Point(250, 97);
             label50.Name = "label50";
             label50.Size = new Size(26, 28);
             label50.TabIndex = 12;
@@ -1443,7 +1473,7 @@
             label49.AutoSize = true;
             label49.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label49.ForeColor = SystemColors.ButtonFace;
-            label49.Location = new Point(163, 14);
+            label49.Location = new Point(178, 14);
             label49.Name = "label49";
             label49.Size = new Size(81, 31);
             label49.TabIndex = 2;
@@ -1458,7 +1488,7 @@
             panel10.Dock = DockStyle.Fill;
             panel10.Location = new Point(3, 404);
             panel10.Name = "panel10";
-            panel10.Size = new Size(307, 474);
+            panel10.Size = new Size(336, 474);
             panel10.TabIndex = 4;
             // 
             // label62
@@ -1500,7 +1530,7 @@
             panel14.Controls.Add(label53);
             panel14.Location = new Point(3, 4);
             panel14.Name = "panel14";
-            panel14.Size = new Size(301, 202);
+            panel14.Size = new Size(330, 202);
             panel14.TabIndex = 44;
             // 
             // label47
@@ -1509,7 +1539,7 @@
             label47.BackColor = Color.Transparent;
             label47.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label47.ForeColor = SystemColors.ButtonFace;
-            label47.Location = new Point(20, 18);
+            label47.Location = new Point(35, 18);
             label47.Name = "label47";
             label47.Size = new Size(213, 65);
             label47.TabIndex = 37;
@@ -1522,7 +1552,7 @@
             label48.BackColor = Color.Transparent;
             label48.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label48.ForeColor = SystemColors.ControlLight;
-            label48.Location = new Point(27, 91);
+            label48.Location = new Point(42, 91);
             label48.Name = "label48";
             label48.Size = new Size(54, 28);
             label48.TabIndex = 38;
@@ -1536,7 +1566,7 @@
             button20.FlatStyle = FlatStyle.Flat;
             button20.Font = new Font("Segoe UI Semibold", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button20.ForeColor = SystemColors.ButtonHighlight;
-            button20.Location = new Point(51, 143);
+            button20.Location = new Point(66, 143);
             button20.Name = "button20";
             button20.Size = new Size(182, 42);
             button20.TabIndex = 42;
@@ -1547,7 +1577,7 @@
             // 
             textBox2.Anchor = AnchorStyles.Top;
             textBox2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox2.Location = new Point(83, 85);
+            textBox2.Location = new Point(98, 85);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(48, 34);
             textBox2.TabIndex = 39;
@@ -1557,7 +1587,7 @@
             // 
             textBox3.Anchor = AnchorStyles.Top;
             textBox3.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox3.Location = new Point(205, 85);
+            textBox3.Location = new Point(220, 85);
             textBox3.Name = "textBox3";
             textBox3.Size = new Size(48, 34);
             textBox3.TabIndex = 41;
@@ -1570,7 +1600,7 @@
             label53.BackColor = Color.Transparent;
             label53.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label53.ForeColor = SystemColors.ControlLight;
-            label53.Location = new Point(147, 88);
+            label53.Location = new Point(162, 88);
             label53.Name = "label53";
             label53.Size = new Size(52, 28);
             label53.TabIndex = 40;
@@ -1586,7 +1616,7 @@
             panel2.Controls.Add(label59);
             panel2.Location = new Point(3, 222);
             panel2.Name = "panel2";
-            panel2.Size = new Size(301, 145);
+            panel2.Size = new Size(330, 145);
             panel2.TabIndex = 43;
             // 
             // label60
@@ -1596,7 +1626,7 @@
             label60.BackColor = Color.Transparent;
             label60.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label60.ForeColor = SystemColors.ControlLight;
-            label60.Location = new Point(235, 96);
+            label60.Location = new Point(264, 96);
             label60.Name = "label60";
             label60.Size = new Size(61, 28);
             label60.TabIndex = 44;
@@ -1608,7 +1638,7 @@
             pictureBox3.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             pictureBox3.Cursor = Cursors.Hand;
             pictureBox3.Image = Properties.Resources.play_button_9545687;
-            pictureBox3.Location = new Point(238, 42);
+            pictureBox3.Location = new Point(267, 42);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(51, 51);
             pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -1624,7 +1654,7 @@
             textBox5.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             textBox5.Location = new Point(14, 53);
             textBox5.Name = "textBox5";
-            textBox5.Size = new Size(202, 31);
+            textBox5.Size = new Size(231, 31);
             textBox5.TabIndex = 42;
             textBox5.Text = "Τίτλος Τραγουδιού Όνομα Καλλιτέχνη ΒPM: 230";
             // 
@@ -1636,7 +1666,7 @@
             label59.ForeColor = SystemColors.ButtonFace;
             label59.Location = new Point(6, 8);
             label59.Name = "label59";
-            label59.Size = new Size(268, 35);
+            label59.Size = new Size(297, 35);
             label59.TabIndex = 38;
             label59.Text = "Το αίτημα του κοινού είναι:";
             // 
@@ -1836,5 +1866,7 @@
         private PictureBox pictureBox7;
         private Panel panel17;
         private TableLayoutPanel tableLayoutPanel4;
+        private ComboBox comboBox2;
+        private Label label63;
     }
 }

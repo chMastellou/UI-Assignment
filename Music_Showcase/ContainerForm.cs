@@ -163,7 +163,7 @@ namespace Music_Showcase
             }
             else if (selectedPictureBox == pictureBox4) //πήγαινε στο DJ
             {
-                DJ dj = new DJ();
+                DJ dj = new DJ(this);
                 LoadForm(dj);
             }
             else if (selectedPictureBox == pictureBox5) //πήγαινε στη διαχείριση συσκευών

@@ -181,17 +181,18 @@
             // 
             // button1
             // 
+            button1.BackColor = Color.FromArgb(72, 46, 109);
             button1.Cursor = Cursors.Hand;
             button1.FlatAppearance.BorderSize = 0;
             button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("Segoe UI", 13.7739134F, FontStyle.Bold, GraphicsUnit.Point, 161);
-            button1.ForeColor = Color.FromArgb(72, 46, 109);
+            button1.ForeColor = SystemColors.ButtonFace;
             button1.Location = new Point(38, 585);
             button1.Name = "button1";
             button1.Size = new Size(225, 62);
             button1.TabIndex = 12;
             button1.Text = "ΠΡΟΣΘΗΚΗ";
-            button1.UseVisualStyleBackColor = true;
+            button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
             // comboBox1

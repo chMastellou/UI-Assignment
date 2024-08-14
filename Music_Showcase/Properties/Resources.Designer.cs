@@ -133,6 +133,26 @@ namespace Music_Showcase.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap arrows_down_7242731 {
+            get {
+                object obj = ResourceManager.GetObject("arrows_down_7242731", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap arrows_up_7242725 {
+            get {
+                object obj = ResourceManager.GetObject("arrows_up_7242725", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap bear {
             get {
                 object obj = ResourceManager.GetObject("bear", resourceCulture);
@@ -246,6 +266,16 @@ namespace Music_Showcase.Properties {
         internal static System.Drawing.Bitmap DB {
             get {
                 object obj = ResourceManager.GetObject("DB", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap down_desat {
+            get {
+                object obj = ResourceManager.GetObject("down_desat", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -938,6 +968,26 @@ namespace Music_Showcase.Properties {
         internal static System.Drawing.Bitmap Untitled {
             get {
                 object obj = ResourceManager.GetObject("Untitled", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Untitledvideo_MadewithClipchamp1_ezgif_com_video_to_gif_converter {
+            get {
+                object obj = ResourceManager.GetObject("Untitledvideo_MadewithClipchamp1_ezgif_com_video_to_gif_converter", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap up_desat {
+            get {
+                object obj = ResourceManager.GetObject("up_desat", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

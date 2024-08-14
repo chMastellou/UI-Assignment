@@ -394,4 +394,19 @@
   <data name="_73hw" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\73hw.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="arrows_down_7242731" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrows-down_7242731.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrows_up_7242725" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrows-up_7242725.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="down_desat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\down_desat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Untitledvideo_MadewithClipchamp1_ezgif_com_video_to_gif_converter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Untitledvideo-MadewithClipchamp1-ezgif.com-video-to-gif-converter.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="up_desat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\up_desat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

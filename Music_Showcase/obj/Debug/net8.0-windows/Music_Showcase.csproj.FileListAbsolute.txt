@@ -162,3 +162,5 @@ C:\Users\chmas\OneDrive\Υπολογιστής\Αλληλεπίδραση-Ανθ
 C:\Users\chmas\OneDrive\Υπολογιστής\Αλληλεπίδραση-Ανθρώπου-Υπολογιστή\UI-Assignment-v2\Music_Showcase\obj\Debug\net8.0-windows\Music_Showcase.pdb
 C:\Users\chmas\OneDrive\Υπολογιστής\Αλληλεπίδραση-Ανθρώπου-Υπολογιστή\UI-Assignment-v2\Music_Showcase\obj\Debug\net8.0-windows\Music_Showcase.genruntimeconfig.cache
 C:\Users\chmas\OneDrive\Υπολογιστής\Αλληλεπίδραση-Ανθρώπου-Υπολογιστή\UI-Assignment-v2\Music_Showcase\obj\Debug\net8.0-windows\ref\Music_Showcase.dll
+C:\Users\chmas\OneDrive\Υπολογιστής\Αλληλεπίδραση-Ανθρώπου-Υπολογιστή\UI-Assignment-v2\Music_Showcase\obj\Debug\net8.0-windows\Music_Showcase.Karaoke.resources
+C:\Users\chmas\OneDrive\Υπολογιστής\Αλληλεπίδραση-Ανθρώπου-Υπολογιστή\UI-Assignment-v2\Music_Showcase\obj\Debug\net8.0-windows\Music_Showcase.karaoke_sing.resources

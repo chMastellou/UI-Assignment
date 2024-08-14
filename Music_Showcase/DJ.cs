@@ -12,13 +12,12 @@ namespace Music_Showcase
 {
     public partial class DJ : Form
     {
-
-        public DJ()
+        Container container;
+        public DJ(Container container)
         {
             InitializeComponent();
             AttachClickEventToButtons();
-
-
+            this.container = container;
         }
 
         private void ToggleButtonText(object sender, EventArgs e)
@@ -184,6 +183,18 @@ namespace Music_Showcase
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            Karaoke karaoke = new Karaoke();
+            container.LoadForm(karaoke);
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            karaoke_sing karaoke2 = new karaoke_sing();
+            container.LoadForm(karaoke2);
         }
     }
 }
