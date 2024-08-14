@@ -29,7 +29,10 @@
         private void InitializeComponent()
         {
             pictureBox9 = new PictureBox();
+            label1 = new Label();
+            pictureBox1 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox9).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // pictureBox9
@@ -45,6 +48,34 @@
             pictureBox9.TabIndex = 4;
             pictureBox9.TabStop = false;
             // 
+            // label1
+            // 
+            label1.Anchor = AnchorStyles.Top;
+            label1.BackColor = Color.Transparent;
+            label1.Font = new Font("Segoe UI", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.ForeColor = SystemColors.ButtonFace;
+            label1.Location = new Point(162, 358);
+            label1.Name = "label1";
+            label1.Size = new Size(713, 97);
+            label1.TabIndex = 5;
+            label1.Text = "H εμπειρία σας στο πιο υπερσύγχρονο μουσείο μουσικής βιντεοπαιχνιδιών μόλις ξεκίνησε!\r\n";
+            label1.TextAlign = ContentAlignment.TopCenter;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Anchor = AnchorStyles.Top;
+            pictureBox1.BackColor = Color.Transparent;
+            pictureBox1.Cursor = Cursors.Hand;
+            pictureBox1.Image = Properties.Resources.help_8571522;
+            pictureBox1.Location = new Point(469, 529);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(125, 114);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 6;
+            pictureBox1.TabStop = false;
+            pictureBox1.MouseEnter += pictureBox1_MouseEnter;
+            pictureBox1.MouseLeave += pictureBox1_MouseLeave;
+            // 
             // WelcomePage
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -53,16 +84,21 @@
             BackgroundImage = Properties.Resources.Download_free_Dark_Purple_Color_background_images;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1078, 773);
+            Controls.Add(pictureBox1);
+            Controls.Add(label1);
             Controls.Add(pictureBox9);
             FormBorderStyle = FormBorderStyle.None;
             Name = "WelcomePage";
             Text = "WelcomePage";
             ((System.ComponentModel.ISupportInitialize)pictureBox9).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
         }
 
         #endregion
 
         private PictureBox pictureBox9;
+        private Label label1;
+        private PictureBox pictureBox1;
     }
 }

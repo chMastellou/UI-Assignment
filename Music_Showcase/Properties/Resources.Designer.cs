@@ -113,6 +113,16 @@ namespace Music_Showcase.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _9b3708ab347a6d940d8497ae858fe40d {
+            get {
+                object obj = ResourceManager.GetObject("9b3708ab347a6d940d8497ae858fe40d", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ac_desat {
             get {
                 object obj = ResourceManager.GetObject("ac_desat", resourceCulture);
@@ -483,9 +493,39 @@ namespace Music_Showcase.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap help_8571522 {
+            get {
+                object obj = ResourceManager.GetObject("help_8571522", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap help_8571582 {
+            get {
+                object obj = ResourceManager.GetObject("help_8571582", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap hot {
             get {
                 object obj = ResourceManager.GetObject("hot", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap image_processing20200115_2966_zitjdo {
+            get {
+                object obj = ResourceManager.GetObject("image_processing20200115-2966-zitjdo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -673,6 +713,16 @@ namespace Music_Showcase.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap pexels_photo_4912400 {
+            get {
+                object obj = ResourceManager.GetObject("pexels-photo-4912400", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap play {
             get {
                 object obj = ResourceManager.GetObject("play", resourceCulture);
@@ -808,6 +858,16 @@ namespace Music_Showcase.Properties {
         internal static System.Drawing.Bitmap QJ58 {
             get {
                 object obj = ResourceManager.GetObject("QJ58", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Screenshot_2024_08_14_211509 {
+            get {
+                object obj = ResourceManager.GetObject("Screenshot 2024-08-14 211509", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -958,6 +1018,26 @@ namespace Music_Showcase.Properties {
         internal static System.Drawing.Bitmap thermometer_5132913 {
             get {
                 object obj = ResourceManager.GetObject("thermometer_5132913", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap thumb_1920_639657 {
+            get {
+                object obj = ResourceManager.GetObject("thumb-1920-639657", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap turkey_sandwich_food {
+            get {
+                object obj = ResourceManager.GetObject("turkey-sandwich-food", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

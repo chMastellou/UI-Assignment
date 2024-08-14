@@ -16,5 +16,15 @@ namespace Music_Showcase
         {
             InitializeComponent();
         }
+
+        private void pictureBox1_MouseEnter(object sender, EventArgs e)
+        {
+            pictureBox1.Image = Properties.Resources.help_8571582;
+        }
+
+        private void pictureBox1_MouseLeave(object sender, EventArgs e)
+        {
+            pictureBox1.Image = Properties.Resources.help_8571522;
+        }
     }
 }
