@@ -26,5 +26,22 @@ namespace Music_Showcase
         {
             pictureBox1.Image = Properties.Resources.help_8571522;
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            // Construct the relative path to the CHM file
+            string relativePath = @"help\Game_Sound_Museum_Help.chm";
+            string fullPath = System.IO.Path.Combine(Application.StartupPath, relativePath);
+
+            try
+            {
+                // Open the CHM file using the full path
+                System.Diagnostics.Process.Start(fullPath);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("An error occurred: " + ex.Message);
+            }
+        }
     }
 }

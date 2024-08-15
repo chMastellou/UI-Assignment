@@ -865,6 +865,16 @@ namespace Music_Showcase.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap retro_arcade_room_thumb {
+            get {
+                object obj = ResourceManager.GetObject("retro-arcade-room-thumb", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Screenshot_2024_08_14_211509 {
             get {
                 object obj = ResourceManager.GetObject("Screenshot 2024-08-14 211509", resourceCulture);
@@ -1068,6 +1078,26 @@ namespace Music_Showcase.Properties {
         internal static System.Drawing.Bitmap up_desat {
             get {
                 object obj = ResourceManager.GetObject("up_desat", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap upk2YM {
+            get {
+                object obj = ResourceManager.GetObject("upk2YM", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap upk2YM1 {
+            get {
+                object obj = ResourceManager.GetObject("upk2YM1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
