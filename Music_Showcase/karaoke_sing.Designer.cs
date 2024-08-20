@@ -359,11 +359,11 @@
             label2.BackColor = Color.Transparent;
             label2.Font = new Font("Segoe UI Semibold", 13.7739134F, FontStyle.Bold, GraphicsUnit.Point, 161);
             label2.ForeColor = Color.White;
-            label2.Location = new Point(448, 633);
+            label2.Location = new Point(376, 633);
             label2.Name = "label2";
-            label2.Size = new Size(280, 31);
+            label2.Size = new Size(299, 31);
             label2.TabIndex = 22;
-            label2.Text = "Η βαθμολογία σου είναι :";
+            label2.Text = "Συνολική βαθμολογία : 3/5";
             // 
             // karaoke_sing
             // 

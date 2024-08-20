@@ -31,6 +31,7 @@
             pictureBox9 = new PictureBox();
             label1 = new Label();
             pictureBox1 = new PictureBox();
+            helpProvider1 = new HelpProvider();
             ((System.ComponentModel.ISupportInitialize)pictureBox9).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
@@ -77,6 +78,10 @@
             pictureBox1.MouseEnter += pictureBox1_MouseEnter;
             pictureBox1.MouseLeave += pictureBox1_MouseLeave;
             // 
+            // helpProvider1
+            // 
+            helpProvider1.HelpNamespace = "C:\\Users\\chmas\\Desktop\\Αλληλεπίδραση-Ανθρώπου-Υπολογιστή\\UI-Assignment-v2\\Music_Showcase\\help\\Game_Sound_Museum_Help.chm";
+            // 
             // WelcomePage
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -101,5 +106,6 @@
         private PictureBox pictureBox9;
         private Label label1;
         private PictureBox pictureBox1;
+        private HelpProvider helpProvider1;
     }
 }
